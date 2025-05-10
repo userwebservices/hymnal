@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <!-- Preconnect to Google Fonts for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Font imports -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap styles CDN -->
+    <!-- CSS de Bootstrap (en el head) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- adding Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Then your custom stylesheet -->
+    <link href="/css/styles.css" rel="stylesheet">
+
+    <title>HimnarioPdC</title>
+</head>
+<body>
+
+<!-- H E A D E R - SECTION-->
+<header>
+    <!-- 1er elemento-->
+    <h1>Cantos | Himnos</h1>
+    
+    <ul> <!-- parent container: F L E X -->
+        <li><a href="." id="logoLink" title="Volver al inicio"><img src="assets/img/logoWhite_PdC.svg" alt="logoPuertaDelCielo"></a></li>
+        <a href="#" id="logoLink" >
+</a>
+    </ul>
+</header>
+
+<!-- E N D - H E A D E R - SECTION-->
+
+<!-- M E N U - SECTION-->
+    <section class="menu">
+
+        <!--Menú from Bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            
+            
+            <a class="navbar-brand ps-2 " href=".">
+                <img src="/assets/img/logoWhite_PdC.svg" alt="Bootstrap" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <!-- Menú prncipal -->
+                <ul class="navbar-nav mr-auto">
+
+                    <!-- Elemento "li" class="active"-->
+                     <!--
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    -->
+                    
+                    <!-- Elemento "li" class="linl"-->
+                        <!--
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        -->
+
+                    <!-- Elemento "li" class="dropdown"-->
+                    <!--Himnos-->
+                    <li class="nav-item dropdown">
+                        <!--Button name: Himnos-->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-category="himnos">
+                            Himnos
+                        </a>
+                            <!-- # -->
+                             <!-- Add my own class="dropdown-grid-container" for create grid behaviour -->
+                            <div class="dropdown-menu mega-dropdown" aria-labelledby="navbarDropdown">
+                                
+                                <!-- Add this div with class="dropdown-grid-container" for grid behaviour-->
+                                <div class="dropdown-grid-container ps-2">
+                                    
+                                    <!-- Columna 1 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <!-- Línea que divide items en el menu-->
+                                         <!--<div class="dropdown-divider"></div>-->
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="1">1. Un amigo como Cristo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="2">2. Comprado por sangre</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="3">3. Jerusalem, Jerusalem</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="5">5. Cuando israel este en su plenitud</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="7">7. La esposa del Cordero</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="9">9. Allá en el reino</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="10">10. Himno de Israel</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="11">11. A Sión vamos caminando</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="12">12.Éxodo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="13">13.Invitación</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="14">14. En el río de la vida</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="16">16. Mi vida di por ti</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="17">.17. El Espíritu Santo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="18">18. Tierra de Palestina</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="19">19. Maranatha</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="21">21. El bautismo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="23">23. Al final de mi camino</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="24">24. Dulce oración</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="25">25. Las Tres Festividades</a>
+                                     </div>
+
+                                     <!-- Columna 2 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="26">26. Hay una Iglesia preciosa</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="27">27. Las Cabañas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="28">28. Es Cristo la Roca</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="29">29. En la alborada</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="30">30. Quiero que conozcas al Maestro</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="31">31. Cuando toda esperanza se acaba</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="32">32. Cuán Grande es Él</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="33">33. Hay un bello hogar</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="34">34. Muchas cuentas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="35">35. Tocad trompeta</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="36">36. Con qué pagaremos</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="37">37. El fin del mundo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="38">38. La Peña de Horeb</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="39">39. ¿Porqué buscaís?</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="40">40. Orando al Padre</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="41">41. Las 7 Solemnidades</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="42">42. Maestro, se encrespan las guas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="43">43. Cuán glorioso será el día</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="44">44. Oíd bendita historia</a>
+                                     </div>
+                                     
+
+                                     <!-- Columna 3 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="45">45. Las diez virgenes</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="46">46. Ven Señor no tardes</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="47">47. En una cruenta cruz</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="49">49. El Gran día del Pentecostés</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="50">50. Hazme un instrumento</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="51">51. Señor el mundo muere</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="52">52. Más allá del sol</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="53">53. Seguiré tus pasos</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="54">54. Oye lo que Cristo es</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="55">55. Mujeres benditas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="56">56. Viento sediento</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="57">57. El huerto de oración</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="58">58. Piensa bien lo que hoy harás</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="59">59. Mi buen Maestro</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="60">60. El Rey ya viene</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="61">61. ¿Porqué lloras, Señor?</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="63">63. ¿Dónde está el Rey?</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="65">65. Las bodas del Cordero</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="66">66. Señor reposamos</a>
+                                     </div>
+
+                                     <!-- Columna 4 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="67">67. Aunque débil soy</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="69">69. El hijo prodigo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="71">71. El lamento del leproso</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="72">72. Firmes y adelante</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="73">73. Si algún día</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="75">75. Viene el Rey de reyes</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="76">76. Grande gozo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="77">77. Cuando el Señor me salvó</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="78">78. Entera consagración</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="79">79. El Cielo esta de luto</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="80">80. Precioso manantial</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="81">81. La Casa de oración</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="82">82. Jerusalem de oro</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="83">83. Era mi alma cual barco</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="84">84. Habla Señor a mi alma</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="89">89. La Santa Cena</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="90">90. Viene otra vez</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="91">91. En éste día</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="93">93. Mira tus ovejas</a>
+                                     </div>
+
+                                     <!-- Columna 5 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="95">95. Si alguna vez</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="96">96. Un día Cristo volverá</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="97">97. Camino a Jerusalem</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="98">98. Santo Espíritu dirige</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="103">103. Anda a predicar</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="106">106. ¿Cómo estar triste?</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="107">107. Hosanna</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="108">108. Porque Él vive</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="111">111. Tras el invierno</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="112">112. A sólas al huerto</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="113">113. Cristo llamando</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="115">115. Cuando venga otra vez</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="117">117. Un día como hoy</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="119">119. Yo si te amo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="121">121. Cristo vive</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="122">122. Habladme más de Cristo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="123">123. Con cuanto amor</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="126">126. Me guía Él</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="127">127. Tentado no cedas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="9"></a>
+                                       
+                                     </div> 
+
+                                     <!-- Columna 6 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="130">130. Hermosas Cabañas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="131">131. Amigo si eres capaz</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="132">132. Los 10 mandamientos</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="135">135. Agradecimiento</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="136">136. Loor a ti mi Dios</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="138">138. Cuando la trompeta suene</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="140">140. Los niños son de Cristo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="141">141. ¿Cómo fue?</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="142">142. Cuarenta años</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="143">143. Hombre feliz</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="148">148. Un buen amigo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="9150">150. Mi Rey soberano</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="154">154. El Monte calvario</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="163">163. Más que vencedor</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="169">169. En la luz de un nuevo día</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="170">170. Apocalipsis</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="171">171. Santo Santo Santo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="9"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="9"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="9"></a>
+                                     </div>
+
+                                
+                                </div>
+                                
+                            </div>
+                    </li>
+                    <!--E N D Himnos-->
+
+                    <!--Textos-->
+                    <li class="nav-item dropdown">
+
+                        <!--Button name: Textos-->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-category="textos">
+                            Textos
+                        </a>
+
+                            <!-- # -->
+                             <!-- Add my own class="dropdown-grid-container" for create grid behaviour -->
+                            <div class="dropdown-menu mega-dropdown" aria-labelledby="navbarDropdown">
+                                
+                                <!-- Add this div with class="dropdown-grid-container" for grid behaviour-->
+                                <div class="dropdown-grid-container ps-2">
+                                    
+                                    <!-- Columna 1 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <!-- Línea que divide items en el menu-->
+                                         <!--<div class="dropdown-divider"></div>-->
+                                        <a class="dropdown-item custom-font-item" href="#"data-song-id="1">1 Números 24:17</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="2">2 Deuteronómio 16</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="3">3 Sea pues perfecto</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="4">4 Salmo 1</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="5">5 Salmo 4 | En paz me acostaré</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="6">6 Salmo 19 | La Ley de Adonáy</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="7">7 Salmo 23 | Jehová es mi Pastor</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="8">8 Salmo 27 | Una cosa he demandado</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="9">9 Salmo 42 | Como el ciervo brama</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="10">10 Salmo 63 | Tu misericordia</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="11">11 Salmo 67 | Dios tenga misericordia</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="12">12 Salmo 78 | Escucha pueblo mio</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="13">13 Salmo 84 | Cuán amables son</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="14">14 Salmo 89 | Las misericordías de Adonáy</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="15">15 Salmo 97 | Jehová Reina</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="16">16 Salmo 100 | Cantad alegres</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="17">17 Salmo 104 | A Jehová cantaré</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="18">18 Salmo 126 | Cuando el Señor hiciera volver</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="19">19 Salmo 131 | Jehová no se ha envanecido</a>
+                                        
+                                     </div>
+
+                                     <!-- Columna 2 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="20">20 2 Crónicas 7:14</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="21">21 Iaías 5:1-7 El cantar de mi amado</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="22">22 Isaías 42:10 | No temas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="23">23 Isaías 63:1 | Quién es éste que viene de Edom</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="24">24 Mateo 5:3-11 | Bienaventuranzas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="25">25 Mateo 5:17 | No Penseís</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="26">26 Mateo 6:33 | Más buscad</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="27">27 Mateo 11:28 | Venid a mí</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="28">28 Mateo 12:7 | Señor es del sábado</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="29">29 Mateo 19:6 | Guarda los mandamientos</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="30">30 Mateo 24:20 | Orad pues</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="31">31 Lucas 4:16 | Y vino a Nazareth</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="32">32 Juan 3: 16 | Porque de tal manera</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="33">33 2 Corintios 5:17 | Nueva criatura</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="34">34 Romanos 8 | ¿Quién nos apartará?</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="35">35 Romanos 2:13 | No los oidores de la ley</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="36">36 Galatas 2:20 | Con Cristo estoy</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="37">37 Hebeos 3:7 | Si oyerés hoy su voz</a>
+                                       <a class="dropdown-item custom-font-item" href="#" data-song-id="38">38 Apocalipsis 1:5 | Al que nos amó</a>
+                                     </div>
+                                     
+
+                                     <!-- Columna 3 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="39">39 Apocalipsis 14:12</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="40">40 Apocalipsis 22:17 | Ven</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="41">41 Popurrí | Estad siempre gozosos</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="42">42 Vamos orando | Fuego del Cielo</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="43">43 No fue en vano tu dolor</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="44">44 Venid, venid</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="45">45 Libre y salvo soy</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="46">46 Mi Pentecostés</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="47">47 De muchas maneras</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="48">48 Shema Israel</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="49">49 Lectura Shema</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="50">50 Lectura de la Ley</a>
+                                       
+                                     </div>
+
+                                     <!-- Columna 4 
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" id="1"></a>
+                                        
+                                     </div>-->
+                                </div>
+                                
+                            </div>
+                    </li>
+                    <!--E N D Textos-->
+
+                    <!-- Elemento "li" class="dropdown"-->
+                    <!--Adoración-->
+                    <li class="nav-item dropdown">
+
+                        <!--Button name: Adoración-->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-category="adoracion">
+                            Adoración
+                        </a>
+
+                            <!-- # -->
+                             <!-- Add my own class="dropdown-grid-container" for create grid behaviour -->
+                            <div class="dropdown-menu mega-dropdown" aria-labelledby="navbarDropdown">
+                                
+                                <!-- Add this div with class="dropdown-grid-container" for grid behaviour-->
+                                <div class="dropdown-grid-container ps-2">
+                                    
+                                    <!-- Columna 1 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <!-- Línea que divide items en el menu-->
+                                         <!--<div class="dropdown-divider"></div>-->
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="1">Haz llover</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="2">Kadosh</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="3">No hay lugar más alto</a>
+                                        
+                                     </div>
+
+                                     <!-- Columna 2 
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" id="1">26. Hay una Iglesia preciosa</a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="2">27. Las Cabañas</a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="3">28. Es Cristo la Roca</a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="4">29. En la alborada</a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="5">30. Quiero que conozcas al Maestro</a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="6">31. Cuando toda esperanza se acaba</a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="7">32. Cuán Grande es Él</a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="8">33. Hay un bello hogar</a>
+                                     </div>-->
+                                     
+
+                                     <!-- Columna 3 
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" id="1"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="2"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="3"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="4"></a>
+                                     </div>-->
+
+                                     <!-- Columna 4 
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" id="1"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="2"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="3"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="4"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="5"></a>
+                                        <a class="dropdown-item custom-font-item" href="#" id="6"></a>
+                                     </div>-->
+                                
+                                </div>
+                                
+                            </div>
+                    </li>
+                    <!--E N D Adoración-->
+
+
+                    <!-- Elemento "li" class="dropdown"-->
+                    <!--Alabanza-->
+                    <li class="nav-item dropdown">
+
+                        <!--Button name: Alabanza-->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-category="alabanza">
+                            Alabanza
+                        </a>
+
+                            <!-- # -->
+                             <!-- Add my own class="dropdown-grid-container" for create grid behaviour -->
+                            <div class="dropdown-menu mega-dropdown" aria-labelledby="navbarDropdown">
+                                
+                                <!-- Add this div with class="dropdown-grid-container" for grid behaviour-->
+                                <div class="dropdown-grid-container ps-2">
+                                    
+                                    <!-- Columna 1 -->
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <!-- Línea que divide items en el menu-->
+                                         <!--<div class="dropdown-divider"></div>-->
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="1">Adonáy</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="2">En gran manera me gozaré</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="3">Toma el pandero</a>
+                                        <a class="dropdown-item custom-font-item" href="#" data-song-id="4">Vamos a cantar</a>
+                                        
+                                     </div>
+
+                                     <!-- Columna 2 
+                                     <div class="dropdown-links" style="--custom-width: 200px">
+                                        <a class="dropdown-item custom-font-item" href="#" id="1"></a>
+                                        
+                                     </div>-->
+                                     
+
+                                     
+                                
+                                </div>
+                                
+                            </div>
+                    </li>
+                    <!--E N D Adoración-->
+
+                    <!-- Elemento "li" class="disabled"-->
+                    <!--
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                    -->
+                </ul>
+                <!--  E N D - Menú prncipal -->
+
+
+                <!-- Buscador 
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <form class="d-flex ms-auto">  "ms-auto" alinea a la derecha 
+                    <input 
+                        id="searchInput"
+                        class="form-control me-2" 
+                        type="search" 
+                        placeholder="Buscar canción o texto..." 
+                        aria-label="Search"
+                    >
+                </form>-->
+
+                <form class="search-container ms-auto">
+                    <div class="input-group">
+                        <input type="text" id="searchInput" class="form-control" placeholder="Buscar cantos..." aria-label="Buscar">
+                        <button class="btn btn-outline-secondary" type="button" id="clearSearch">
+                            <i class="bi bi-x"></i>
+                        </button>
+                    </div>
+                    <div id="searchResults" class="dropdown-menu dropdown-menu-end w-100"></div>
+                </form>
+
+
+            </div>
+        </nav>
+            
+    
+    </section>
+<!-- E N D - M E N U - SECTION-->
+
+
+<!-- D I S P L A Y  - SECTION-->
+<section class="display">
+    
+    <!-- El ::before aparece aquí virtualmente -->
+
+    <div class="display-overlay"></div> <!-- Dinámico -->
+    <div id="contentContainer"></div>   <!-- Contenido dinámico -->
+    <div id="titleAimCover"></div>     <!-- Mensaje bienvenida -->
+  
+</section>
+<!-- E N D - D I S P L A Y - SECTION-->
+
+
+    <!-- Button back-to-top
+    <button  id="myBtn" title="Go to top"> I N I C I O</button>-->
+    <!-- E N D  Button back-to-top-->
+
+
+
+<!-- F O O T E R - SECTION--> 
+<footer>
+         <h2>¡Todo lo que respira alabe al Señor!</h2>
+</footer>
+<!-- E N D - F O O T E R - SECTION-->
+
+    
+    <!--Button "back to top"-->
+    <button id="homeButton" class="home-btn" title="Volver al inicio">
+    <i class="fas fa-home"></i> <!-- Icono de Font Awesome -->
+    </button>
+ 
+
+        
+    <!-- JS de Bootstrap (al final del body) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+         
+
+    <!--Axios library Using jsDelivr CDN (ES5 UMD browser module):-->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <!-- Own file axios-->
+    <script type="module" src="js/main.js"></script>
+
+
+    
+       
+</body>
+</html>

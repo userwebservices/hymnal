@@ -1,0 +1,149 @@
+
+/* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
+                              DISPLAY BASE AND IMAGE IN BG 
+====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
+
+.display {
+grid-area: display;
+position: relative;
+background-color: var(--color-white);
+position: relative; /* Tue 29 April 25 */
+background-image: url('../../assets/bg/back-shavuot-01.jpeg'); /* Cambia la ruta a tu imagen */
+background-size: cover; /* Asegura que la imagen cubra el área de la sección */
+background-position: center; /* Centra la imagen dentro del área */
+background-attachment: fixed; /* Fija la imagen al fondo si se hace scroll */
+background-repeat: no-repeat; /* Evita que la imagen se repita */
+z-index: 1;
+min-height: 0; /* Asegura que la grid no se expanda */
+overflow-y: auto; /* Scroll interno para contenido largo */} 
+
+/* El contenedor de contenido debe tener mayor z-index */
+#contentContainer {
+    position: relative;
+    z-index: 3;  /* Debe ser mayor que el overlay */
+    /* ... otras propiedades ... */
+    max-height: 100%; /* Limita la altura al contenedor padre */
+    overflow-y: auto; /* Scroll interno si el contenido es muy largo */
+    padding: 1rem; /* Espaciado interno opcional */
+    
+}
+
+
+
+/* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
+                              STATIC AND DINAMIC  BLACK TRANSPARENT OVERLAY
+====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
+
+
+/*Capa transparente*/
+/* Capa transparente - MODIFICADO */
+.display::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;  
+  height: 100%;
+  background: rgba(0, 0, 0, 0.01); /* Opacidad inicial más fuerte para pruebas */
+  z-index: 2;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  opacity: 1; /* Valor inicial */
+}
+/*  E N D - Capa transparente*/
+
+.display.hide-original-overlay::before {
+  opacity: 0; /* Oculta completamente el overlay original */
+}
+/*Dinamic black transparent overlay*/
+/* Overlay dinámico - MODIFICADO */
+.display-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Opacidad deseada para el dinámico */
+    z-index: 2; /* Mismo z-index que el original */
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+
+/*  E N D  Dinamic black transparent overlay*/
+
+/* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
+                              AIM TITLE COVER
+====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
+
+/*Clase para texto de titleAimCover*/
+
+    #titleAimCover {
+        position: absolute;/* o absolute (depende de tu layout) | fixed fija en relación a la ventana windopw*/
+        bottom: 3rem;
+        /* Lo pega abajo */
+        left: 4rem;
+        /* Lo pega a la izquierda */
+        max-width: 50%;
+        /* Opcional: para que no ocupe todo el ancho */
+         z-index: 4; /* Por encima de todo */
+    }
+
+
+    .overlaidTitle {
+        display: flex;
+        flex-direction: column;/* Ordena los hijos en columna (h1, h2, h3) */
+        /*gap: 2rem;/* Espacio entre elementos */
+    }
+
+    /* Estilos opcionales para mejor legibilidad */
+    .overlaidTitle h1,
+    .overlaidTitle h2,
+    .overlaidTitle h3 {
+        margin: 0;/* Elimina márgenes por defecto */
+        color: var(--color-white);/* Si el fondo es oscuro */
+        
+    }
+
+    .overlaidTitle h1 {
+        font-family: var(--font-text-primary) ;
+        font-size: 3.5vw;
+        font-weight: var(--medium);
+        letter-spacing: 0rem;
+        line-height: 90%;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
+        padding-bottom: 2rem;
+    }
+
+    .overlaidTitle h2 {
+        font-family: var(--font-text-primary); /* Usando la variable que cree el 3april25 */
+        font-weight: var(--lighten);
+        font-size: 1.5vw;
+        letter-spacing: 0.1rem;
+        line-height: 99%;
+    }
+
+    .overlaidTitle h3 {
+        font-family: var(--font-text-secondary) ;
+        font-weight: var(--light);
+        color: var(--color-white);
+        font-size: 1vw;
+        letter-spacing: 0.1rem;
+    }
+
+    .overlaidTitle h3::before{
+        position: relative;
+        content: '';
+        background: var(--color-white);
+        height: 0.1rem;
+        width: 30%;
+        left: 0;
+        bottom: 0;
+    }
+    /*  E N D - Clase para texto de titleAimCover*/
+/* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
+                            E N D   AIM TITLE COVER
+====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
+
+
+    

@@ -1,0 +1,67 @@
+:root {
+  /* Font texts */
+  --font-text-primary: 'Poppins', sans-serif;
+  --font-text-secondary: 'Open Sans', sans-serif;
+  --font-text-accent: 'Playfair Display', serif;
+  /* Font colors */
+  --color-primary: #4FB0E3;    /* Your main blue */
+  --color-black: #2D3539;      /* Pure black */
+  --color-secondary: #f7f7f7; 
+  --color-white: #f7f7f7;        
+  /* Font weights */
+  --lighten:100;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+}
+
+/*
+1-rem for most text elements (root-relative sizing)
+2-em for component-scoped typography (buttons, cards)
+3-Viewport units (vw/vh) for hero/display text (sparingly)
+4-px only for borders/shadow (never for typography)
+*/
+
+/* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
+            Styles for text that are displayed in section: "Display"
+====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====*****/
+
+/* For bg overlay black transparent*/
+.titleDark {
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-text-secondary);
+  font-size: 4vw;
+    text-transform: uppercase;
+
+}
+.subtitleDark{
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-text-secondary);
+  font-weight: var(--light);
+  font-size: 4vw;
+}
+.contentDark{
+  font-family: var(--font-text-primary); /* Usando la variable que cree el 3april25 */
+  font-weight: var(--light);
+  font-size: 6vw;
+  text-align: center;
+  color: var(--color-white);
+  letter-spacing: 0.3rem;
+  line-height: 97%;
+  padding: 1rem 0rem;
+  letter-spacing: -0.2vw;
+
+}
+
+/*For bg overlay black transparent */
+
+
+
+/* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
+             E N D  Styles for text that are displayed in section: "Display"
+====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====*****/
+
