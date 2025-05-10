@@ -193,7 +193,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setupMenuClicks();
     setupTouchSupport();
     
-    titleAimCover.innerHTML = `<div class='overlaidTitle'><h1>Te contarás siete semanas<br>שבעה שבעת תספר־לך</h1>
-            <h2>Desde que comenzare la hoz en las mieses comenzarás á contarte las siete semanas. Y harás la solemnidad de las semanas á Jehová tu Dios: de la suficiencia voluntaria de tu mano será lo que dieres, según Jehová tu Dios te hubiere bendecido.</h2>
-            <h3>Deut. 16:9-10</h3></div>`;
+    titleAimCover.innerHTML = `<div class='overlaidTitle'><h1>Y Daniel propuso en su corazón de no contaminarse</h1><h2>en la ración de la comida del rey, ni en el vino de su beber: pidió por tanto al príncipe de los eunucos de no contaminarse.</h2><h3>Dan. 1:8</h3></div>`;
 });
