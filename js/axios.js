@@ -13,9 +13,9 @@ function resetScrollPosition() {
 
 document.addEventListener('DOMContentLoaded', () => {
     // Elementos del DOM
-    const displaySection = document.querySelector('.display');
-    const titleAimCover = document.getElementById('titleAimCover');
-    const contentContainer = document.getElementById('contentContainer');
+    const displaySection = document.querySelector('.display'),
+          titleAimCover = document.getElementById('titleAimCover'),
+          contentContainer = document.getElementById('contentContainer');
     
     // Estado de la aplicación
     const appState = {
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         songsCache: new Map(),
         jsonData: null
     };
-
+ 
     // ===== 1. Configuración de Hover para abrir menús =====
     const setupMenuHover = () => {
         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ===== 7. Renderizar canción =====
-    function renderSong(song) {
+    /*function renderSong(song) {
         contentContainer.innerHTML = '';
         updateBackground(song);
         createOverlay();
@@ -136,28 +136,87 @@ document.addEventListener('DOMContentLoaded', () => {
         container.innerHTML = `${song.title || ''}${song.estrofas || ''}`;
         fragment.appendChild(container);
         contentContainer.appendChild(fragment);
-    }
+    }*/
+   // ===== 7. Renderizar canción =====
+        function renderSong(song) {
+            contentContainer.innerHTML = '';
+            
+            // Ocultar overlay estático y mostrar dinámico
+            document.querySelector('.display-overlay-static').classList.add('hidden');
+            
+            updateBackground(song);
+            createDynamicOverlay(); // Cambiamos el nombre de esta función para mayor claridad
+            
+            const fragment = document.createDocumentFragment();
+            const container = document.createElement('div');
+            container.innerHTML = `${song.title || ''}${song.estrofas || ''}`;
+            fragment.appendChild(container);
+            contentContainer.appendChild(fragment);
+        }
 
     // ===== 8. Funciones auxiliares =====
-    function hideWelcomeMessage() {
+    /*function hideWelcomeMessage() {
         titleAimCover.style.display = 'none';
-    }
+    }*/
+
+        // ===== 8. Funciones auxiliares =====
+        function hideWelcomeMessage() {
+            titleAimCover.style.display = 'none';
+        }
+        
+        function updateBackground(song) {
+            const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-03.jpg';
+            const hasCustomBg = song['bg-img'] && song['bg-img'].trim() !== '';
+            
+            displaySection.style.backgroundImage = hasCustomBg
+                ? `url('${song['bg-img']}')`
+                : `url('${DEFAULT_BG_IMAGE}')`;
+            
+            displaySection.style.backgroundSize = 'cover';
+            displaySection.style.backgroundPosition = 'center';
+            displaySection.style.backgroundAttachment = 'fixed';
+            displaySection.style.backgroundRepeat = 'no-repeat';
+        }
+        
+        // Cambiamos el nombre de createOverlay a createDynamicOverlay para mayor claridad
+        function createDynamicOverlay() {
+            // Eliminar overlay dinámico anterior si existe
+            document.querySelectorAll('.display-overlay-dynamic').forEach(overlay => {
+                overlay.remove();
+            });
+            
+            const overlay = document.createElement('div');
+            overlay.className = 'display-overlay-dynamic';
+            displaySection.appendChild(overlay);
+        }
+
+
+    //****************************** function updateBackground (song) ******************************
 
     function updateBackground(song) {
         const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-03.jpg';
         const hasCustomBg = song['bg-img'] && song['bg-img'].trim() !== '';
         
-        displaySection.style.backgroundImage = hasCustomBg 
-            ? `url('${song['bg-img']}')`
-            : `url('${DEFAULT_BG_IMAGE}')`;
+        displaySection.style.backgroundImage = hasCustomBg  //Tiene bg porpia?
+            ? `url('${song['bg-img']}')` //si, ponsela
+            : `url('${DEFAULT_BG_IMAGE}')`; //No: ponle el bg default
         
+            //Estilos para la hero image de bg
         displaySection.style.backgroundSize = 'cover';
         displaySection.style.backgroundPosition = 'center';
         displaySection.style.backgroundAttachment = 'fixed';
         displaySection.style.backgroundRepeat = 'no-repeat';
     }
 
+    //******************************  E N D function updateBackground (song) ******************************
+
+
+
+    //****************************** function createOverlay ******************************
+
     function createOverlay() {
+
+        //agregamos la clase 'hide-original-overlay' a la sección display
         displaySection.classList.add('hide-original-overlay');
         
         document.querySelectorAll('.display-overlay').forEach(overlay => {
@@ -168,16 +227,24 @@ document.addEventListener('DOMContentLoaded', () => {
         overlay.className = 'display-overlay';
         displaySection.appendChild(overlay);
     }
+    // E N D ****************************** function createOverlay ******************************
 
+
+
+    //****************************** function resetToWelcomeScreen ******************************
     function resetToWelcomeScreen() {
-        displaySection.classList.remove('hide-original-overlay');
+        // Mostrar overlay estático y eliminar dinámico
+        document.querySelector('.display-overlay-static').classList.remove('hidden');
+        document.querySelectorAll('.display-overlay-dynamic').forEach(overlay => {
+            overlay.remove();
+        });
+        
         contentContainer.innerHTML = '';
         titleAimCover.style.display = 'block';
         displaySection.style.backgroundImage = 'url("../../assets/bg/back-shavuot-01.jpeg")';
-        document.querySelectorAll('.display-overlay').forEach(overlay => {
-            overlay.remove();
-        });
     }
+    //****************************** E N D function resetToWelcomeScreen ******************************
+
 
     function handleError(error) {
         console.error('Error:', error);
@@ -193,5 +260,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setupMenuClicks();
     setupTouchSupport();
     
-    titleAimCover.innerHTML = `<div class='overlaidTitle'><h1>Y Daniel propuso en su corazón de no contaminarse</h1><h2>en la ración de la comida del rey, ni en el vino de su beber: pidió por tanto al príncipe de los eunucos de no contaminarse.</h2><h3>Dan. 1:8</h3></div>`;
+    titleAimCover.innerHTML = `<div class='overlaidTitle'><h1>Tomaré la copa de la salvación</h1><h2>E invocaré el nombre de Jehová.</h2><h3>Salmo 116:13</h3></div>`;
 });
