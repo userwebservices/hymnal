@@ -979,8 +979,14 @@
             },
             {
                 "id": 5,
-                "title": "<h1 class='titleDark'>No hay lugar más alto</h1>",
-                "estrofas": "<article class='contentDark'>A tus pies arde mi corazón<br>A tus pies entrego lo que soy<br>Ese lugar de mi seguridad<br>Donde nadie me puede señalar<br><br>Me perdonaste, me acercaste a tu presencia<br>Me levantaste, hoy me postro a adorarte<br><br>//No hay lugar más alto, más grande<br>Que estar a tus pies, que estar a tus pies //<br>Y aquí permaneceré, postrado a tus pies<br>Y aquí permaneceré a los pies de Cristo<br></article>",
+                "title": "<h1 class='titleDark'>Conmigo danza</h1>",
+                "estrofas": "<article class='contentDark'>// Conmigo danza<br>el que ama mi alma<br>escucha la canción <br>yo le amo<br>al que ama mi alma<br>escucha la canción //<br><br>Pues tú has venido<br>sobre los montes<br>por las montañas corriste hacia mí<br>oh señor, tuyo es mi corazón<br><br>Contigo iré, tú eres mi amor<br>tú eres mi dueño, el invierno pasó<br> y la primavera llegó<br></article>",
+                "bg-img": "assets/bg/adoracion/bg-adoracion-01.jpg"
+            },
+            {
+                "id": 6,
+                "title": "<h1 class='titleDark'>Exáltate</h1>",
+                "estrofas": "<article class='contentDark'>// Al borde de tu gran trono<br>me postraré hoy a ti<br>Tú reinas sobre principados<br>sentado   a la diestra de Dios //<br><br>// Exaltate, oh gran Cordero<br>tú vives hoy y vivirás<br>coronate con mi alabanza<br>tu nombre es el Vencedor //</article>",
                 "bg-img": "assets/bg/adoracion/bg-adoracion-01.jpg"
             }
         ],
@@ -990,6 +996,18 @@
                 "id": 1,
                 "title": "<h1 class='titleDark'>Adonáy</h1>",
                 "estrofas": "<article class='contentDark'><article class='contentDark'>Señor de eternidad<br>Misterio sin revelar<br>Dios de los cielos y mar<br>Dios de Israel<br><br>Ven con tu Gloria y poder <br>Vestido de fuerza y honor<br>Dios oye nuestro clamor<br>Ven poderoso Rey<br>Y todo ojo verá en el cielo tu poder<br><br>Adonay, Adonay<br>toda creación se postrará<br>Adonay, Adonay<br>sólo a Tí Señor te clamarán<br>Adonay<br><br>Espera Jerusalén<br>dándote alabanzas<br>A las puertas tú estás<br>te veremos salir<br>Y cuando cante Sion<br>Baruj haba beShem<br><br>Adonay, Adonay<br>toda creación se postrará<br>Adonay, Adonay<br>sólo a Tí Señor te clamarán<br>Adonay<br><br>//// De la tierra eres Señor ////<br></article></article>",
+                "bg-img": "assets/bg/alabanza/bg-alabanza-01.jpg"
+            },
+            {
+                "id": 6,
+                "title": "<h1 class='titleDark'>A la presencia de Jehová</h1>",
+                "estrofas": "<article class='contentDark'>//A la presencia de Jehová tiembla la tierra<br>A la presencia del Dios de Jacob//<br><br>//¿Qué tuviste, oh mar que huíste?<br>Tú, oh Jordán que te volviste atrás?<br><br>    //A la presencia de Jehová tiembla la tierra<br>A la presencia del Dios de Jacob //<br><br>//Él convirtió la Peña<br>en estanque de agua<br>De agua, de agua viva//</article>",
+                "bg-img": "assets/bg/alabanza/bg-alabanza-01.jpg"
+            },
+            {
+                "id": 5,
+                "title": "<h1 class='titleDark'>Así como David danzaba</h1>",
+                "estrofas": "<article class='contentDark'>//Cuando el Señor<br>hiciere volver la cautividad<br>Seremos como los que sueñan//<br><br>//Mi boca llenará de risa<br>Mis labios, de alabanza<br>Entonces dirán las naciones<br>Grandes cosas, ha hecho el Señor//<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre//<br><br>//Así como David cantaba<br>Así como David danzaba<br>Así como David fluía en Su presencia//<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre //<br><br>Yo cantaré, Yo danzaré<br>En tu presencia, me gozaré<br>Y solo en Ti me alegraré<br>Porque Tú eres mi Dios y mi Rey<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre //</article>",
                 "bg-img": "assets/bg/alabanza/bg-alabanza-01.jpg"
             },
             {
