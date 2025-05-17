@@ -3,6 +3,7 @@
   --font-text-primary: 'Poppins', sans-serif;
   --font-text-secondary: 'Open Sans', sans-serif;
   --font-text-accent: 'Playfair Display', serif;
+  --font-text-title: 'Bebas Neue', serif;
   /* Font colors */
   --color-primary: #4FB0E3;    /* Your main blue */
   --color-black: #2D3539;      /* Pure black */
@@ -32,9 +33,10 @@
 .titleDark {
   text-align: center;
   color: var(--color-white);
-  font-family: var(--font-text-secondary);
-  font-size: 4vw;
+  font-family: var(--font-text-title);
+  font-size: 6vw;
     text-transform: uppercase;
+  letter-spacing: 1rem;
 
 }
 .subtitleDark{
@@ -50,6 +52,35 @@
   font-size: 6vw;
   text-align: center;
   color: var(--color-white);
+  letter-spacing: 0.3rem;
+  line-height: 97%;
+  padding: 1rem 0rem;
+  letter-spacing: -0.2vw;
+}
+
+
+
+.titleLight {
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-text-title);
+  font-size: 4vw;
+    text-transform: uppercase;
+
+}
+.subtitleLight{
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-text-secondary);
+  font-weight: var(--light);
+  font-size: 4vw;
+}
+.contentLight{
+  font-family: var(--font-text-primary); /* Usando la variable que cree el 3april25 */
+  font-weight: var(--light);
+  font-size: 6vw;
+  text-align: center;
+  color: var(--color-black);
   letter-spacing: 0.3rem;
   line-height: 97%;
   padding: 1rem 0rem;

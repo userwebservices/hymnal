@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         function updateBackground(song) {
-            const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-03.jpg';
+            const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-05.jpg';
             const hasCustomBg = song['bg-img'] && song['bg-img'].trim() !== '';
             
             displaySection.style.backgroundImage = hasCustomBg
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //****************************** function updateBackground (song) ******************************
 
     function updateBackground(song) {
-        const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-03.jpg';
+        const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-02.jpg';
         const hasCustomBg = song['bg-img'] && song['bg-img'].trim() !== '';
         
         displaySection.style.backgroundImage = hasCustomBg  //Tiene bg porpia?
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         const diffTime = today - omerStart;
-        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)) + 1;
+        const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)) - 1;
         
         if (diffDays > 0 && diffDays < 50) {
             return diffDays;
@@ -306,8 +306,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Update your title with the count if we're in the Omer period
     if (omerDay > 0) {
-        titleAimCover.innerHTML = `<div class='overlaidTitle'>
-            <h4>Día ${omerDay} del Omer</h4>    
+        titleAimCover.innerHTML = `<div class='overlaidTitle'>     
+            <h4>Día ${omerDay} del Omer</h4>  
             <h1>Siete semanas te contarás:</h1>
             <h2>Desde que comenzare la hoz en las mieses comenzarás á contarte las siete semanas. Y harás la solemnidad de las semanas á Jehová tu Dios: de la suficiencia voluntaria de tu mano será lo que dieres, según Jehová tu Dios te hubiere bendecido.</h2>
             <h3>Deut. 16:9</h3>
