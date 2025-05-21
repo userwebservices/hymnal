@@ -31,12 +31,27 @@
 <!-- H E A D E R - SECTION-->
 <header>
     <!-- 1er elemento-->
-    <h1>Cantos | Himnos</h1>
+    <a class="navbar-brand ps-2 " href=".">
+        <img src="/assets/img/logoWhite_PdC.svg" alt="Bootstrap" width="30" height="24">
+    </a>
+    <h1>Puerta del Cielo</h1>
     
-    <ul> <!-- parent container: F L E X -->
+    <!--<ul>  parent container: F L E X 
         <li><a href="." id="logoLink" title="Volver al inicio"><img src="assets/img/logoWhite_PdC.svg" alt="logoPuertaDelCielo"></a></li>
         <a href="#" id="logoLink" ></a>
-    </ul>
+    </ul>-->
+
+    <!-- Moved search container to header -->
+    <form class="search-container">
+        <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Buscar cantos..." aria-label="Buscar">
+            <button class="btn btn-outline-secondary" type="button" id="clearSearch">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div id="searchResults" class="dropdown-menu dropdown-menu-end w-100"></div>
+    </form>
+
 </header>
 
 <!-- E N D - H E A D E R - SECTION-->
@@ -48,9 +63,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             
             
-            <a class="navbar-brand ps-2 " href=".">
+            <!--<a class="navbar-brand ps-2 " href=".">
                 <img src="/assets/img/logoWhite_PdC.svg" alt="Bootstrap" width="30" height="24">
-            </a>
+            </a>-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -61,21 +76,33 @@
                 <!-- Menú prncipal -->
                 <ul class="navbar-nav mr-auto">
 
-                    <!-- Elemento "li" class="active"-->
-                     <!--
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    -->
                     
-                    <!-- Elemento "li" class="linl"-->
-                        <!--
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        -->
 
                     <!-- Elemento "li" class="dropdown"-->
+                    <li class="nav-item dropdown">
+                        <!--Button name: Nosotros-->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-category="nosotros">
+                            Nosotros
+                        </a>
+                            <!-- # -->
+                             <!-- Add my own class="dropdown-grid-container" for create grid behaviour -->
+                            <div class="dropdown-menu mega-dropdown" aria-labelledby="navbarDropdown">
+
+                                <div class="dropdown-grid-container ps-2">
+                                    <div class="dropdown-links" style="--custom-width: 200px">
+                                        <!-- Línea que divide items en el menu-->
+                                         <!--<div class="dropdown-divider"></div>-->
+                                        <a class="dropdown-item custom-font-item" href="#">¿Quienes somos?</a>
+                                        <a class="dropdown-item custom-font-item" href="#">Calendario bíblico</a>
+                                        <a class="dropdown-item custom-font-item" href="#">Contacto</a>
+                                    </div>
+
+                                </div>
+                                
+                        </div>
+                    </li>
+                    
                     <!--Himnos-->
                     <li class="nav-item dropdown">
                         <!--Button name: Himnos-->
@@ -477,16 +504,7 @@
                 <!--  E N D - Menú prncipal -->
 
 
-                <!-- Buscador -->
-                <form class="search-container ms-auto">
-                    <div class="input-group">
-                        <input type="text" id="searchInput" class="form-control" placeholder="Buscar cantos..." aria-label="Buscar">
-                        <button class="btn btn-outline-secondary" type="button" id="clearSearch">
-                            <i class="fas fa-times"></i> <!-- Changed from bi-x to fas fa-times -->
-                        </button>
-                    </div>
-                    <div id="searchResults" class="dropdown-menu dropdown-menu-end w-100"></div>
-                </form>
+               
                 
 
 

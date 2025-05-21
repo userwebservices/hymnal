@@ -10,19 +10,11 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Opcional: sombra para mejor visibilidad */
 }
 
-
- 
 /* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
                               Own code add for the Grid behaviour 
 ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
 
 /* Contenedor principal del dropdown */
-
-
-
-
-
-
 
 /* Aplicar estilos de texto personalizados */
 
@@ -35,10 +27,6 @@
 /* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
                               E N D Own code add for the Grid behaviour 
 ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
-
-
-
-
 
 /* ===== Dropdown Hover Behavior ===== */
 .nav-item.dropdown:hover .dropdown-menu {
@@ -115,58 +103,3 @@
 .dropdown-item:active {
     transform: scale(0.98);
 }
-
-
-
-
-/*   ----------------     M E N U - S E A R C H  B O X   S E C T I O N --------------------- */
-
-/* Search container styles */
-/* Search container styles */
-.search-container {
-    position: relative;
-    margin-right: 1rem;
-    z-index: 1001; /* Higher than overlays */
-}
-
-#searchResults {
-    display: none;
-    max-height: 60vh;
-    overflow-y: auto;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    position: absolute;
-    z-index: 1002; /* Higher than the search container */
-    background-color: white; /* Ensure background is opaque */
-    top: 100%; /* Position below the search input */
-    left: 0;
-    right: 0;
-    margin-top: 0.5rem;
-}
-
-#searchResults.show {
-    display: block;
-}
-
-
-
-.search-result-item {
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 0.2s;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #333; /* Ensure text is visible */
-}
-
-.search-result-item:hover {
-    background-color: #f8f9fa;
-}
-
-.search-highlight {
-    background-color: #ffeb3b;
-    font-weight: bold;
-    color: #000; /* Ensure highlighted text is visible */
-}
-
-/*   ----------------   E N D   M E N U - S E A R C H  B O X   S E C T I O N --------------------- */
