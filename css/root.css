@@ -7,6 +7,7 @@
   /* Font colors */
   --color-primary: #4FB0E3;    /* Your main blue */
   --color-black: #2D3539;      /* Pure black */
+  --color-menu: #e8e6e6;      /* For the hoover effect in menu section */
   --color-secondary: #f7f7f7; 
   --color-white: #f7f7f7;        
   /* Font weights */
@@ -45,7 +46,7 @@
   font-family: var(--font-text-secondary);
   font-weight: var(--light);
   font-size: 4vw;
-}
+} 
 .contentDark{
   font-family: var(--font-text-primary); /* Usando la variable que cree el 3april25 */
   font-weight: var(--light);
@@ -56,6 +57,8 @@
   line-height: 97%;
   padding: 1rem 0rem;
   letter-spacing: -0.2vw;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
+
 }
 
 
