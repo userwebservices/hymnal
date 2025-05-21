@@ -20,7 +20,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */}
 /* El contenedor de contenido debe tener mayor z-index */ 
 #contentContainer {
     position: relative;
-    z-index: 3;  /* Debe ser mayor que el overlay */
+    z-index: 30;  /* Debe ser mayor que el overlay */
     /* ... otras propiedades ... */
     max-height: 100%; /* Limita la altura al contenedor padre */
     overflow-y: auto; /* Scroll interno si el contenido es muy largo */
@@ -51,9 +51,11 @@ overflow-y: auto; /* Scroll interno para contenido largo */}
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4); /* A F E C T A  E L  O V E R L A Y  P R I N C I P A L */
-    z-index: 1;
+    z-index: 10;
     transition: opacity 0.3s ease;
 }
+
+
 
 /* Overlay dinámico */
 .display-overlay-dynamic {
@@ -63,14 +65,16 @@ overflow-y: auto; /* Scroll interno para contenido largo */}
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
-    z-index: 2; /* Mayor que el estático para que esté encima */
+    z-index: 20; /* Mayor que el estático para que esté encima */
 }
+
 
 /* Cuando queremos ocultar el overlay estático */
 .display-overlay-static.hidden {
     opacity: 0;
     pointer-events: none;
 }
+
 
 
 /*  E N D  Dinamic black transparent overlay*/
@@ -89,8 +93,10 @@ overflow-y: auto; /* Scroll interno para contenido largo */}
         /* Lo pega a la izquierda */
         max-width: 57%;
         /* Opcional: para que no ocupe todo el ancho */
-         z-index: 4; /* Por encima de todo */
+         z-index: 40; /* Por encima de todo */
     }
+
+    
 
 
     .overlaidTitle {

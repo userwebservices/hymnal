@@ -4,11 +4,13 @@
     position: sticky;
     top: 0; /* Se pegará en la parte superior */
     background-color: var(--color-black);
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
     height: 7vh;
     max-height: 50px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Opcional: sombra para mejor visibilidad */
 }
+
+
  
 /* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
                               Own code add for the Grid behaviour 
@@ -120,9 +122,11 @@
 /*   ----------------     M E N U - S E A R C H  B O X   S E C T I O N --------------------- */
 
 /* Search container styles */
+/* Search container styles */
 .search-container {
     position: relative;
     margin-right: 1rem;
+    z-index: 1001; /* Higher than overlays */
 }
 
 #searchResults {
@@ -130,11 +134,20 @@
     max-height: 60vh;
     overflow-y: auto;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    position: absolute;
+    z-index: 1002; /* Higher than the search container */
+    background-color: white; /* Ensure background is opaque */
+    top: 100%; /* Position below the search input */
+    left: 0;
+    right: 0;
+    margin-top: 0.5rem;
 }
 
 #searchResults.show {
     display: block;
 }
+
+
 
 .search-result-item {
     padding: 0.5rem 1rem;
@@ -143,6 +156,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: #333; /* Ensure text is visible */
 }
 
 .search-result-item:hover {
@@ -152,16 +166,7 @@
 .search-highlight {
     background-color: #ffeb3b;
     font-weight: bold;
+    color: #000; /* Ensure highlighted text is visible */
 }
-
-/* Clear search button */
-#clearSearch {
-    display: none;
-}
-
-#clearSearch.visible {
-    display: block;
-}
-
 
 /*   ----------------   E N D   M E N U - S E A R C H  B O X   S E C T I O N --------------------- */
