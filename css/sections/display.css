@@ -8,14 +8,17 @@ grid-area: display;
 position: relative;
 background-color: var(--color-white);
 position: relative; /* Tue 29 April 25 */
-background-image: url('../../assets/bg/jagim/shavuot/bg-shavuot-01.jpeg'); /* bg default sección principal */
+background-image: url('../../assets/bg/jagim/shavuot/bg-shavuot-01.webp'); /* bg default sección principal */
 background-size: cover; /* Asegura que la imagen cubra el área de la sección */
 background-position: center; /* Centra la imagen dentro del área */
 background-attachment: fixed; /* Fija la imagen al fondo si se hace scroll */
 background-repeat: no-repeat; /* Evita que la imagen se repita */
 z-index: 1;
 min-height: 0; /* Asegura que la grid no se expanda */
-overflow-y: auto; /* Scroll interno para contenido largo */} 
+overflow-y: auto; /* Scroll interno para contenido largo */
+}
+
+
 
 /* El contenedor de contenido debe tener mayor z-index */ 
 #contentContainer {
@@ -103,17 +106,72 @@ overflow-y: auto; /* Scroll interno para contenido largo */}
         display: flex;
         flex-direction: column;/* Ordena los hijos en columna (h1, h2, h3) */
         /*gap: 2rem;/* Espacio entre elementos */
+        align-items: flex-start;
     }
+
+
+    /* Styles for div class="overlaidInside", containt: the icon and the <h3> and <h4> text*/
+
+    .overlaidInside {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
+        align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/
+        /*opacity: 0.7;*/
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
+        
+    }
+
+    .overlaidInside > i.far.fa-calendar-alt {/*Calendar icon*/
+        font-size: 4vw;
+        padding-bottom: 2rem; 
+        color: var(--color-menu);
+    }
+
+    .overlaidTitle h4 {
+        font-family: var(--font-text-secondary) ;
+        font-size: 5vw;
+        color: var(--color-menu);
+        font-weight: var(--medium);
+        letter-spacing: 0.7rem;
+        line-height: 90%;
+        padding-bottom: 2rem;
+    }
+
+
+    .overlaidInsideVerse {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
+        align-items: flex-start; /*Aligning items vertically (cross-axis alignment) for flex directions row*/        
+    }
+
+    .overlaidInsideVerse > i.fas.fa-book {/*Bible icon*/
+        font-size: 1vw;
+        color: var(--color-primary);
+    }
+
+    .overlaidTitle h3 {
+        font-family: var(--font-text-secondary) ;
+        font-weight: var(--light);
+        color: var(--color-primary);
+        font-size: 1vw; 
+        letter-spacing: 0.5rem;
+    }
+
+
+    /* E N D Styles for icon*/
+
+   
 
     /* Estilos opcionales para mejor legibilidad */
     .overlaidTitle h1,
-    .overlaidTitle h2,
-    .overlaidTitle h3,
-    .overlaidTitle h4 {
+    .overlaidTitle h2
+        {
         margin: 0;/* Elimina márgenes por defecto */
         color: var(--color-white);/* Si el fondo es oscuro */
         
-    }
+        }
 
     .overlaidTitle h1 { 
         font-family: var(--font-text-primary) ;
@@ -134,24 +192,9 @@ overflow-y: auto; /* Scroll interno para contenido largo */}
         padding-bottom: 1rem;
     }
 
-    .overlaidTitle h3 {
-        font-family: var(--font-text-secondary) ;
-        font-weight: var(--light);
-        color: var(--color-white);
-        font-size: 1vw; 
-        letter-spacing: 0.1rem;
-    }
+    
 
-    .overlaidTitle h4 {
-        font-family: var(--font-text-secondary) ;
-        font-size: 5vw;
-        font-weight: var(--medium);
-        letter-spacing: 0.7rem;
-        line-height: 90%;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
-        padding-bottom: 1rem;
-    }
-
+    
   
     
     /*  E N D - Clase para texto de titleAimCover*/
@@ -161,3 +204,90 @@ overflow-y: auto; /* Scroll interno para contenido largo */}
 
 
      
+
+
+
+
+/* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
+                               P A R A L L A X  E F F E C  O N  H E R O  I M A G E  | add 21may25
+====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
+/* ===== Hero Parallax Effect ===== */
+/* Add this at the BOTTOM of your display.css file */
+/* ===== WORKING HERO MOVEMENT ===== */
+
+
+
+/* ===== GUARANTEED WORKING ANIMATION ===== */
+.display.welcome-view {
+    /* Basic styles */
+    background-image: url('../../assets/bg/jagim/shavuot/bg-shavuot-01.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+    /* Animation - simple horizontal pan */
+    /*animation: panImage 70s linear infinite;*/
+    
+    /* 21 may 25, this option, only create zoom in forward, but has and end
+    animation: zoomPan 10s linear forwards;
+    */
+
+    animation: smoothZoomPan 30s infinite ease-in-out; /* Very slow, endless zoom */
+
+
+     /* Optimizations */
+     will-change: background-position; /* Improves performance */
+     backface-visibility: hidden; /* Prevents flickering */
+     transform: translateZ(0); /* Hardware acceleration */
+}
+
+
+/*
+@keyframes panImage {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    */
+
+    @keyframes smoothZoomPan {
+        0% {
+          background-size: 100% auto; /* Start normal */
+          background-position: center;
+        }
+        50% {
+          background-size: 120% auto; /* Fully zoomed in */
+          background-position: 1% 70%; /* Panned position */
+        }
+        100% {
+          background-size: 100% auto; /* Back to normal */
+          background-position: center;
+        }
+      }
+      /*
+      @keyframes infiniteZoom {
+        0% {
+          background-size: 100% auto;
+          background-position: center;
+        }
+        100% {
+          background-size: 200% auto; /* Extreme zoom */
+       /*   background-position: 60% 50%;
+        }
+      }
+        */
+
+     
+      
+    
+
+
+/* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
+                               E N D P A R A L L A X  E F F E C  O N  H E R O  I M A G E | add 21may25
+====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/

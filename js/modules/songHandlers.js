@@ -26,14 +26,18 @@ export class SongHandlers {
         const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-02.jpg';
         const hasCustomBg = song['bg-img'] && song['bg-img'].trim() !== '';
         
-        this.displaySection.style.backgroundImage = hasCustomBg
+        document.querySelector('.display').style.backgroundImage = hasCustomBg
             ? `url('${song['bg-img']}')`
             : `url('${DEFAULT_BG_IMAGE}')`;
         
-        this.displaySection.style.backgroundSize = 'cover';
-        this.displaySection.style.backgroundPosition = 'center';
-        this.displaySection.style.backgroundAttachment = 'fixed';
-        this.displaySection.style.backgroundRepeat = 'no-repeat';
+            document.querySelector('.display')
+            .style.backgroundSize = 'cover';
+            document.querySelector('.display')
+            .style.backgroundPosition = 'center';
+            document.querySelector('.display')
+            .style.backgroundAttachment = 'fixed';
+            document.querySelector('.display')
+            .style.backgroundRepeat = 'no-repeat';
     }
     
     createDynamicOverlay() {
@@ -43,21 +47,51 @@ export class SongHandlers {
         
         const overlay = document.createElement('div');
         overlay.className = 'display-overlay-dynamic';
-        this.displaySection.appendChild(overlay);
+        document.querySelector('.display')
+.appendChild(overlay);
     }
     
+
+
+
+
     resetToWelcomeScreen() {
+        const display = this.displaySection;
+        
+        // Reset state first
+        display.classList.remove('welcome-view');
+        display.style.backgroundImage = '';
+        
+        // Force synchronous reflow
+        void display.offsetWidth;
+        
+        // Apply new state
+        display.style.backgroundImage = 'url("../../assets/bg/jagim/shavuot/bg-shavuot-01.webp")';
+        display.classList.add('welcome-view');
+        
+        // Reset other elements
         document.querySelector('.display-overlay-static').classList.remove('hidden');
         document.querySelectorAll('.display-overlay-dynamic').forEach(overlay => {
             overlay.remove();
         });
-        
         this.contentContainer.innerHTML = '';
         this.titleAimCover.style.display = 'block';
-        this.displaySection.style.backgroundImage = 'url("../../assets/bg/back-shavuot-01.jpeg")';
     }
     
     hideWelcomeMessage() {
+        this.displaySection.classList.remove('welcome-view');
         this.titleAimCover.style.display = 'none';
     }
+
+    
+
+
+
+
+
+
+
+
+
+
 }

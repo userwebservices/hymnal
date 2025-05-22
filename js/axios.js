@@ -5,11 +5,17 @@ import { MenuHandlers } from './modules/menuHandlers.js';
 import { SearchHandler } from './modules/search.js';
 import { setupWelcomeMessage } from './modules/utils.js';
 
+
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize main components
     const displaySection = document.querySelector('.display');
     const contentContainer = document.getElementById('contentContainer');
     const titleAimCover = document.getElementById('titleAimCover');
+
+    // Immediately set welcome view on initial load
+    displaySection.classList.add('welcome-view');
+    displaySection.style.backgroundImage = 'url("../../assets/bg/jagim/shavuot/bg-shavuot-01.webp")';
+    
     
     // Create instances
     const appState = new AppState();
@@ -27,3 +33,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize search
     new SearchHandler(appState, menuHandlers);
 });
+

@@ -33,11 +33,17 @@ export function setupWelcomeMessage(titleAimCover) {
     const omerDay = getOmerDay();
     
     if (omerDay > 0) {
-        titleAimCover.innerHTML = `<div class='overlaidTitle'>     
-            <h4>Día ${omerDay} del Omer</h4>  
+        titleAimCover.innerHTML = `<div class='overlaidTitle'> 
+                <div class='overlaidInside'>
+                    <i class='far fa-calendar-alt'></i>
+                    <h4 class='ps-2'>Día ${omerDay} del Omer</h4>
+                </div>
             <h1>Siete semanas te contarás:</h1>
             <h2>Desde que comenzare la hoz en las mieses comenzarás á contarte las siete semanas. Y harás la solemnidad de las semanas á Jehová tu Dios: de la suficiencia voluntaria de tu mano será lo que dieres, según Jehová tu Dios te hubiere bendecido.</h2>
-            <h3>Deut. 16:9</h3>
+                <div class='overlaidInsideVerse'>
+                    <i class='fas fa-book'></i>
+                    <h3 class='ps-2'>Deut. 16:9</h3>
+                </div>
         </div>`;
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
