@@ -1,7 +1,7 @@
 
 .menu {
     grid-area: menu;
-    position: sticky;
+    position: sticky !important;
     top: 0; /* Se pegará en la parte superior */
     background-color: var(--color-black);
     z-index: 999; /* Asegura que esté por encima de otros elementos */

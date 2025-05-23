@@ -672,18 +672,18 @@
         {
             "id": 2,
             "title": "<h1 class='titleDark'>2 Deuteronómio 16:16</h1>",
-            "estrofas": "<article class='contentDark'>Tres veces cada un año<br>Parecerá todo varón tuyo<br>Delante de Jehová tu Dios<br>En el lugar que él escogiere<br>En la solemnidad de los Ázimos<br>Y en la solemnidad de las Semanas<br>Y en la solemnidad de las Cabañas<br>Y no parecerá vacío delante de Jehová.<br></article>"
+            "estrofas": "<article class='contentDark'>Tres veces cada un año<br>Parecerá todo varón tuyo<br>Delante de Jehová tu Dios<br>En el lugar que él escogiere<br><br>En la solemnidad de los Ázimos<br>Y en la solemnidad de las Semanas<br>Y en la solemnidad de las Cabañas<br>Y no parecerá vacío<br>delante de Jehová.<br></article>"
         },
         {
             "id": 3,
             "title": "<h1 class='titleDark'>3 Sea pues perfecto</h1>",
-            "estrofas": "<article class='contentDark'>Sea pues perfecto vuestro corazón<br>para con Jehová nuestro Dios<br>Andando en sus estatutos<br>Guardando sus mandamientos<br>Como el día de hoy<br>A fin de que los pueblos de toda la tierra<br>Sepan que Adonáy es Dios<br>// Y que no hay otro, y que no hay otro<br> como nuestro Dios //</article>",
+            "estrofas": "<article class='contentDark'>Sea pues perfecto vuestro corazón<br>para con Jehová nuestro Dios<br>Andando en sus estatutos<br>Guardando sus mandamientos<br>Como el día de hoy<br><br>A fin de que los pueblos<br>de toda la tierra<br>Sepan que Adonáy es Dios<br>// Y que no hay otro<br>y que no hay otro<br> como nuestro Dios //</article>",
             "bg-img": "assets/bg/textos/bg-textos-02.jpg"
         },
         {
             "id": 4,
             "title": "<h1 class='titleDark'>4 Salmo 1</h1>",
-            "estrofas": "<article class='contentDark'>Bienaventurado el varón que no anduvo<br>En consejo de malos<br>ni estuvo en camino de pecadores<br>// Ni en silla de escarnecedores<br>se ha sentado //<br><br>Antes en la ley de Adonáy está su delicia<br>Y en su ley medita de día y de noche<br>Y será como el árbol plantado<br>junto a arroyos de aguas<br>Que da su fruto en su tiempo y su hoja no cae<br>Y todo lo que hace prosperará<br><br>// No asi los malos sino como el tamo que arrebata el viento //<br>Por tanto no se levantarán<br> los malos en el juicio<br>Ni los pecadores<br> en la congregación de los justos<br>Porque Adonáy conoce<br> el camino de los justos<br>Mas la senda de los malos perecerá</article>",
+            "estrofas": "<article class='contentDark'>Bienaventurado el varón<br>que no anduvo<br>En consejo de malos<br>ni estuvo en camino de pecadores<br>// Ni en silla de escarnecedores<br>se ha sentado //<br><br>Antes en la ley<br>de Adonáy está su delicia<br>Y en su ley medita<br>de día y de noche<br>Y será como el árbol plantado<br>junto a arroyos de aguas<br>Que da su fruto en su tiempo<br>y su hoja no cae<br>Y todo lo que hace prosperará<br><br>// No asi los malos sino como el tamo que arrebata el viento //<br>Por tanto no se levantarán<br> los malos en el juicio<br>Ni los pecadores<br> en la congregación de los justos<br>Porque Adonáy conoce<br> el camino de los justos<br>Mas la senda de los malos perecerá</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
@@ -695,55 +695,55 @@
         {
             "id": 6,
             "title": "<h1 class='titleDark'>6 Salmo 19 | La Ley de Adonáy </h1>",
-            "estrofas": "<article class='contentDark'>La ley de Adonáy es perfecta<br>Que vuelve el alma<br>El testimonio de Adonáy fiel<br>Que hace sabio al pequeño<h1 class='unica'>Coro</h1>Deseables son más que el oro<br>Y mas que mucho oro afinado<br>Y dulces mas que miel<br>La que destila del panal<h1 class='unica'>2</h1>Los mandamiento de Adonáy son rectos<br>Que alegran el corazón<br>El precepto de Adonáy puro<br>Que alumbra a los ojos<h1 class='unica'>Coro</h1>Deseables son más que el oro<br>Y mas que mucho oro afinado<br>Y dulces mas que miel<br>La que destila del panal<h1 class='unica'>3</h1>El temor de Adonáy limpio<br>Que permanece para siempre<br>Los juicios de Adonáy son verdad<br>Todos justos<h1 class='unica'>Coro</h1>Deseables son más que el oro<br>Y mas que mucho oro afinado<br>Y dulces mas que miel<br>La que destila del panal</article>",
+            "estrofas": "<article class='contentDark'>La ley de Adonáy es perfecta<br>Que vuelve el alma<br>El testimonio de Adonáy fiel<br>Que hace sabio al pequeño<h1 class='unica'>Coro</h1>Deseables son más que el oro<br>Y mas que mucho oro afinado<br>Y dulces mas que miel<br>La que destila del panal<h1 class='unica'>2</h1>Los mandamiento de Adonáy <br>son rectos<br>Que alegran el corazón<br>El precepto de Adonáy puro<br>Que alumbra a los ojos<h1 class='unica'>Coro</h1>Deseables son más que el oro<br>Y mas que mucho oro afinado<br>Y dulces mas que miel<br>La que destila del panal<h1 class='unica'>3</h1>El temor de Adonáy limpio<br>Que permanece para siempre<br>Los juicios de Adonáy son verdad<br>Todos justos<h1 class='unica'>Coro</h1>Deseables son más que el oro<br>Y mas que mucho oro afinado<br>Y dulces mas que miel<br>La que destila del panal</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 7,
             "title": "<h1 class='titleDark'>7 Salmo 23 | Jehová es mi Pastor </h1>",
-            "estrofas": "<article class='contentDark'>Jehová es mi pastor; nada me faltará<br>En lugares de delicados pastos<br>me hará yacer<br>Junto á aguas de reposo me pastoreará<br>Confortará mi alma<br>guiárame por sendas de justicia<br>Por amor de su nombre<br>aunque ande en valle de sombra<br>De muerte, no temeré mal alguno;<br>Porque tú estarás conmigo:<br>Tu vara y tu cayado me infundirán aliento<br>Aderezarás mesa delante de mí<br> en presencia de mis angustiadores<br>Ungiste mi cabeza con aceite<br> mi copa está rebosando<br>Ciertamente el bien<br> y la misericordia me seguirán<br> todos los días de mi vida:<br>Y en la casa de Jehová moraré<br> por largos días.</article>",
+            "estrofas": "<article class='contentDark'>Jehová es mi pastor<br>nada me faltará<br>En lugares de delicados pastos<br>me hará yacer<br>Junto á aguas de reposo<br>me pastoreará<br>Confortará mi alma<br>guiárame por sendas de justicia<br>Por amor de su nombre<br>aunque ande en valle de sombra<br>De muerte, no temeré mal alguno;<br>Porque tú estarás conmigo:<br>Tu vara y tu cayado<br>me infundirán aliento<br>Aderezarás mesa delante de mí<br> en presencia de mis angustiadores<br>Ungiste mi cabeza con aceite<br> mi copa está rebosando<br>Ciertamente el bien<br> y la misericordia me seguirán<br> todos los días de mi vida:<br>Y en la casa de Jehová moraré<br> por largos días.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 8,
             "title": "<h1 class='titleDark'>8 Salmo 27 | Una cosa he demandado </h1>",
-            "estrofas": "<article class='contentDark'>Una cosa he demandado a Adonáy<br> esta buscarè<br>Que estè yo en la casa de Adonáy<br> todos los dìas de mi vida<br>// Para contemplar, la hermosura de Adonáy<br>Y para inquirir en su templo //</article>",
+            "estrofas": "<article class='contentDark'>Una cosa he demandado a <br>donáy, esta buscarè<br>Que estè yo en la casa de Adonáy<br> todos los dìas de mi vida<br><br>//Para contemplar<br>la hermosura de Adonáy<br>Y para inquirir en su templo//</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 9,
-            "title": "<h1 class='titleDark'>9 Salmo 42 | Como el ciervo brama< </h1>",
-            "estrofas": "<article class='contentDark'>/// Como el ciervo brama ///<br>Como el ciervo brama<br> por las corrientes de las aguas<br>Así clama por ti oh Dios el alma mía<br>Mi alma tiene sed de Dios del Dios vivo<br>¡Cuándo vendré y pareceré<br> delante de Dios!<br><br>Fueron mis lágrimas<br>mi pan de día y de noche<br>Mientras me dicen todos los días:<br>¿Dónde está tu Dios?<br>Acordaréme de estas cosas y<br>derramaré sobre mí mi alma<br><br>Cuando pasaré en el número iré con ellos<br>Hasta la Casa de Dios<br>Con voz de alegría y de alabanza haciendo<br> fiesta la multitud<br>¿Porqué te abates oh alma mía<br> y te conturbas en mí?<br>Espera a Dios<br> porque aún le tengo de alabar<br>Por las saludes de su presencia.</article>",
+            "title": "<h1 class='titleDark'>9 Salmo 42 | Como el ciervo brama</h1>",
+            "estrofas": "<article class='contentDark'>///Como el ciervo brama///<br>Como el ciervo brama<br> por las corrientes de las aguas<br>Así clama por ti<br>oh Dios el alma mía<br>Mi alma tiene sed<br>de Dios del Dios vivo<br>¡Cuándo vendré y pareceré<br> delante de Dios!<br><br>Fueron mis lágrimas<br>mi pan de día y de noche<br>Mientras me dicen todos los días:<br>¿Dónde está tu Dios?<br>Acordaréme de estas cosas y<br>derramaré sobre mí mi alma<br><br>Cuando pasaré<br>en el número iré con ellos<br>Hasta la Casa de Dios<br>Con voz de alegría<br>y de alabanza haciendo<br> fiesta la multitud<br><br>¿Porqué te abates oh alma mía<br> y te conturbas en mí?<br>Espera a Dios<br> porque aún le tengo de alabar<br>Por las saludes de su presencia.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 10,
             "title": "<h1 class='titleDark'>10 Salmo 63 | Tu misericordia </h1>",
-            "estrofas": "<article class='contentDark'>// Tu misericordia es mejor que la vida //<br>Mis labios te alabarán<br>Y así mi vida te bendecirá<br>y en Tu Nombre mis manos alzaré<br><br>// Alzaré mis manos en Tu Nombre Señor //<br>Mis labios te alabarán<br> y así mi vida te bendecirá<br>y en Tu Nombre mis manos alzaré<br></article>",
+            "estrofas": "<article class='contentDark'>//Tu misericordia<br>es mejor que la vida//<br>Mis labios te alabarán<br>Y así mi vida te bendecirá<br>y en Tu Nombre mis manos alzaré<br><br>// Alzaré mis manos<br>en Tu Nombre Señor //<br>Mis labios te alabarán<br> y así mi vida te bendecirá<br>y en Tu Nombre mis manos alzaré<br></article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 11,
             "title": "<h1 class='titleDark'>11 Salmo 67 | Dios tenga misericordia</h1>",
-            "estrofas": "<article class='contentDark'>// Dios tenga misericordia //<br>De nosotros, y nos bendiga;<br>Haga resplandecer su rostro sobre nosotros<br>Para que sea conocido en la tierra tu camino<br>En todas las gentes tu salud<br><br>// Alábente los pueblos, oh Dios //<br>Alábente los pueblos todos<br>Alégrense y gocénse las gentes<br>Porque juzgarás los pueblos con equidad<br>Y pastorearás las naciones en la tierra<br><br>// Alábente los pueblos, oh Dios //<br>Todos los pueblos te alaben<br>La tierra dará su fruto:<br> nos bendecirá Dios El Dios nuestro.<br>Bendíganos Dios, y témanlo todos<br>Y temanlo todos los fines de la tierra<br></article>",
+            "estrofas": "<article class='contentDark'>// Dios tenga misericordia //<br>De nosotros, y nos bendiga;<br>Haga resplandecer<br>su rostro sobre nosotros<br>Para que sea conocido<br>en la tierra tu camino<br>En todas las gentes tu salud<br><br>// Alábente los pueblos, oh Dios //<br>Alábente los pueblos todos<br>Alégrense y gocénse las gentes<br>Porque juzgarás los pueblos<br>con equidad<br>Y pastorearás las naciones<br>en la tierra<br><br>// Alábente los pueblos, oh Dios //<br>Todos los pueblos te alaben<br>La tierra dará su fruto:<br> nos bendecirá Dios El Dios nuestro.<br>Bendíganos Dios, y témanlo todos<br>Y temanlo todos<br>los fines de la tierra<br></article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 12,
             "title": "<h1 class='titleDark'>12 Salmo 78 | Escucha pueblo mio</h1>",
-            "estrofas": "<article class='contentDark'>// Escucha pueblo mío mi Ley<br>Inclinad vuestro oído<br> a las palabras de mi boca //<br><br>// Las cuales, hemos oído y entendido<br> tu Ley //<br>// Que nuestros padres nos las contaron<br> tu Ley //<br>// No las encubriremos a tus hijos<br> tu Ley //</article>",
+            "estrofas": "<article class='contentDark'>//Escucha pueblo mío mi Ley<br>Inclinad vuestro oído<br>a las palabras de mi boca//<br><br>//Las cuales, hemos oído<br>y entendido, tu Ley//<br>//Que nuestros padres<br>nos las contaron, tu Ley//<br>//No las encubriremos<br>a tus hijos, tu Ley//</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 13,
             "title": "<h1 class='titleDark'>13 Salmo 84 | Cuán amables son</h1>",
-            "estrofas": "<article class='contentDark'>Cuán amables son, tus moradas oh,<br>Jehová de los Ejércitos<br>Codicia y aun ardientemente desea mi alma<br>Los atrios de Adonáy<br><br>// Mi corazón y mi carne cantan //<br>Al Dios vivo, al Dios vivo<br></article>",
+            "estrofas": "<article class='contentDark'>Cuán amables son<br>tus moradas oh,<br>Jehová de los Ejércitos<br>Codicia y aun ardientemente desea mi alma<br>Los atrios de Adonáy<br><br>// Mi corazón y mi carne cantan //<br>Al Dios vivo, al Dios vivo<br></article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 14,
             "title": "<h1 class='titleDark'>4 Salmo 89 | Las misericordías de Adonáy</h1>",
-            "estrofas": "<article class='contentDark'>Las misericordias de Adonáy cantaré<br>Perpetuamente, perpetuamente<br>En generación y generación<br>Haré notoria tu verdad con mi boca<br>Porque dije para siempre será edificada misericordia<br>//En los mismos cielos apoyaras tu verdad//</article>",
+            "estrofas": "<article class='contentDark'>Las misericordias<br>de Adonáy cantaré<br>Perpetuamente, perpetuamente<br>En generación y generación<br>Haré notoria<br>tu verdad con mi boca<br><br>Porque dije para siempre será edificada misericordia<br>//En los mismos cielos<br>apoyaras tu verdad//</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
@@ -760,28 +760,28 @@
         }, {
             "id": 17,
             "title": "<h1 class='titleDark'>17 Salmo 104 | A Jehová cantaré</h1>",
-            "estrofas": "<article class='contentDark'>A Jehová cantaré en mi vida<br>y a mi Dios cantaré salmos<br>mientras viva<br>Dulce será mi meditación en Él<br>Yo me rogocijaré en Jehová<br><br>//// Bendice alma mía a Jehová ////</article>",
+            "estrofas": "<article class='contentDark'>A Jehová cantaré en mi vida<br>y a mi Dios cantaré salmos<br>mientras viva<br>Dulce será mi meditación en Él<br>Yo me rogocijaré en Jehová<br><br>////Bendice alma mía<br>a Jehová////</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         }, {
             "id": 18,
             "title": "<h1 class='titleDark'>8 Salmo 126 | Cuando el Señor hiciera volver</h1>",
-            "estrofas": "<article class='contentDark'>// Los que sembraron con lágrimas<br>con regocijo segarán //<br>Irá andando y llorando<br>El que lleva la preciosa simiente <br>//Más volverá á venir con regocijo<br>Trayendo sus gavillas //<br><br>Cuando Adonáy hiciere tornar<br>La cautividad de sión<br>// Seremos como los que sueñan //<br>Entonces nuestra boca se henchirá de risa<br>Y nuestra lengua de alabanza<br>Entonces dirán entre las gentes:<br>Grandes cosas ha hecho Adonáy con éstos<br><br>Grandes cosas ha hecho<br>Adonáy con nosotros<br>Estaremos alegres, estaremos alegres<br>Haz volver nuestra cautividad<br>Oh Adonáy, Oh Adonáy<br>Como los arroyos en el austro<br><br>// Los que sembraron con lágrimas<br>con regocijo segarán //</article>",
+            "estrofas": "<article class='contentDark'>// Los que sembraron con lágrimas<br>con regocijo segarán //<br>Irá andando y llorando<br>El que lleva la preciosa simiente <br>//Más volverá á venir con regocijo<br>Trayendo sus gavillas //<br><br>Cuando Adonáy hiciere tornar<br>La cautividad de sión<br>//Seremos como los que sueñan//<br>Entonces nuestra boca se henchirá de risa<br>Y nuestra lengua de alabanza<br>Entonces dirán entre las gentes:<br>Grandes cosas ha hecho Adonáy con éstos<br><br>Grandes cosas ha hecho<br>Adonáy con nosotros<br>Estaremos alegres<br>estaremos alegres<br>Haz volver nuestra cautividad<br>Oh Adonáy, Oh Adonáy<br>Como los arroyos en el austro<br><br>//Los que sembraron con lágrimas<br>con regocijo segarán//</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         }, {
             "id": 19,
             "title": "<h1 class='titleDark'>19 Salmo 131 | Jehová no se ha envanecido</h1>",
-            "estrofas": "<article class='contentDark'>Jehová no se ha envanecido mi corazón<br>Ni mis ojos se enaltecieron<br>Ni anduve en grandezas<br>Ni en cosas para mí demasiados sublimes<br><br>En verdad que me he comportado<br>Y he acallado mi alma<br>Como un niño destetado de su madre<br>Como un niño destetado está mi alma<br>Espera oh Israel en Jehová<br>Desde ahora y para siempre. Amén.</article>",
+            "estrofas": "<article class='contentDark'>Jehová no se ha envanecido<br>mi corazón<br>Ni mis ojos se enaltecieron<br>Ni anduve en grandezas<br>Ni en cosas para mí<br>demasiados sublimes<br><br>En verdad que me he comportado<br>Y he acallado mi alma<br>Como un niño<br>destetado de su madre<br>Como un niño<br>destetado está mi alma<br>Espera oh Israel en Jehová<br>Desde ahora<br>y para siempre. Amén.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         }, {
             "id": 20,
             "title": "<h1 class='titleDark'>20 2 Crónicas 7:14</h1>",
-            "estrofas": "<article class='contentDark'>Si se humillare mi pueblo<br>Sobre los cuales mi nombre es invocado<br>Y oraren, y buscaren mi rostro<br>Y se convirtieren de sus malos caminos<br>Entonces yo oiré desde los cielos<br>Y perdonaré sus pecados<br>Y sanaré su tierra.</article>",
+            "estrofas": "<article class='contentDark'>Si se humillare mi pueblo<br>Sobre los cuales<br>mi Nombre es invocado<br>Y oraren, y buscaren mi rostro<br>Y se convirtieren<br>de sus malos caminos<br>Entonces yo oiré desde los cielos<br>Y perdonaré sus pecados<br>Y sanaré su tierra.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 21,
             "title": "<h1 class='titleDark'>21 El cantar de mi Amado</h1>",
-            "estrofas": "<article class='contentDark'>AHORA cantaré por mi amado<br>El cantar de mi amado á su viña<br>Tenía mi amado una viña<br>En un recuesto, lugar fértil<br>Habíala cercado, y despedregádola<br>Y plantádola de vides escogidas:<br>Había edificado en medio de ella una torre<br>Y también asentado un lagar en ella<br>Y esperaba que llevase uvas<br> y llevó uvas silvestres.<br><br>Ahora pues, vecinos de Jerusalem<br>y varones de Judá<br> juzgad ahora entre mí y mi viña.<br>¿Qué más se había de hacer á mi viña<br> Que yo no haya hecho en ella?<br>¿Cómo, esperando yo que llevase uvas<br>ha llevado uvas silvestres?<br><br>Os mostraré pues ahora<br> lo que haré yo á mi viña: <br>Quitaréle su vallado<br> y será para ser consumida;<br>Aportillaré su cerca, y será para ser hollada;<br>Haré que quede desierta;<br>No será podada ni cavada<br>Y crecerá el cardo y las espinas<br>y aun á las nubes mandaré<br>Que no derramen lluvia sobre ella<br><br>Ciertamente la viña de Jehová de los Ejércitos <br>es la casa de Israel<br>Y los hombres de Judá planta suya deleitosa<br>Esperaba juicio, y he aquí vileza<br>Justicia, y he aquí clamor.<br></article>",
+            "estrofas": "<article class='contentDark'>AHORA cantaré por mi amado<br>El cantar de mi amado á su viña<br>Tenía mi amado una viña<br>En un recuesto, lugar fértil<br>Habíala cercado, y despedregádola<br>Y plantádola de vides escogidas:<br>Había edificado en medio de ella una torre<br>Y también asentado un lagar en ella<br>Y esperaba que llevase uvas<br> y llevó uvas silvestres.<br><br>Ahora pues, vecinos de Jerusalem<br>y varones de Judá<br> juzgad ahora entre mí y mi viña.<br>¿Qué más se había<br>de hacer á mi viña<br> Que yo no haya hecho en ella?<br>¿Cómo, esperando yo<br>que llevase uvas<br>ha llevado uvas silvestres?<br><br>Os mostraré pues ahora<br> lo que haré yo á mi viña: <br>Quitaréle su vallado<br> y será para ser consumida;<br>Aportillaré su cerca<br>y será para ser hollada;<br>Haré que quede desierta;<br>No será podada ni cavada<br>Y crecerá el cardo y las espinas<br>y aun á las nubes mandaré<br>Que no derramen lluvia sobre ella<br><br>Ciertamente la viña<br>de Jehová de los Ejércitos <br>es la casa de Israel<br>Y los hombres de Judá planta suya deleitosa<br>Esperaba juicio, y he aquí vileza<br>Justicia, y he aquí clamor.<br></article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         }, {
             "id": 22,
@@ -796,12 +796,12 @@
         }, {
             "id": 24,
             "title": "<h1 class='titleDark'>24 Mateo 5:3-11 | Bienaventuranzas</h1>",
-            "estrofas": "<article class='contentDark'>Bienaventurados los pobres en espíritu<br>porque de ellos es el reino de los cielos<br>Bienaventurados los que lloran<br>porque ellos recibirán consolación<br>Bienaventurados los mansos<br>porque ellos recibirán la tierra por heredad<br>Bienaventurados los que tienen hambre<br> y sed de justicia<br>porque ellos serán hartos<br><br>Bienaventurados los misericordiosos<br>porque ellos alcanzarán misericordia<br>Bienaventurados los de limpio corazón<br>porque ellos verán á Dios<br>Bienaventurados los pacificadores<br>porque ellos serán llamados hijos de Dios<br>Bienaventurados los que padecen<br>persecución por causa de la justicia<br>porque de ellos es el reino de los cielos<br><br>Bienaventurados sois cuando os vituperaren<br>y os persiguieren, y dijeren de vosotros<br>todo mal por mi causa, mintiendo.</article>",
+            "estrofas": "<article class='contentDark'>Bienaventurados<br>los pobres en espíritu<br>porque de ellos<br>es el reino de los cielos<br>Bienaventurados los que lloran<br>porque ellos recibirán consolación<br>Bienaventurados los mansos<br>porque ellos recibirán<br>la tierra por heredad<br>Bienaventurados los<br>que tienen hambre y sed de justicia<br>porque ellos serán hartos<br><br>Bienaventurados los misericordiosos<br>porque ellos alcanzarán misericordia<br>Bienaventurados los<br>de limpio corazón<br>porque ellos verán á Dios<br>Bienaventurados los pacificadores<br>porque ellos serán<br>llamados hijos de Dios<br>Bienaventurados los que padecen<br>persecución por causa de<br>la justicia<br>porque de ellos es el reino de los cielos<br><br>Bienaventurados sois<br>cuando os vituperaren<br>y os persiguieren<br>y dijeren de vosotros<br>todo mal por mi causa, mintiendo.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         }, {
             "id": 25,
             "title": "<h1 class='titleDark'>25 Mateo 5:17 | No Penseís</h1>",
-            "estrofas": "<article class='contentDark'>No penséis que he venido para abrogar<br>La ley ó los profetas<br>No he venido para abrogar, sino a cumplir<br>Porque de cierto os digo<br>Que hasta que perezca el cielo y la tierra<br>Ni una jota ni un tilde perecerá de la ley<br>// Hasta que todas las cosas sean hechas //</article>",
+            "estrofas": "<article class='contentDark'>No penséis que he venido<br>para abrogar<br>La ley ó los profetas<br>No he venido para abrogar<br>sino a cumplir<br><br>Porque de cierto os digo<br>Que hasta que<br>perezca el cielo y la tierra<br>Ni una jota ni un tilde<br>perecerá de la ley<br>//Hasta que todas las cosas<br>sean hechas//</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
@@ -812,7 +812,7 @@
         }, {
             "id": 27,
             "title": "<h1 class='titleDark'>27 Mateo 11:28 | Venid a mí</h1>",
-            "estrofas": "<article class='contentDark'>Venid á mí, todos los que estáis trabajados<br>Y cargados que yo, os haré descansar<br>Llevad mi yugo, sobre vosotros<br>Y aprended de mí que soy<br> manso y humilde de corazón<br>Y hallaréis, descanso para vuestras almas<br>Porque mi yugo, es fácil, y ligera, mi carga<br></article>",
+            "estrofas": "<article class='contentDark'>Venid á mí<br>todos los que estáis trabajados<br>Y cargados que yo<br>os haré descansar<br>Llevad mi yugo sobre vosotros<br>Y aprended de mí<br>que soy manso<br>y humilde de corazón<br><br>Y hallaréis, descanso<br>para vuestras almas<br>Porque mi yugo<br>es fácil, y ligera mi carga<br></article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         }, {
             "id": 28,
@@ -822,18 +822,18 @@
         }, {
             "id": 29,
             "title": "<h1 class='titleDark'>29 Mateo 19:6 | Guarda los mandamientos</h1>",
-            "estrofas": "<article class='contentDark'>Y he aquí, uno llegándose le Dijo:<br>Maestro bueno<br> ¿Qué bien haré para tener la vida eterna?<br>y él le dijo<br>¿por qué me llamas bueno?<br>porque me llamas bueno<br>ninguno es bueno sino uno<br>es á saber Dios<br><br>/// Y si quieres entrar en la vida ///<br>guarda los mandamientos</article>",
+            "estrofas": "<article class='contentDark'>Y he aquí, uno llegándose le Dijo:<br>Maestro bueno<br> ¿Qué bien haré para<br>tener la vida eterna?<br>y él le dijo<br>¿por qué me llamas bueno?<br>porque me llamas bueno<br>ninguno es bueno sino uno<br>es á saber Dios<br><br>/// Y si quieres entrar en la vida ///<br>guarda los mandamientos</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         }, {
             "id": 30,
             "title": "<h1 class='titleDark'>30 Mateo 24:20 | Orad pues</h1>",
-            "estrofas": "<article class='contentDark'>Orad pues<br>que vuestra huída no sea en invierno<br>Ni en sábado<br>porque habrá entonces grande aflicción<br>Cual no fué<br> desde el principio del mundo hasta ahora <br>Ni será<br>y si aquellos días no fuesen acortados<br>Ninguna carne sería salva<br>Mas por causa de los escogidos<br>Aquellos días serán acortados</article>",
+            "estrofas": "<article class='contentDark'>Orad pues<br>que vuestra huída<br>no sea en invierno<br>Ni en sábado<br>porque habrá entonces<br>grande aflicción<br><br>Cual no fué<br>desde el principio del mundo hasta ahora, ni será<br>y si aquellos días no fuesen acortados<br><br>Ninguna carne sería salva<br>Mas por causa de los escogidos<br>Aquellos días serán acortados</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 31,
             "title": "<h1 class='titleDark'>31 Lucas 4:16 | Y vino a Nazareth</h1>",
-            "estrofas": "<article class='contentDark'>Y vino á Nazaret, donde había sido criado<br>Y entró, conforme á su costumbre<br> el día del sábado<br>En la sinagoga y se levantó á leer<br><br>Y fuéle dado el libro del profeta Isaías<br>Y como abrió el libro, halló el lugar<br> donde estaba escrito, donde estaba escrito<br><br>El Espíritu del Señor es sobre mí<br>por cuanto me ha ungido para dar<br>buenas nuevas á los pobres<br>me ha enviado para sanar<br>á los quebrantados de corazón<br>para pregonar á los cautivos libertad<br>y á los ciegos vista<br>para poner en libertad á los quebrantados<br>para predicar el año agradable del señor</article>",
+            "estrofas": "<article class='contentDark'>Y vino á Nazaret<br>donde había sido criado<br>Y entró, conforme á su costumbre<br> el día del sábado<br>En la sinagoga y se levantó á leer<br><br>Y fuéle dado el libro<br>del profeta Isaías<br>Y como abrió el libro<br>halló el lugar<br> donde estaba escrito<br>donde estaba escrito<br><br>El Espíritu del Señor<br>es sobre mí<br>por cuanto me ha<br>ungido para dar<br>buenas nuevas á los pobres<br>me ha enviado para sanar<br>á los quebrantados de corazón<br>para pregonar<br>á los cautivos libertad<br>y á los ciegos vista<br><br>Para poner en libertad á los quebrantados<br>para predicar<br>el año agradable del señor</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
@@ -851,7 +851,7 @@
         {
             "id": 34,
             "title": "<h1 class='titleDark'>34 Romanos 8 | ¿Quién nos apartará?</h1>",
-            "estrofas": "<article class='contentDark'>¿Quién nos apartará, del amor del Señor?<br>¿Quién quitarnos podrá, la Palabra de Dios?<br>Nadie nos quitará<br> la felicidad que Cristo no dió<br>ni la muerte o cuchillo<br>hambre peligro o tribulación<br></article>",
+            "estrofas": "<article class='contentDark'>¿Quién nos apartará<br>del amor del Señor?<br>¿Quién quitarnos podrá<br>la Palabra de Dios?<br>Nadie nos quitará<br> la felicidad que Cristo no dió<br>ni la muerte o cuchillo<br>hambre peligro o tribulación<br></article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
@@ -863,43 +863,43 @@
         {
             "id": 36,
             "title": "<h1 class='titleDark'>36 Galatas 2:20 | Con Cristo estoy</h1>",
-            "estrofas": "<article class='contentDark'>Con Cristo estoy juntamente crucificado<br>Y vivo, no ya yo, mas vive Cristo en mí<br>y lo que ahora vivo en la carne<br>lo vivo en la fe del Hijo de Dios<br> El cual me amó y se entregó á mismo por mi</article>",
+            "estrofas": "<article class='contentDark'>Con Cristo estoy<br>juntamente crucificado<br>Y vivo, no ya yo<br>mas vive Cristo en mí<br>y lo que ahora vivo en la carne<br>lo vivo en la fe del Hijo de Dios<br> El cual me amó<br>y se entregó á mismo por mi</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 37,
             "title": "<h1 class='titleDark'>37 Hebeos 3:7 | Si oyerés hoy su voz</h1>",
-            "estrofas": "<article class='contentDark'>Si oyereis hoy su voz<br>No endurezcáis vuestros corazones<br>Como en la provocación<br>en el día de la tentación en el desierto<br>Donde me tentaron vuestros padres me probaron<br>Y vieron mis obras cuarenta años<br><br>A causa de lo cual<br>me enemisté con esta generación<br>Y dije siempre divagan<br> ellos de corazón<br>Y no han conocido mis caminos<br>no han conocido mis caminos<br>Juré pues en mi ira<br>No entrarán en mi reposo.</article>",
+            "estrofas": "<article class='contentDark'>Si oyereis hoy su voz<br>No endurezcáis vuestros corazones<br>Como en la provocación<br>en el día de la tentación<br>en el desierto<br><br>Donde me tentaron<br>vuestros padres me probaron<br>Y vieron mis obras<br>cuarenta años<br><br>A causa de lo cual<br>me enemisté con esta generación<br>Y dije siempre divagan<br> ellos de corazón<br>Y no han conocido mis caminos<br>no han conocido mis caminos<br>Juré pues en mi ira<br>No entrarán en mi reposo.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 38,
-            "title": "<h1 class='titleDark'><38 Apocalipsis 1:5 | Al que nos amó/h1>",
+            "title": "<h1 class='titleDark'>38 Apocalipsis 1:5 | Al que nos amó</h1>",
             "estrofas": "<article class='contentDark'>Al que nos amó<br> y nos ha lavado<br>de nuestros pecados<br>con su sangre<br>Y nos ha hecho<br>reyes y sacerdotes<br>para Dios y su Padre<br>Á Él sea gloria  é imperio<br>para siempre jamás. Amén.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 39,
-            "title": "<h1 class='titleDark'><39 Apocalipsis 14:12 | La paciencia de los santos/h1>",
-            "estrofas": "<article class='contentDark'>Aquí está la paciencia de los santos<br>Aquí está la paciencia de los santos<br>Aquí están los que guardan los mandamientos de Dios<br>los que guardan los mandamientos de Dios<br>y la fe, y la fede Jesús.</article>",
+            "title": "<h1 class='titleDark'>39 Apocalipsis 14:12 | La paciencia de los santos</h1>",
+            "estrofas": "<article class='contentDark'>Aquí está<br>la paciencia de los santos<br>Aquí está<br>la paciencia de los santos<br>Aquí están<br>los que guardan los mandamientos de Dios<br><br>Los que guardan<br>los mandamientos de Dios<br>y la fe, y la fede Jesús.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 40,
-            "title": "<h1 class='titleDark'><39 Apocalipsis 22:17 | Ven/h1>",
+            "title": "<h1 class='titleDark'>39 Apocalipsis 22:17 | Ven</h1>",
             "estrofas": "<article class='contentDark'>Aquí está la paciencia de los santos<br>Aquí está la paciencia de los santos<br>Aquí están los que guardan los mandamientos de Dios<br>los que guardan los mandamientos de Dios<br>y la fe, y la fede Jesús.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 41,
             "title": "<h1 class='titleDark'>40 Popurrí | Estad siempre gozosos</h1>",
-            "estrofas": "<article class='contentDark'>// Estad siempre gozosos orad sin cesar //<br>Dad gracias en todo<br>porque esta es la voluntad de Dios<br>para con vosotros<br>en Cristo Jesús.<br><br>ALABAD á Adonáy<br>naciones todas pueblos todos, alabadle<br>Porque ha engrandecido<br>sobre nosotros su misericordia<br>// Y la verdad de Adonáy<br>es para siempre<br>Aleluya, amén //<br><br>Sea pues perfecto<br>vuestro corazón<br>para con Jehová<br> nuestro Dios<br>Andando en sus estatutos<br>Guardando sus mandamientos<br>como el día de hoy<br><br>Para que los pueblos de todas las gentes<br>sepan que Adonáy es Dios<br>//Y que no hay otro<br> y que no hay otro<br>Como nuestro Dios //</article>",
+            "estrofas": "<article class='contentDark'>//Estad siempre gozosos<br>orad sin cesar//<br>Dad gracias en todo<br>porque esta es la voluntad de Dios<br>para con vosotros<br>en Cristo Jesús.<br><br>ALABAD á Adonáy<br>naciones todas<br>pueblos todos, alabadle<br>Porque ha engrandecido<br>sobre nosotros su misericordia<br>//Y la verdad de Adonáy<br>es para siempre<br>Aleluya, amén//<br><br>Sea pues perfecto<br>vuestro corazón<br>para con Jehová<br> nuestro Dios<br>Andando en sus estatutos<br>Guardando sus mandamientos<br>como el día de hoy<br><br>Para que los pueblos<br>de todas las gentes<br>sepan que Adonáy es Dios<br>//Y que no hay otro<br> y que no hay otro<br>Como nuestro Dios //</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 42,
             "title": "<h1 class='titleDark'>41 Popurri Vamos orando</h1>",
-            "estrofas": "<article class='contentDark'>// Vamos orando hasta que baje<br> el poder de Dios //<br>Oh Gloria Dios, oh Gloria Dios<br>Vamos orando hasta que baje el poder<br><br>Poder, poder, poder lo necesito<br>para poder vencer las fuerzas del maligno<br>ese mismo poder lo necesitas tú<br>ese mismo poder lo necesito yo<br>// Hermanos vamos a pedir, el Fuego de Dios<br><br>Hermanos vamos a pedir, el Fuego de Dios //<br>// Yo siento un fuego que me esta quemando<br>El Espíritu Santo que me esta llenado //<br>// Fuego, fuego, fuego del Cielo queremos<br>Fuego, fuego, fuego del Cielo queremos //</article>",
+            "estrofas": "<article class='contentDark'>//Vamos orando hasta<br>que baje el poder de Dios//<br>Oh Gloria Dios, oh Gloria Dios<br>Vamos orando<br>hasta que baje el poder<br><br>Poder, poder, poder lo necesito<br>para poder vencer<br> las fuerzas del maligno<br>ese mismo poder lo necesitas tú<br>ese mismo poder lo necesito yo<br><br><br>Hermanos vamos a pedir<br>el Fuego de Dios//<br>//Yo siento un fuego<br>que me esta quemando<br>El Espíritu Santo<br>que me esta llenado//<br>// Fuego, fuego, fuego<br>del Cielo queremos<br>Fuego, fuego, fuego<br>del Cielo queremos //</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
@@ -923,13 +923,13 @@
         {
             "id": 46,
             "title": "<h1 class='titleDark'>46 Mi Pentecostés</h1>",
-            "estrofas": "<article class='contentDark'><h1 class='unica'>1</h1>Cuando el Espíritu bajó en Pentecostés<br>Reunidos en el Templo estaba Andrés,<br>Pedro, Santiago y Bartolomé<br>Y otros hermanos más<br>// Reunidos para orar //<h1 class='unica'>2</h1>Cuando el Espíritu bajó en Pentecostés<br>La gente se reía, y al verlos por la calle<br>Borrachos les decían<h1 class='unica'>3</h1>Por eso aunque algunos ríen hoy también<br>Cuando les cuento mi Pentecostés<br>No me importan sus risas<br> pues pienso para mí<br>// Del Templo y de la Biblia se ríen todavía //.</article>",
+            "estrofas": "<article class='contentDark'><h1 class='unica'>1</h1>Cuando el Espíritu<br>bajó en Pentecostés<br>Reunidos en el Templo<br>estaba Andrés<br>Pedro, Santiago y Bartolomé<br>Y otros hermanos más<br>//Reunidos para orar//<h1 class='unica'>2</h1>Cuando el Espíritu<br>bajó en Pentecostés<br>La gente se reía<br>y al verlos por la calle<br>Borrachos les decían<h1 class='unica'>3</h1>Por eso aunque<br>algunos ríen hoy también<br>Cuando les cuento mi Pentecostés<br>No me importan sus risas<br> pues pienso para mí<br>//Del Templo y de la Biblia<br>se ríen todavía//.</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 47,
             "title": "<h1 class='titleDark'>47 De muchas maneras</h1>",
-            "estrofas": "<article class='contentDark'><h1 class='unica'>1</h1>// De muchas maneras nos habló<br>De muchas maneras<br> nos habló el Señor<br>De muchas maneras nos habló<br>Habló al pueblo de Dios //<br>Vinieron los ángeles<br> trayendo noticias<br>Trayendo palabra<br> palabra de Dios<br>Luego los profetas<br> con las profecías<br>Pues ni así entendieron<br> ni oyeron su voz<br>// De muchas maneras nos habló<br>De muchas maneras<br> nos habló el Señor<br>De muchas maneras nos habló<br>Habló al pueblo de Dios //<br>En el día postrero<br> Él nos ha hablado<br>Por medio de Cristo<br> nuestro salvador<br>Quien siendo inocente<br> fue crucificado<br>Pagando la deuda<br> por mi pecado<br></article>",
+            "estrofas": "<article class='contentDark'><h1 class='unica'>1</h1>//De muchas maneras nos habló<br>De muchas maneras<br> nos habló el Señor<br>De muchas maneras nos habló<br>Habló al pueblo de Dios//<br><br>Vinieron los ángeles<br> trayendo noticias<br>Trayendo palabra<br> palabra de Dios<br>Luego los profetas<br>con las profecías<br>Pues ni así entendieron<br>ni oyeron su voz<br><br>//De muchas maneras nos habló<br>De muchas maneras<br> nos habló el Señor<br>De muchas maneras nos habló<br>Habló al pueblo de Dios//<br><br>En el día postrero<br> Él nos ha hablado<br>Por medio de Cristo<br> nuestro salvador<br>Quien siendo inocente<br> fue crucificado<br>Pagando la deuda<br> por mi pecado<br></article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
@@ -941,13 +941,13 @@
         {
             "id": 49,
             "title": "<h1 class='titleDark'>שמע ישראל - Shema Israel</h1>",
-            "estrofas": "<article class='contentDark'><h1 class='unica'>Deut. 6:4-9</h1>Oye Israel:<br>Jehová nuestro Dios<br>Jehová Uno es:<br>Y Amarás á Jehová tu Dios<br>de todo tu corazón<br>y de toda tu alma<br>y con todo tu poder.<br><br>Y estas palabras que<br>Yo te mando hoy<br> estarán sobre tu corazón:<br>Y las repetirás á tus hijos<br> y hablarás de ellas<br>estando en tu casa<br> y andando por el camino<br>y al acostarte y cuando te levantes:<br> Y has de atarlas<br>por señal en mano<br> y estarán por frontales<br>entre tus ojos:<br> Y las escribirás<br>en los postes de tu casa<br> y en tus portadas.</article>",
+            "estrofas": "<article class='contentDark'><h1 class='unica'>Deut. 6:4-9</h1>Oye Israel:<br>Jehová nuestro Dios<br>Jehová Uno es:<br>Y Amarás á Jehová tu Dios<br>de todo tu corazón<br>y de toda tu alma<br>y con todo tu poder.<br><br>Y estas palabras que<br>Yo te mando hoy<br> estarán sobre tu corazón:<br>Y las repetirás á tus hijos<br> y hablarás de ellas<br>estando en tu casa<br> y andando por el camino<br>y al acostarte y cuando te levantes<br><br>Y has de atarlas<br>por señal en mano<br> y estarán por frontales<br>entre tus ojos:<br> Y las escribirás<br>en los postes de tu casa<br> y en tus portadas.</article>",
             "bg-img": "assets/bg/textos/bg-textos-03.jpg"
         },
         {
             "id": 50,
             "title": "<h1 class='titleDark'>עשרת הדברים - Las Diez Palabras</h1>",
-            "estrofas": "<article class='contentDark'><h1 class='unica'>Deut. 6:4-9</h1> HABLO Dios todas estas palabras, diciendo: Yo soy JEHOVA tu Dios, que te saqué de la tierra de Egipto, de casa de siervos.<br><br><h1 class='unica'>1er Mandamiento</h1>No tendrás dioses<br>ajenos delante de mí. <br><br><h1 class='unica'>2do Mandamiento</h1>No te harás imagen, ni ninguna semejanza de cosa que esté arriba en el cielo<br> ni abajo en la tierra, ni en las aguas debajo de la tierra<br> No te inclinarás á ellas<br>ni las honrarás;<br> porque yo soy Jehová tu Dios, fuerte, celoso,<br> que visito la maldad<br> de los padres sobre los hijos,<br> sobre los terceros<br>y sobre los cuartos,<br> á los que me aborrecen,<br> Y que hago misericordia<br> en millares<br> á los que me aman<br>y guardan mis mandamientos.<br><br><h1 class='unica'>3er Mandamiento</h1>No tomarás el Nombre<br>de Jehová tu Diosen vano<br>porque no dará por inocente<br> Jehová al que tomare<br>su Nombre en vano. <br><br><h1 class='unica'>4to Mandamiento</h1>Acordarte has del día del reposo<br> para santificarlo:<br> Seis días trabajarás<br>y harás toda tu obra;<br> Mas el séptimo día<br> será reposo para Jehová tu Dios:<br> no hagas en él obra alguna,<br> tú, ni tu hijo, ni tu hija, ni tu siervo,<br> ni tu criada, ni tu bestia<br>ni tu extranjero<br> que está dentro de tus puertas:<br> Porque en seis días hizo Jehová<br> los cielos y la tierra,<br> la mar y todas las cosas<br> que en ellos hay<br> y reposó en el séptimo día:<br> por tanto Jehová bendijo<br> el día del reposo y lo santificó. <br><br><h1 class='unica'>5to Mandamiento</h1>Honra á tu padre y á tu madre,<br> porque tus días se alarguen<br> en la tierra que Jehová<br>tu Dios te da. <br><br><h1 class='unica'>6to Mandamiento</h1>No matarás. <br><br><h1 class='unica'>7mo Mandamiento</h1>No cometerás adulterio. <br><br><h1 class='unica'>8vo Mandamiento</h1>No hurtarás. <br><br><h1 class='unica'>9no Mandamiento</h1>No hablarás contra tu prójimo<br> falso testimonio. <br><br><h1 class='unica'>10mo Mandamiento</h1>No codiciarás<br>la casa de tu prójimo,<br> no codiciarás<br>la mujer de tu prójimo,<br> ni su siervo, ni su criada,<br> ni su buey, ni su asno,<br> ni cosa alguna de tu prójimo.</article>",
+            "estrofas": "<article class='contentDark'><h1 class='unica'>Deut. 6:4-9</h1> HABLO Dios todas estas palabras, diciendo: Yo soy JEHOVA tu Dios, que te saqué de la tierra de Egipto, de casa de siervos.<br><br><h1 class='unica'>1er Mandamiento</h1>No tendrás dioses<br>ajenos delante de mí. <br><br><h1 class='unica'>2do Mandamiento</h1>No te harás imagen, ni ninguna semejanza de cosa que esté arriba en el cielo<br> ni abajo en la tierra, ni en las aguas debajo de la tierra<br> No te inclinarás á ellas<br>ni las honrarás;<br> porque yo soy Jehová tu Dios, fuerte, celoso,<br> que visito la maldad<br> de los padres sobre los hijos,<br> sobre los terceros<br>y sobre los cuartos,<br> á los que me aborrecen,<br> Y que hago misericordia<br> en millares<br> á los que me aman<br>y guardan mis mandamientos.<br><br><h1 class='unica'>3er Mandamiento</h1>No tomarás el Nombre<br>de Jehová tu Diosen vano<br>porque no dará por inocente<br> Jehová al que tomare<br>su Nombre en vano. <br><br><h1 class='unica'>4to Mandamiento</h1>Acordarte has del día del reposo<br> para santificarlo:<br> Seis días trabajarás<br>y harás toda tu obra;<br> Mas el séptimo día<br> será reposo para Jehová tu Dios<br><br>No hagas en él obra alguna,<br> tú, ni tu hijo, ni tu hija, ni tu siervo,<br> ni tu criada, ni tu bestia<br>ni tu extranjero<br> que está dentro de tus puertas:<br> Porque en seis días hizo Jehová<br> los cielos y la tierra,<br> la mar y todas las cosas<br> que en ellos hay<br> y reposó en el séptimo día:<br> por tanto Jehová bendijo<br> el día del reposo y lo santificó. <br><br><h1 class='unica'>5to Mandamiento</h1>Honra á tu padre y á tu madre,<br> porque tus días se alarguen<br> en la tierra que Jehová<br>tu Dios te da. <br><br><h1 class='unica'>6to Mandamiento</h1>No matarás. <br><br><h1 class='unica'>7mo Mandamiento</h1>No cometerás adulterio. <br><br><h1 class='unica'>8vo Mandamiento</h1>No hurtarás. <br><br><h1 class='unica'>9no Mandamiento</h1>No hablarás contra tu prójimo<br> falso testimonio. <br><br><h1 class='unica'>10mo Mandamiento</h1>No codiciarás<br>la casa de tu prójimo,<br> no codiciarás<br>la mujer de tu prójimo,<br> ni su siervo, ni su criada,<br> ni su buey, ni su asno,<br> ni cosa alguna de tu prójimo.</article>",
             "bg-img": "assets/bg/textos/bg-textos-03.jpg"
         },
         {
