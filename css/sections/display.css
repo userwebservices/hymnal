@@ -175,13 +175,13 @@ overflow-y: auto; /* Scroll interno para contenido largo */
 
     .overlaidInsideVerse > i.fas.fa-book {/*Bible icon*/
         font-size: 1vw;
-        color: var(--color-primary);
+        color: var(--color-white);
     }
 
     .overlaidTitle h3 {
         font-family: var(--font-text-secondary) ;
         font-weight: var(--light);
-        color: var(--color-primary);
+        color: var(--color-white);
         font-size: 1vw; 
         letter-spacing: 0.5rem;
     }
