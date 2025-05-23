@@ -23,7 +23,7 @@ export class SongHandlers {
     }
     
     updateBackground(song) {
-        const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-02.jpg';
+        const DEFAULT_BG_IMAGE = 'assets/bg/default/bg-default-01.webp';
         const hasCustomBg = song['bg-img'] && song['bg-img'].trim() !== '';
         
         document.querySelector('.display').style.backgroundImage = hasCustomBg

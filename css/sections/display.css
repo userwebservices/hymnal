@@ -109,61 +109,6 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         align-items: flex-start;
     }
 
-
-    /* Styles for div class="overlaidInside", containt: the icon and the <h3> and <h4> text*/
-
-    .overlaidInside {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
-        align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/
-        /*opacity: 0.7;*/
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
-        
-    }
-
-    .overlaidInside > i.far.fa-calendar-alt {/*Calendar icon*/
-        font-size: 4vw;
-        padding-bottom: 2rem; 
-        color: var(--color-menu);
-    }
-
-    .overlaidTitle h4 {
-        font-family: var(--font-text-secondary) ;
-        font-size: 5vw;
-        color: var(--color-menu);
-        font-weight: var(--medium);
-        letter-spacing: 0.7rem;
-        line-height: 90%;
-        padding-bottom: 2rem;
-    }
-
-
-    .overlaidInsideVerse {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
-        align-items: flex-start; /*Aligning items vertically (cross-axis alignment) for flex directions row*/        
-    }
-
-    .overlaidInsideVerse > i.fas.fa-book {/*Bible icon*/
-        font-size: 1vw;
-        color: var(--color-primary);
-    }
-
-    .overlaidTitle h3 {
-        font-family: var(--font-text-secondary) ;
-        font-weight: var(--light);
-        color: var(--color-primary);
-        font-size: 1vw; 
-        letter-spacing: 0.5rem;
-    }
-
-
-    /* E N D Styles for icon*/
-
-   
-
     /* Estilos opcionales para mejor legibilidad */
     .overlaidTitle h1,
     .overlaidTitle h2
@@ -192,19 +137,65 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         padding-bottom: 1rem;
     }
 
-    
 
-    
-  
-    
+     /* Styles for div class="overlaidInside", containt: the icon and the <h3> and <h4> text*/
+
+     .overlaidInside {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
+        align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/
+        /*opacity: 0.7;*/
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
+        
+    }
+
+    .overlaidInside > i.far.fa-calendar-alt {/*Calendar icon*/
+        font-size: 4vw;
+        padding-bottom: 2rem; 
+        color: var(--color-menu);
+    }
+
+    .overlaidTitle h4 {
+        font-family: var(--font-text-secondary) ;
+        font-size: 5vw;
+        color: var(--color-menu);
+        font-weight: var(--medium);
+        letter-spacing: 0.7rem;
+        line-height: 90%;
+        padding-bottom: 2rem;
+    }
+
+    .overlaidInsideVerse {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
+        align-items: flex-start; /*Aligning items vertically (cross-axis alignment) for flex directions row*/        
+    }
+
+    .overlaidInsideVerse > i.fas.fa-book {/*Bible icon*/
+        font-size: 1vw;
+        color: var(--color-primary);
+    }
+
+    .overlaidTitle h3 {
+        font-family: var(--font-text-secondary) ;
+        font-weight: var(--light);
+        color: var(--color-primary);
+        font-size: 1vw; 
+        letter-spacing: 0.5rem;
+    }
+
+    /* E N D Styles for icon*/
+
+
     /*  E N D - Clase para texto de titleAimCover*/
 /* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
                             E N D   AIM TITLE COVER
 ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
 
 
-     
-
+    
 
 
 
@@ -213,7 +204,6 @@ overflow-y: auto; /* Scroll interno para contenido largo */
 ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
 /* ===== Hero Parallax Effect ===== */
 /* Add this at the BOTTOM of your display.css file */
-/* ===== WORKING HERO MOVEMENT ===== */
 
 
 
@@ -282,11 +272,6 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         }
       }
         */
-
-     
-      
-    
-
 
 /* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
                                E N D P A R A L L A X  E F F E C  O N  H E R O  I M A G E | add 21may25

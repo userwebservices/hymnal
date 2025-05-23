@@ -31,12 +31,13 @@
 ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====*****/
 
 /* For bg overlay black transparent*/
+/* ====||||====||||====|||| Styles for text in bg dark ====||||====||||====|||| */
 .titleDark {
   text-align: center;
   color: var(--color-white);
   font-family: var(--font-text-title);
   font-size: 6vw;
-    text-transform: uppercase;
+  text-transform: uppercase;
   letter-spacing: 1rem;
 
 }
@@ -61,7 +62,21 @@
 
 }
 
+.spanish {
+  font-family: var(--font-text-secondary);
+  font-weight: var(--medium);
+  font-size: 4vw;
+  color: var(--color-primary);
+  line-height: 87%;
+  letter-spacing: 0.2vw;
+  
+}
 
+/* ====||||====||||====||||  E N D  Styles for text in bg dark ====||||====||||====|||| */
+
+
+
+/* ====||||====||||====|||| Styles for text in bg light ====||||====||||====|||| */
 
 .titleLight {
   text-align: center;
@@ -90,6 +105,9 @@
   letter-spacing: -0.2vw;
 
 }
+
+/* ====||||====||||====||||  E N D  Styles for text in bg light ====||||====||||====|||| */
+
 
 /*For bg overlay black transparent */
 
