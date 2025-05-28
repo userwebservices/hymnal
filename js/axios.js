@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Immediately set welcome view on initial load
     displaySection.classList.add('welcome-view');
-    displaySection.style.backgroundImage = 'url("../../assets/bg/jagim/shavuot/bg-shavuot-01.webp")';
+    displaySection.style.backgroundImage = 'url("../../assets/bg/default/bg-tablas-25.webp")'; //Maneja la FOTO INICIAL
     
     
     // Create instances

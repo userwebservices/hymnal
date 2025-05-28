@@ -8,7 +8,7 @@ grid-area: display;
 position: relative;
 background-color: var(--color-white);
 position: relative; /* Tue 29 April 25 */
-background-image: url('../../assets/bg/jagim/shavuot/bg-shavuot-01.webp'); /* bg default sección principal */
+/*background-image: url('../../assets/bg/jagim/shavuot/bg-shavuot-01.webp'); /* bg default sección principal */
 background-size: cover; /* Asegura que la imagen cubra el área de la sección */
 background-position: center; /* Centra la imagen dentro del área */
 background-attachment: fixed; /* Fija la imagen al fondo si se hace scroll */
@@ -172,7 +172,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
         align-items: flex-start; /*Aligning items vertically (cross-axis alignment) for flex directions row*/        
     }
-
+ 
     .overlaidInsideVerse > i.fas.fa-book {/*Bible icon*/
         font-size: 1vw;
         color: var(--color-white);
