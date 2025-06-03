@@ -22,7 +22,7 @@ export function getOmerDay() {
     const diffTime = today - omerStart;
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)) - 1;
     
-    if (diffDays > 0 && diffDays < 50) {
+    if (diffDays > 0 && diffDays < 48) {
         return diffDays;
     } else {
         return 0;
@@ -47,9 +47,16 @@ export function setupWelcomeMessage(titleAimCover) {
         </div>`;
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
-            <h1>Siete semanas te contarás:</h1>
-            <h2>Desde que comenzare la hoz en las mieses comenzarás á contarte las siete semanas. Y harás la solemnidad de las semanas á Jehová tu Dios: de la suficiencia voluntaria de tu mano será lo que dieres, según Jehová tu Dios te hubiere bendecido.</h2>
-            <h3>Deut. 16:9</h3>
+        <div class='overlaidInside'>
+                    <i class='pb-4 fas fa-dove'  style='font-size:3vw;color:white'></i>
+                    <!--<h4 class='ps-2'>PENTECOSTÉS</h4>-->
+                </div>
+            <h1>Y COMO se cumplieron los días de PENTECOSTÉS, estaban todos unánimes juntos</h1>
+            <h2>Y de repente vino un estruendo del cielo como de un viento recio que corría, el cual hinchió toda la casa donde estaban sentados</h2>
+            <div class='overlaidInsideVerse'>
+                    <i class='fas fa-book'></i>
+                    <h3 class='ps-2'>Hech. 2:1-2</h3>
+                </div>
         </div>`;
     }
 }

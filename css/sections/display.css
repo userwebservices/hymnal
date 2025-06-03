@@ -5,7 +5,7 @@
 
 .display {
 grid-area: display;
-position: relative;
+position: relative; 
 background-color: var(--color-white);
 position: relative; /* Tue 29 April 25 */
 /*background-image: url('../../assets/bg/jagim/shavuot/bg-shavuot-01.webp'); /* bg default sección principal */
@@ -150,7 +150,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         
     }
 
-    .overlaidInside > i.far.fa-calendar-alt {/*Calendar icon*/
+    .overlaidInside > i.fas fa-dove {/*Calendar icon*/
         font-size: 4vw;
         padding-bottom: 2rem; 
         color: var(--color-menu);
