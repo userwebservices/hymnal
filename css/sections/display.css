@@ -53,7 +53,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* A F E C T A  E L  O V E R L A Y  P R I N C I P A L */
+    background-color: rgba(0, 0, 0, 0.5); /* A F E C T A  E L  O V E R L A Y  P R I N C I P A L */
     z-index: 10;
     transition: opacity 0.3s ease;
 }
@@ -67,7 +67,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
+    background-color: rgba(0, 0, 0, 0.4); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
     z-index: 20; /* Mayor que el estático para que esté encima */
 }
 
@@ -170,12 +170,18 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         display: flex;
         flex-direction: row;
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
-        align-items: flex-start; /*Aligning items vertically (cross-axis alignment) for flex directions row*/        
+        align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/       
+        background-color: var(--color-primary); 
+        border-radius: 0.2rem;
+      
     }
  
     .overlaidInsideVerse > i.fas.fa-book {/*Bible icon*/
         font-size: 1vw;
         color: var(--color-white);
+        margin-bottom: 0rem;
+        padding-bottom: 0rem;
+        padding-left: 0.2rem;
     }
 
     .overlaidTitle h3 {
@@ -183,7 +189,9 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-weight: var(--light);
         color: var(--color-white);
         font-size: 1vw; 
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.2rem;
+        margin-bottom: 0rem;
+       
     }
 
     /* E N D Styles for icon*/

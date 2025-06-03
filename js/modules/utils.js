@@ -58,5 +58,5 @@ export function setupWelcomeMessage(titleAimCover) {
                     <h3 class='ps-2'>Hech. 2:1-2</h3>
                 </div>
         </div>`;
-    }
+    } 
 }
