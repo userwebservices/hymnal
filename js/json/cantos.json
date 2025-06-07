@@ -1450,9 +1450,9 @@
                 "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
             },
             {
-                "id": 0,
-                "title": " <h1 class='titleDark'></h1>",
-                "estrofas": "<article class='contentDark'></article>",
+                "id": 81,
+                "title": " <h1 class='titleDark'>Dios manda lluvia</h1>",
+                "estrofas": "<article class='contentDark'>Dios, manda lluvia<br>Derrama de tu Espíritu<br>Enciende hoy tu fuego<br>Sana mis heridas<br>Restaurame, Señor<br><br>Manda la lluvia<br>El rocio de tu amor<br>Llenando las vidas<br>De tu pueblo, hoy, Señor<br><br>Manda la lluvia<br>El rocio de tu amor<br>Visita hoy mi vida<br>Cámbiame, Señor<br></article>",
                 "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
             }
         ],
@@ -1783,6 +1783,12 @@
                 "bg-img": "assets/bg/alabanza/bg-girl.webp"
             }
 
-        ]
+        ],
+    "coritos": [{
+        "id": 1,
+        "title": "<h1 class='titleDark'>Ven Espíritu de Dios</h1>",
+        "estrofas": "<article class='contentDark'><article class='contentDark'>//Ven, ven, ven, Espiritu divino<br>Ven,ven,ven, apoderate de mí//<br><br>//Apodérate, apodérate<br>Apodérate de todo mi ser//<br><br>//Donde está el Espíritu de Dios<br>hay libertad, hay libertad//<br><br>Libertad, libertad, libertad, libertad<br>Donde está el Espíritu de Dios<br>Ahí siempre hay libertad<br></article>",
+        "bg-img": "assets/bg/coritos/bg-wheat.webp"
+    }]
 
 }

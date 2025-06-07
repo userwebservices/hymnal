@@ -171,7 +171,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         flex-direction: row;
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
         align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/       
-        background-color: var(--color-primary); 
+        background-color: var(--color-black); 
         border-radius: 0.2rem;
       
     }
