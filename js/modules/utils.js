@@ -48,7 +48,7 @@ export function setupWelcomeMessage(titleAimCover) {
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
         <div class='overlaidInside'>
-                    <i class='pb-4 fas fa-dove'  style='font-size:3vw;color:white'></i>
+                    <i class='pb-4 fas fa-heart'  style='font-size:3vw;color:white'></i>
                     <!--<h4 class='ps-2'>PENTECOSTÉS</h4>-->
                 </div>
             <h1>Su paladar es dulcísimo;<br>¡todo él es deseable! </h1>
