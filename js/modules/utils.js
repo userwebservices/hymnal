@@ -48,14 +48,14 @@ export function setupWelcomeMessage(titleAimCover) {
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
         <div class='overlaidInside'>
-                    <i class='pb-4 fas fa-heart'  style='font-size:3vw;color:white'></i>
+                    <i class='pb-4 fas fa-torah'  style='font-size:3vw;color:white'></i>
                     <!--<h4 class='ps-2'>PENTECOSTÉS</h4>-->
                 </div>
-            <h1>Su paladar es dulcísimo;<br>¡todo él es deseable! </h1>
-            <h2>Así es mi amado y así es mi amigo, oh hijas de Jerusalén</h2>
+            <h1>HUBO un varón en tierra de Hus, llamado Job;</h1>
+            <h2> y era este hombre perfecto y recto, y temeroso de Dios, y apartado del mal</h2>
             <div class='overlaidInsideVerse'>
                     <i class='fas fa-book'></i>
-                    <h3 class='ps-2'>Cant.5:16</h3>
+                    <h3 class='ps-2'>Job 1:1</h3>
                 </div>
         </div>`;
     } 

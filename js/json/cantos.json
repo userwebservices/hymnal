@@ -1795,6 +1795,12 @@
         "title": "<h1 class='titleDark'>Ven Espíritu de Dios</h1>",
         "estrofas": "<article class='contentDark'><article class='contentDark'>//Donde está el Espíritu de Dios<br>hay libertad, hay libertad//<br><br>Libertad, libertad, libertad, libertad<br>Donde está el Espíritu de Dios<br>Ahí siempre hay libertad<br><br>//Ven, ven, ven, Espiritu divino<br>Ven,ven,ven, apoderate de mí//<br><br>//Apodérate, apodérate<br>Apodérate de todo mi ser//<br><br>//Aquí esta el Pueblo de Dios<br>sintiendo su poder//<br>//Y el poder está aquí//<br>//Que me llene, que me llene a mí <br>Que te llene, que te llene a ti//<br> </article>",
         "bg-img": "assets/bg/coritos/bg-wheat.webp"
+    },
+    {
+        "id": 2,
+        "title": "<h1 class='titleDark'>Canción de shabat</h1>",
+        "estrofas": "<article class='contentDark'><article class='contentDark'>Seís días podemos trabajar<br>más el séptimo día de reposo<br><br>//Lai, lara lai lara lai, lara lai la//<br><br>Porque en seís días hizo el Eterno<br>El día de reposo y lo santífico<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Por tanto bendijo el Eterno<br> El día de reposo y lo santificó<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Considera éste día de alegría<br> Como día santo y digno de loor<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br></article>",
+        "bg-img": "assets/bg/coritos/bg-wheat.webp"
     }]
 
 }
