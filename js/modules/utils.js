@@ -47,15 +47,11 @@ export function setupWelcomeMessage(titleAimCover) {
         </div>`;
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
-        <div class='overlaidInside'>
-                    <i class='pb-4 fas fa-book'  style='font-size:3vw;color:white'></i>
-                    <!--<h4 class='ps-2'>PENTECOSTÉS</h4>-->
-                </div>
-            <h1>Porque no tenemos lucha contra sangre y carne; </h1>
-            <h2> sino contra principados, contra potestades, contra señores del mundo, gobernadores de estas tinieblas, contra malicias espirituales en los aires.</h2>
+            <h1>y RENUEVENSE en el espíritu de sus pensamientos</h1>
+            <h2> y vistanse del nuevo hombre, creado según Dios en la justicia y santidad de la verdad</h2>
             <div class='overlaidInsideVerse'>
                     <i class='fas fa-book'></i>
-                    <h3 class='ps-2'>Efe.6:12</h3>
+                    <h3 class='ps-2'>Efesios 4:23-24</h3>
                 </div>
         </div>`;
     } 

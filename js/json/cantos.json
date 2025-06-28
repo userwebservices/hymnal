@@ -967,6 +967,12 @@
             "title": "<h1 class='titleDark'>Salmo 103 Bendice alma mìa</h1>",
             "estrofas": "<article class='contentDark'>Bendice alma mía a Jehová<br>y bendiga mi ser su Santo Nombre<br>Bendice alma mía a Jehová<br>y no olvides ninguno de sus beneficios<br><br>Él es quien perdona<br>(perdona tus iniquidades)<br>Él es quien te sana<br>(te sana todas tus dolencias)<br>Él es quien rescata<br>(rescata del hoyo)<br>Del hoyo tu vida<br><br>Él que te corona de favores<br>y misericordias<br>Él que sacia tu boca<br>de mucho bien<br>de modo que así como el águila<br>tu también te rejuvenezcas</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
+        },
+        {
+            "id": 53,
+            "title": "<h1 class='titleDark'>Salmo 34</h1>",
+            "estrofas": "<article class='contentDark'>Bendeciré a Jehová en todo tiempo<br>su alabanza en mi boca de continuo estará<br>en Jehová se gloriara mi alma<br>lo oirán lo mansos y se alegrarán<br><br>//Engrandeced a Jehová conmigo<br>y Exaltemos a una su Nombre<br>Clamé a Jehová y Él me oyó<br>y de todos mis temores me libró//<br><br>Los que miraron a Él fueron alumbrados<br>y sus rostros no fueron avergonzados<br>clamó el pobre y Jehová le oyó<br>y de todas sus angustias lo libró<br><br>//Engrandeced a Jehová conmigo<br>y Exaltemos a una su Nombre<br>Clamé a Jehová y Él me oyó <br>y de todos mis temores me libró//<br><br></article>",
+            "bg-img": "assets/bg/textos/bg-blue.webp"
         }
     ],
     "adoracion":
@@ -1787,20 +1793,28 @@
                 "title": "<h1 class='titleDark'>Noble sostén</h1>",
                 "estrofas": "<article class='contentDark'>Noble sostén de la esperanza mía<br>Fuente bendita de vida eterna<br>Tan solo el alma que en ti confía<br>Tiene paz, tiene paz<br><br>//Mi sostén es Jesús<br>Nunca en la lucha<br>desmayar podré//<br><br>Dura es la lucha, difícil la tarea<br>Más tú me dotas<br>de tu grande poder<br>Mi espíritu renuevas<br>con la nueva esperanza<br>De vencer, de vencer<br><br>//Mi sostén es Jesús<br>Nunca en la lucha<br>desmayar podré//<br><br>Yo soy muy débil<br>pero en ti soy fuerte<br>Nunca en la lucha<br>desmayar podré<br>Si Tú estás conmigo<br> ni a la misma muerte<br>Temeré, no temeré.<br><br>//Mi sostén es Jesús<br>Nunca en la lucha<br>desmayar podré//</article>",
                 "bg-img": "assets/bg/alabanza/bg-girl.webp"
+            },
+            {
+                "id": 55,
+                "title": "<h1 class='titleDark'>Cristo te limpio</h1>",
+                "estrofas": "<article class='contentDark'>Porque recuerdas tu vida pasada<br>Porque recuerdas todos tus pecados<br>Olvídalo, olvídalo, olvídalo<br><br>Ya el Señor te perdonó<br>Tus pecados El limpió<br>En la Sangre de Jesús<br>Y si el diablo viene a ti<br>A decirte no es verdad<br>Sólo debes recurrir<br><br>// A la sangre de Jesús<br>A la sangre de Jesús<br>Y se alejara de ti //<br></article>",
+                "bg-img": "assets/bg/alabanza/bg-girl.webp"
             }
+
 
         ],
     "coritos": [{
-        "id": 1,
-        "title": "<h1 class='titleDark'>Ven Espíritu de Dios</h1>",
-        "estrofas": "<article class='contentDark'><article class='contentDark'>//Donde está el Espíritu de Dios<br>hay libertad, hay libertad//<br><br>Libertad, libertad, libertad, libertad<br>Donde está el Espíritu de Dios<br>Ahí siempre hay libertad<br><br>//Ven, ven, ven, Espiritu divino<br>Ven,ven,ven, apoderate de mí//<br><br>//Apodérate, apodérate<br>Apodérate de todo mi ser//<br><br>//Aquí esta el Pueblo de Dios<br>sintiendo su poder//<br>//Y el poder está aquí//<br>//Que me llene, que me llene a mí <br>Que te llene, que te llene a ti//<br> </article>",
-        "bg-img": "assets/bg/coritos/bg-wheat.webp"
-    },
-    {
-        "id": 2,
-        "title": "<h1 class='titleDark'>Canción de shabat</h1>",
-        "estrofas": "<article class='contentDark'><article class='contentDark'>Seís días podemos trabajar<br>más el séptimo día de reposo<br><br>//Lai, lara lai lara lai, lara lai la//<br><br>Porque en seís días hizo el Eterno<br>El día de reposo y lo santífico<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Por tanto bendijo el Eterno<br> El día de reposo y lo santificó<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Considera éste día de alegría<br> Como día santo y digno de loor<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br></article>",
-        "bg-img": "assets/bg/coritos/bg-wheat.webp"
-    }]
+            "id": 1,
+            "title": "<h1 class='titleDark'>Ven Espíritu de Dios</h1>",
+            "estrofas": "<article class='contentDark'><article class='contentDark'>//Donde está el Espíritu de Dios<br>hay libertad, hay libertad//<br><br>Libertad, libertad, libertad, libertad<br>Donde está el Espíritu de Dios<br>Ahí siempre hay libertad<br><br>//Ven, ven, ven, Espiritu divino<br>Ven,ven,ven, apoderate de mí//<br><br>//Apodérate, apodérate<br>Apodérate de todo mi ser//<br><br>//Aquí esta el Pueblo de Dios<br>sintiendo su poder//<br>//Y el poder está aquí//<br>//Que me llene, que me llene a mí <br>Que te llene, que te llene a ti//<br> </article>",
+            "bg-img": "assets/bg/coritos/bg-wheat.webp"
+        },
+        {
+            "id": 2,
+            "title": "<h1 class='titleDark'>Canción de shabat</h1>",
+            "estrofas": "<article class='contentDark'><article class='contentDark'>Seís días podemos trabajar<br>más el séptimo día de reposo<br><br>//Lai, lara lai lara lai, lara lai la//<br><br>Porque en seís días hizo el Eterno<br>El día de reposo y lo santífico<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Por tanto bendijo el Eterno<br> El día de reposo y lo santificó<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Considera éste día de alegría<br> Como día santo y digno de loor<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br></article>",
+            "bg-img": "assets/bg/coritos/bg-wheat.webp"
+        }
+    ]
 
 }
