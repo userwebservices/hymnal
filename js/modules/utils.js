@@ -48,14 +48,14 @@ export function setupWelcomeMessage(titleAimCover) {
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
         <div class='overlaidInside'>
-                    <i class='pb-4 fas fa-torah'  style='font-size:3vw;color:white'></i>
+                    <i class='pb-4 fas fa-synagogue'  style='font-size:3vw;color:white'></i>
                     <!--<h4 class='ps-2'>PENTECOSTÉS</h4>-->
                 </div>
-            <h1>HUBO un varón en tierra de Hus, llamado Job;</h1>
-            <h2> y era este hombre perfecto y recto, y temeroso de Dios, y apartado del mal</h2>
+            <h1>y RENUEVENSE en el espíritu de sus pensamientos</h1>
+            <h2> y vistanse del nuevo hombre, creado según Dios en la justicia y santidad de la verdad</h2>
             <div class='overlaidInsideVerse'>
                     <i class='fas fa-book'></i>
-                    <h3 class='ps-2'>Job 1:1</h3>
+                    <h3 class='ps-2'>Efesios 4:23-24</h3>
                 </div>
         </div>`;
     } 
