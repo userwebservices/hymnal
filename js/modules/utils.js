@@ -47,12 +47,12 @@ export function setupWelcomeMessage(titleAimCover) {
         </div>`;
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
-            <h1>y RENUEVENSE en el espíritu de sus pensamientos</h1>
-            <h2> y vistanse del nuevo hombre, creado según Dios en la justicia y santidad de la verdad</h2>
+            <h1> ¡Cuán terrible es este lugar! </h1>
+            <h2> No es otra cosa que Casa de Dios, y Puerta del Cielo.</h2>
             <div class='overlaidInsideVerse'>
                     <i class='fas fa-book'></i>
-                    <h3 class='ps-2'>Efesios 4:23-24</h3>
+                    <h3 class='ps-2'>Gen. 28.17</h3>
                 </div>
         </div>`;
-    } 
+    }  
 }
