@@ -58,7 +58,7 @@ export function setupWelcomeMessage(titleAimCover) {
                     <i class='fas fa-book'></i>
                     <h3 class='ps-2'>Génesis 15:17</h3>
 
-                </div>
+                </div> 
         </div>`;
     }  
 }
