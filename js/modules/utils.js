@@ -47,11 +47,17 @@ export function setupWelcomeMessage(titleAimCover) {
         </div>`;
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
-            <h1> ¡Cuán terrible es este lugar! </h1>
-            <h2> No es otra cosa que Casa de Dios, y Puerta del Cielo.</h2>
+
+        <div class='overlaidInside'>
+                    <!--<h4 class='ps-2'>PENTECOSTÉS</h4>-->
+                </div>
+            <img src="../../assets/img/icons/torch.svg" alt="torch icon" class="custom-icon ps-0">
+            <h1>Y sucedió que puesto el sol, y ya obscurecido, </h1>
+            <h2>Dejóse ver un horno humeando, y una <i><strong>antorcha de fuego</strong></i> que pasó por entre los animales divididos.</h2>
             <div class='overlaidInsideVerse'>
                     <i class='fas fa-book'></i>
-                    <h3 class='ps-2'>Gen. 28.17</h3>
+                    <h3 class='ps-2'>Génesis 15:17</h3>
+
                 </div>
         </div>`;
     }  

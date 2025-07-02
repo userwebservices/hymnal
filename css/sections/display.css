@@ -194,6 +194,15 @@ overflow-y: auto; /* Scroll interno para contenido largo */
        
     }
 
+    .custom-icon {
+        width: 1em; /* or your preferred size */
+        height: 5em;
+        vertical-align: middle;
+        color: inherit; /* takes parent's color */
+    }
+    
+   
+
     /* E N D Styles for icon*/
 
 

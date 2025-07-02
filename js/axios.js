@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Immediately set welcome view on initial load
     displaySection.classList.add('welcome-view');
-    displaySection.style.backgroundImage = 'url("../../assets/bg/cover/clouds.jpg")'; //Maneja la FOTO INICIAL
+
+    displaySection.style.backgroundImage = 'url("../../assets/bg/cover/fiery_torch.webp")'; //Maneja la FOTO INICIAL
     
     
     // Create instances
