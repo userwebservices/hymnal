@@ -456,7 +456,7 @@
             "id": 97,
             "title": "<h1 class='titleDark'>97 Camino a Jerusalem</h1>",
             "estrofas": "<article class='contentDark'><h1 class='subtitleDark'>1</h1>Unidos en mente y en un parecer<br>Caminan los santos unidos en fe<br>Contemplan absortos<br>la Jerusalem<br>Lugar de la dicha y eterno placer<h1 class='subtitleDark'>Coro</h1>Caminan, caminan<br>con rumbo a Belem<br>Buscando una patria<br>en Jerusalem<br>Caminan, caminan<br>esperan vencer<br>Anhelan un día mirar al Gran Rey<h1 class='subtitleDark'>2</h1>Marchando gozosos<br>camino a Belem<br>Glorioso camino do va todo fiel<br>Los guía una estrella con su nitidez<br>De lejanas tierras lo vienen a ver<h1 class='subtitleDark'>Coro</h1>Caminan, caminan<br>con rumbo a Belem<br>Buscando una patria<br>en Jerusalem<br>Caminan, caminan<br>esperan vencer<br>Anhelan un día mirar al Gran Rey<h1 class='subtitleDark'>3</h1>Musitan palabras en el corazón<br>Esperan con ansia<br>la transformación<br>Imploran al cielo<br>con gran devoción:<br>¡Ayúdanos Padre a llegar<br>hasta Sión!<h1 class='subtitleDark'>Coro</h1>Caminan, caminan<br>con rumbo a Belem<br>Buscando una patria<br>en Jerusalem<br>Caminan, caminan<br>esperan vencer<br>Anhelan un día mirar al Gran Rey<h1 class='subtitleDark'>4</h1>Muy pronto con Cristo<br>allá en su vergel<br>Serán investidos con gloria y poder<br>Sus ojos se empañan<br>con lágrima cruel<br>Mas nada podrá<br>hacerlos desfallecer.<h1 class='subtitleDark'>Coro</h1>Caminan, caminan<br>con rumbo a Belem<br>Buscando una patria<br>en Jerusalem<br>Caminan, caminan<br>esperan vencer<br>Anhelan un día mirar al Gran Rey</article>",
-            "bg-img": "assets/bg/himnos/bg-jerusalen-03.webp"
+            "bg-img": "assets/bg/himnos/bg-jerusalen-01.webp"
         },
         {
             "id": 98,
@@ -600,7 +600,7 @@
             "id": 141,
             "title": "<h1 class='titleDark'>141 ¿Cómo fue?</h1>",
             "estrofas": "<article class='contentDark'><h1 class='subtitleDark'>1</h1>¿Cómo fue?<br>No sé cómo explicarme<br>Lo que me sucedió<br>¿Qué paso?<br>No logro entender<br>Lo que me aconteció<br>Sólo se<br>Que fue algo muy tremendo<br> lo que a mi me pasó<br>Y que me transformó<br>Enteramente todo mi ser<br><br><h1 class='subtitleDark'>2</h1>Cristo vino hacia mí<br>Su presencia en mí la sentí<br>Hasta entonces yo comprendí<br>Todo su amor por mí<br><br><h1 class='subtitleDark'>3</h1>Ahora soy muy feliz<br>Amándole sólo a él<br>Y quiero ser siempre fiel<br>A mi Señor.<br></article>",
-            "bg-img": "assets/bg/default/bg-default-01.webp"
+            "bg-img": "assets/bg/jagim/shavuot/bg-wheat-2.webp"
         },
         {
             "id": 142,
@@ -824,12 +824,12 @@
             "id": 28,
             "title": "<h1 class='titleDark'>28 Mateo 12:7 | Señor es del sábado</h1>",
             "estrofas": "<article class='contentDark'>Mas si supieseis qué es:<br> Misericordia quiero y no sacrificio<br>no condenarías á los inocentes<br><br>// Porque Señor es del sábado<br> el Hijo del hombre. //</article>",
-            "bg-img": "assets/bg/textos/bg-blue.webp"
+            "bg-img": "assets/bg/himnos/bg-jerusalen-02.webp"
         }, {
             "id": 29,
             "title": "<h1 class='titleDark'>29 Mateo 19:6 | Guarda los mandamientos</h1>",
             "estrofas": "<article class='contentDark'>Y he aquí, uno llegándose le Dijo:<br>Maestro bueno<br> ¿Qué bien haré para<br>tener la vida eterna?<br>y él le dijo<br>¿por qué me llamas bueno?<br>porque me llamas bueno<br>ninguno es bueno sino uno<br>es á saber Dios<br><br>/// Y si quieres entrar en la vida ///<br>guarda los mandamientos</article>",
-            "bg-img": "assets/bg/textos/bg-blue.webp"
+            "bg-img": "assets/bg/coritos/bg-wheat.webp"
         }, {
             "id": 30,
             "title": "<h1 class='titleDark'>30 Mateo 24:20 | Orad pues</h1>",
@@ -959,7 +959,7 @@
         {
             "id": 51,
             "title": "<h1 class='titleDark'>Miqueas 6:8</h1>",
-            "estrofas": "<article class='contentDark'>//Me ha mostrado (me ha mostrado)<br>El Señor (El Señor)<br>Lo que es bueno<br>y lo que oide Él de mi//<br><br>//Hacer justicia (hacer jusicia)<br>Misericordia (misericordia)<br>y ser humilde ante Él//</article>",
+            "estrofas": "<article class='contentDark'>//Me ha mostrado<br>(me ha mostrado)<br>El Señor (El Señor)<br>Lo que es bueno<br>y lo que oide Él de mi//<br><br>//Hacer justicia (hacer jusicia)<br>Misericordia (misericordia)<br>y ser humilde ante Él//</article>",
             "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
