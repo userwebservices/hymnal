@@ -51,12 +51,13 @@ export function setupWelcomeMessage(titleAimCover) {
         <div class='overlaidInside'>
                     <!--<h4 class='ps-2'>PENTECOSTÉS</h4>-->
                 </div>
-            <img src="../../assets/img/icons/torch.svg" alt="torch icon" class="custom-icon ps-0">
-            <h1>Y sucedió que puesto el sol, y ya obscurecido, </h1>
-            <h2>Dejóse ver un horno humeando, y una <i><strong>antorcha de fuego</strong></i> que pasó por entre los animales divididos.</h2>
+                 <i class='fas fa-synagogue' styles="widht: 200px"></i>
+            <!--<img src="../../assets/img/icons/torch.svg" alt="torch icon" class="custom-icon ps-0">-->
+            <h1>y tuvo miedo y dijó:<br>¡Cuán terrible es este lugar!<br>No es otra cosa que</h1>
+            <h2>Casa de Dios<br>y Puerta del Cielo</h2>
             <div class='overlaidInsideVerse'>
                     <i class='fas fa-book'></i>
-                    <h3 class='ps-2'>Génesis 15:17</h3>
+                    <h3 class='ps-2'>Génesis 28:17</h3>
 
                 </div> 
         </div>`;

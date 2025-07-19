@@ -94,7 +94,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         /* Lo pega abajo */
         left: 4rem;
         /* Lo pega a la izquierda */
-        max-width: 70%;
+        max-width: 77%;
         /* Opcional: para que no ocupe todo el ancho */
          z-index: 40; /* Por encima de todo */
     }
@@ -114,27 +114,30 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     .overlaidTitle h2
         {
         margin: 0;/* Elimina márgenes por defecto */
-        color: var(--color-white);/* Si el fondo es oscuro */
+        color: var(--color-black);/* Si el fondo es oscuro */
         
         }
 
     .overlaidTitle h1 { 
         font-family: var(--font-text-primary) ;
-        font-size: 5vw;
-        font-weight: var(--medium);
+        font-size: 4vw;
+                font-weight: var(--lighten);
+
         letter-spacing: 0rem;
         line-height: 90%;
         /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
         padding-bottom: 1rem;
+        color: var(--color-white);/* Si el fondo es oscuro */
     }
 
     .overlaidTitle h2 {
         font-family: var(--font-text-primary); /* Usando la variable que cree el 3april25 */
-        font-weight: var(--lighten);
-        font-size: 3vw;
+        font-weight: var(--medium);
+        font-size: 5vw;
         letter-spacing: 0.1rem;
         line-height: 99%;
         padding-bottom: 1rem;
+        color: var(--color-white);/* Si el fondo es oscuro */
     }
 
 
@@ -201,6 +204,13 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         color: inherit; /* takes parent's color */
     }
     
+    .fa-synagogue {
+            /* Tus estilos aquí */
+            color: gold;
+            color: var(--color-primary);
+            font-size: 3rem;
+            margin: 10px;
+            }
    
 
     /* E N D Styles for icon*/
