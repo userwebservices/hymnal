@@ -162,9 +162,9 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     }
 
     .overlaidTitle h4 {
-        font-family: var(--font-text-secondary) ;
-        font-size: 5vw;
-        color: var(--color-menu);
+        font-family: var(--font-text-primary) ;
+        font-size: 2.5vw;
+        color: var(--color-black);
         font-weight: var(--medium);
         letter-spacing: 0.7rem;
         line-height: 90%;

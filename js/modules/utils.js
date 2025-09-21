@@ -53,11 +53,11 @@ export function setupWelcomeMessage(titleAimCover) {
                 </div>
                  <i class='fas fa-synagogue' styles="widht: 200px"></i>
             <!--<img src="../../assets/img/icons/torch.svg" alt="torch icon" class="custom-icon ps-0">-->
-            <h1>y tuvo miedo y dijó:<br>¡Cuán terrible es este lugar!<br>No es otra cosa que</h1>
-            <h2>Casa de Dios<br>y Puerta del Cielo</h2>
+            <h1>Habla á los hijos de Israel, y diles:</h1>
+            <h4>En el mes séptimo, al primero del mes tendréis sábado, una conmemoración al son de trompetas y una santa convocación.</h4>
             <div class='overlaidInsideVerse'>
                     <i class='fas fa-book'></i>
-                    <h3 class='ps-2'>Génesis 28:17</h3>
+                    <h3 class='ps-2'>Lev. 23:24</h3>
 
                 </div> 
         </div>`;
