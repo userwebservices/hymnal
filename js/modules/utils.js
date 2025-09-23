@@ -48,18 +48,22 @@ export function setupWelcomeMessage(titleAimCover) {
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
 
-        <div class='overlaidInside'>
-                    <!--<h4 class='ps-2'>PENTECOSTÉS</h4>-->
-                </div>
-                 <i class='fas fa-synagogue' styles="widht: 200px"></i>
+            <div class='overlaidInside'>
+                        <h1 class='ps-2'>יום תרועה</h1>
+                        <h2 class='ps-2'>Día de las Trompetas</h2>
+                        <hr>
+            </div>
+                
+            <i class='fas fa-bullhorn' ></i>
             <!--<img src="../../assets/img/icons/torch.svg" alt="torch icon" class="custom-icon ps-0">-->
-            <h1>Habla á los hijos de Israel, y diles:</h1>
-            <h4>En el mes séptimo, al primero del mes tendréis sábado, una conmemoración al son de trompetas y una santa convocación.</h4>
+            <h2>Proclama en alta voz No te detengas</h2>
+            <h1>Como shofar alza tu voz</h1>
+            <h2>Y da a conocer a mi pueblo su rebelion<br> y a la casa de Jacob su pecado</h2>
+            
             <div class='overlaidInsideVerse'>
-                    <i class='fas fa-book'></i>
-                    <h3 class='ps-2'>Lev. 23:24</h3>
-
-                </div> 
+                <!--<i class='fas fa-book'></i>-->
+                <h3 class='ps-2'>Is.58:1</h3>
+            </div> 
         </div>`;
     }  
 }

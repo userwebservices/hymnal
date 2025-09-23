@@ -109,6 +109,14 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         align-items: flex-start;
     }
 
+    
+
+    .overlaidTitle > i.fas.fa-bullhorn { /* ✅ CORRECT, is working in Mon 22 sept 25 */
+    font-size: 7vw;
+    padding-bottom: 1rem; 
+    color: var(--color-primary);
+}
+
     /* Estilos opcionales para mejor legibilidad */
     .overlaidTitle h1,
     .overlaidTitle h2
@@ -119,9 +127,9 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         }
 
     .overlaidTitle h1 { 
-        font-family: var(--font-text-primary) ;
+        font-family: var(--font-lemonade); 
         font-size: 4vw;
-                font-weight: var(--lighten);
+        font-weight: var(--bold);
 
         letter-spacing: 0rem;
         line-height: 90%;
@@ -131,9 +139,9 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     }
 
     .overlaidTitle h2 {
-        font-family: var(--font-text-primary); /* Usando la variable que cree el 3april25 */
+        font-family: var(--font-lemonade); /* Usando la variable que cree el 3april25 */
         font-weight: var(--medium);
-        font-size: 5vw;
+        font-size: 3vw;
 
 
         letter-spacing: 0.1rem;
@@ -145,7 +153,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
 
      /* Styles for div class="overlaidInside", containt: the icon and the <h3> and <h4> text*/
 
-     .overlaidInside {
+     .overlaidInside h1 {
         display: flex;
         flex-direction: row;
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
@@ -153,10 +161,30 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         /*opacity: 0.7;*/
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
         
+        
     }
 
-    .overlaidInside > i.fas fa-synagogue {/*Calendar icon*/
-        font-size: 7vw;
+    .overlaidInside h1 {
+        color: var(--color-primary);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
+        font-size: 3rem;
+
+    }
+
+    .overlaidInside h2 {
+        color: var(--color-primary);
+        font-family:var(--font-text-primary);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
+        font-size: 3rem;
+
+    }
+
+    .overlaidInside hr {
+        padding-bottom: 3rem;
+    }
+
+    .overlaidInside > i.fas fa-bullhorn	 {/*Calendar icon*/
+        font-size: 1vw;
         padding-bottom: 2rem; 
         color: var(--color-menu);
     }
@@ -176,7 +204,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         flex-direction: row;
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
         align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/       
-        background-color: var(--color-black); 
+        background-color: var(--color-primary); 
         border-radius: 0.2rem; 
       
     }
@@ -199,20 +227,9 @@ overflow-y: auto; /* Scroll interno para contenido largo */
        
     }
 
-    .custom-icon {
-        width: 1em; /* or your preferred size */
-        height: 5em;
-        vertical-align: middle;
-        color: inherit; /* takes parent's color */
-    }
     
-    .fa-synagogue {
-            /* Tus estilos aquí */
-            color: gold;
-            color: var(--color-primary);
-            font-size: 3rem;
-            margin: 10px;
-            }
+    
+    
    
 
     /* E N D Styles for icon*/
@@ -305,3 +322,4 @@ overflow-y: auto; /* Scroll interno para contenido largo */
 /* ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||
                                E N D P A R A L L A X  E F F E C  O N  H E R O  I M A G E | add 21may25
 ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
+ 

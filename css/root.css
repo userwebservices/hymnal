@@ -1,9 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/lemonade-stand');
+
 :root {
   /* Font texts */ 
   --font-text-primary: 'Poppins', sans-serif;
   --font-text-secondary: 'Open Sans', sans-serif;
   --font-text-accent: 'Playfair Display', serif;
   --font-text-title: 'Bebas Neue', serif;
+  --font-lemonade: 'Lemonade Stand', cursive;
   /* Font colors */
   --color-primary: #4FB0E3;    /* Your main blue */
   --color-black: #2D3539;      /* Pure black */
@@ -15,7 +18,7 @@
   --light: 300;
   --regular: 400;
   --medium: 500;
-  --semi-bold: 600;
+  --semi-bold: 600; 
   --bold: 700;
 }
 
@@ -32,6 +35,31 @@
 
 /* For bg overlay black transparent*/
 /* ====||||====||||====|||| Styles for text in bg dark ====||||====||||====|||| */
+
+
+/* Example usage: */
+.lemonade-heading {
+    font-family: var(--font-lemonade);
+    font-weight: var(--bold);
+}
+
+.special-title {
+    font-family: var(--font-lemonade);
+    color: var(--color-primary);
+}
+
+/* Or apply to existing elements */
+h1, h2, h3 {
+    font-family: var(--font-lemonade);
+}
+
+/* Or create a utility class */
+.lemonade-text {
+    font-family: var(--font-lemonade);
+}
+
+
+
 .titleDark {
   text-align: center;
   color: var(--color-white);
