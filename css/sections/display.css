@@ -67,7 +67,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
+    background-color: rgba(0, 0, 0, 0.2); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
     z-index: 20; /* Mayor que el estático para que esté encima */
 }
 
