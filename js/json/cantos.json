@@ -1811,6 +1811,12 @@
                 "title": "<h1 class='titleDark'>Día de aclamación</h1>",
                 "estrofas": "<article class='contentDark'>Hoy es día de aclamación<br>Al son del shofar nos reuniremos<br>Hoy es día de exaltación<br>Al son del shofar nos gozaremos<br><br>HaleluYah, HaleluYah<br> HaleluYah, HaleluYah<br>Exálten al Rey<br><br>Con gran sonido del shofar<br>Yeshúa mandará a sus malajim<br>Y reunirán a sus ecogidos<br>De todas las partes de la tierra<br><br>HaleluYah, HaleluYah<br> HaleluYah, HaleluYah<br>Exálten al Rey<br><br>Cantad alegres al Poderoso<br>Habitantes de toda la tierra<br>Servir al Eterno con alegría<br>Venid ante Él con regocijo<br><br>HaleluYah, HaleluYah, HaleluYah<br> HaleluYah<br>Exálten al Rey<br><br></article>",
                 "bg-img": "assets/bg/alabanza/teruah25.webp"
+            },
+            {
+                "id": 57,
+                "title": "<h1 class='titleDark'>Ki gadol Atah</h1>",
+                "estrofas": "<article class='contentDark'>//Kol goim asher asita<br><p class='spanish'>Todas las gentes que hiciste</p>yabou ve-ishtajavu<br><p class='spanish'>Vendrán y se postrarán</p>lefaneja Adonáy<br><p class='spanish'>Delante de Ti Señor</p>Vijabdu, vijabdu liShmeja//<br><p class='spanish'>Y honrarán Tu Nombre</p><br>/// Ki Gadol Atah ///<br><p class='spanish'>Porque Grandes eres Tú</p>veOseh niflaot<br><p class='spanish'>y hacedor de maravillas</p>///Atah Elohim///<br><p class='spanish'>Tu eres Dios</p>leBadeja<br><p class='spanish'>Tú sólo</p></article>",
+                "bg-img": "assets/bg/alabanza/bg-girl.webp"
             }
 
 
