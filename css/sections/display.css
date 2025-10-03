@@ -114,7 +114,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     .overlaidTitle > i.fas.fa-bullhorn { /* ✅ CORRECT, is working in Mon 22 sept 25 */
     font-size: 7vw;
     padding-bottom: 1rem; 
-    color: var(--color-primary);
+    color: var(--color-kipurim);
 }
 
     /* Estilos opcionales para mejor legibilidad */
@@ -122,7 +122,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     .overlaidTitle h2
         {
         margin: 0;/* Elimina márgenes por defecto */
-        color: var(--color-black);/* Si el fondo es oscuro */
+        color: var(--color-kipurim);/* Si el fondo es oscuro */
         
         }
 
@@ -132,10 +132,12 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-weight: var(--bold);
 
         letter-spacing: 0rem;
-        line-height: 90%;
+        line-height: 110%;
         /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
         padding-bottom: 1rem;
-        color: var(--color-black);/* Si el fondo es oscuro */
+        color: var(--color-kipurim);/* Si el fondo es oscuro */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+
     }
 
     .overlaidTitle h2 {
@@ -148,6 +150,8 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         line-height: 99%;
         padding-bottom: 1rem;
         color: var(--color-black);/* Si el fondo es oscuro */
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+
     }
 
 
@@ -159,22 +163,16 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
         align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/
         /*opacity: 0.7;*/
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
+        /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Mejor contraste */
+        color: var(--color-kipurim);
         
         
-    }
-
-    .overlaidInside h1 {
-        color: var(--color-primary);
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
-        font-size: 3rem;
-
     }
 
     .overlaidInside h2 {
-        color: var(--color-primary);
+        color: var(--color-black);
         font-family:var(--font-text-primary);
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
+        /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Mejor contraste */
         font-size: 3rem;
 
     }
@@ -204,7 +202,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         flex-direction: row;
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
         align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/       
-        background-color: var(--color-primary); 
+        background-color: var(--color-black); 
         border-radius: 0.2rem; 
       
     }

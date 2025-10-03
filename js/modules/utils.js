@@ -49,20 +49,19 @@ export function setupWelcomeMessage(titleAimCover) {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
 
             <div class='overlaidInside'>
-                        <h1 class='ps-2'>יום תרועה</h1>
-                        <h2 class='ps-2'>Día de las Trompetas</h2>
+                        <h1 class='ps-2'>יום הכיפורים</h1>
+                        <h2 class='ps-2'>Día de las ֵExpiaciones</h2>
                         <hr>
             </div>
                 
-            <i class='fas fa-bullhorn' ></i>
+            <!--<i class='fas fa-bullhorn' ></i>-->
             <!--<img src="../../assets/img/icons/torch.svg" alt="torch icon" class="custom-icon ps-0">-->
-            <h2>Proclama en alta voz No te detengas</h2>
-            <h1>Como shofar alza tu voz</h1>
-            <h2>Y da a conocer a mi pueblo su rebelion<br> y a la casa de Jacob su pecado</h2>
+            <h2>Y casi todo es purificado segun la ley con sangre; </h2>
+            <h1>y sin derramamiento de sangre<br>no se hace remision</h1>
             
             <div class='overlaidInsideVerse'>
                 <!--<i class='fas fa-book'></i>-->
-                <h3 class='ps-2'>Is.58:1</h3>
+                <h3 class='ps-2'>Heb. 9:22</h3>
             </div> 
         </div>`;
     }  

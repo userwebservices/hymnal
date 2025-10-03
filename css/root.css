@@ -12,7 +12,8 @@
   --color-black: #2D3539;      /* Pure black */
   --color-menu: #e8e6e6;      /* For the hoover effect in menu section */
   --color-secondary: #f7f7f7; 
-  --color-white: #f7f7f7;        
+  --color-white: #f7f7f7;  
+  --color-kipurim: red;      
   /* Font weights */
   --lighten:100;
   --light: 300;
