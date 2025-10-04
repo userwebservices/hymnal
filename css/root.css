@@ -13,7 +13,8 @@
   --color-menu: #e8e6e6;      /* For the hoover effect in menu section */
   --color-secondary: #f7f7f7; 
   --color-white: #f7f7f7;  
-  --color-kipurim: red;      
+  --color-kipurim: red; 
+  --color-sukkot: #63b136;     
   /* Font weights */
   --lighten:100;
   --light: 300;
@@ -65,7 +66,7 @@ h1, h2, h3 {
   text-align: center;
   color: var(--color-white);
   font-family: var(--font-text-title);
-  font-size: 6vw;
+  font-size: 4vw;
   text-transform: uppercase;
   letter-spacing: 1rem;
 

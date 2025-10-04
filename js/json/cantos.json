@@ -1832,7 +1832,14 @@
             "title": "<h1 class='titleDark'>Canción de shabat</h1>",
             "estrofas": "<article class='contentDark'><article class='contentDark'>Seís días podemos trabajar<br>más el séptimo día de reposo<br><br>//Lai, lara lai lara lai, lara lai la//<br><br>Porque en seís días hizo el Eterno<br>El día de reposo y lo santífico<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Por tanto bendijo el Eterno<br> El día de reposo y lo santificó<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Considera éste día de alegría<br> Como día santo y digno de loor<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br></article>",
             "bg-img": "assets/bg/coritos/bg-wheat.webp"
+        },
+        {
+            "id": 3,
+            "title": "<h1 class='titleDark'>Israel confia en el Señor</h1>",
+            "estrofas": "<article class='contentDark'>//Israel, Israel betaj BaAshem<br><p class ='spanish'>Israel, Israel confía en el Señor</p>Ezram uMaginam Hu//<br><p class ='spanish'>Ayuda y escudo es Él</p><br>//Israel, Israel, Israel <br>betaj baAshem<br><p class ='spanish'>Confía en el Señor</p>Israel, Israel, Israel <br>ezram uMaginam Hu//<br><p class ='spanish'>Ayuda y escudo es Él</p><br>//Israel, Israel confía en el Señor<br>Él es tu escudo y tu ayudador//<br><br>//Israel, Israel, Israel <br>betaj baAshem<br><p class ='spanish'>Confía en el Señor</p>Israel, Israel, Israel <br>ezram uMaginam Hu//<br><p class ='spanish'>Ayuda y escudo es Él</p></article>",
+            "bg-img": "assets/bg/coritos/coritosCover_02.webp"
         }
+
     ]
 
 }

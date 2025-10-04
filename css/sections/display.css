@@ -130,13 +130,13 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-family: var(--font-lemonade); 
         font-size: 4vw;
         font-weight: var(--bold);
-
+ 
         letter-spacing: 0rem;
         line-height: 110%;
         /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
         padding-bottom: 1rem;
-        color: var(--color-kipurim);/* Si el fondo es oscuro */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+        color: var(--color-sukkot);/* Si el fondo es oscuro */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
 
     }
 
@@ -164,7 +164,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/
         /*opacity: 0.7;*/
         /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Mejor contraste */
-        color: var(--color-kipurim);
+        color: var(--color-sukkot);
         
         
     }
