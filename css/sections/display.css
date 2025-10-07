@@ -38,7 +38,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
 ====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||====****||||*/
 
 
-/*Capa transparente*/
+/*ºpa transparente*/
 /* Capa transparente - MODIFICADO */
 
 
@@ -67,7 +67,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
+    background-color: rgba(0, 0, 0, 0.5); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
     z-index: 20; /* Mayor que el estático para que esté encima */
 }
 
@@ -211,8 +211,10 @@ overflow-y: auto; /* Scroll interno para contenido largo */
       
     }
  
-    .overlaidInsideVerse > i.fas.fa-book {/*Bible icon*/
+    .overlaidInsideVerse img {/*Bible icon*/
         font-size: 1vw;
+        width: 3vw;
+    color: #63b136;
         color: var(--color-black);
         margin-bottom: 0rem;
         padding-bottom: 0rem;
@@ -223,9 +225,9 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-family: var(--font-text-secondary) ;
         font-weight: var(--light);
         color: var(--color-black);
-        font-size: 1vw; 
+        font-size: 3vw; 
         letter-spacing: 0.2rem;
-        margin-bottom: 0rem;
+        margin-bottom: 0rem;  
        
     }
 

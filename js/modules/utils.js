@@ -49,19 +49,19 @@ export function setupWelcomeMessage(titleAimCover) {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
 
             <div class='overlaidInside'>
-                        <h1 class='ps-2'> חג הסכת- Fiesta de las Cabañas<h1>
+                        <h1 class='ps-2'> חג הסכת<br>Fiesta de las Cabañas<h1>
                         <!--<h2 class='ps-2'>CABANAS</h2>-->
                         
             </div> 
-                
+                 º
             <!--<i class='fas fa-bullhorn' ></i>-->
-            <!--<img src="../../assets/img/icons/torch.svg" alt="torch icon" class="custom-icon ps-0">-->
+            <!--<img src="../../assets/img/icons/torch.svg" alt="arrow" style="width: 200px; border: 1px solid black;" >-->
             <!--<h2>Habla á los hijos de Israel, y diles:</h2>-->
             <h1>Abraham, por fe habitó en la tierra prometida como en tierra ajena, <span class="sukkot">morando en cabañas</span> con Isaac y Jacob, herederos juntamente de la misma promesa.</h1>
             
             <div class='overlaidInsideVerse'>
                 <!--<i class='fas fa-book'></i>-->
-                <img src="../../assets/img/icons/arrow.svg" alt="torch icon" class="custom-icon ps-0">
+                <img src="../../assets/img/icons/arrow.svg" alt="torch icon" style="width: 3vw; color: #63b136;">
                 <h3 class='ps-2'>Heb.11:9</h3>
             </div> 
         </div>`; 

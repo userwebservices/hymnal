@@ -110,7 +110,7 @@ h1, h2, h3 {
   font-size: 6vw;
   text-align: center;
   letter-spacing: 0.3rem;
-  line-height: 100%;
+  line-height: 110%;
   padding: 1rem 0rem;
   letter-spacing: -0.2vw;
   text-shadow: 2px 2px 5px rgba(28, 29, 30, 0.1); /* Mejor contraste */
