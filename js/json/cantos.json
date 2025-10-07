@@ -1840,6 +1840,26 @@
             "bg-img": "assets/bg/coritos/coritosCover_02.webp"
         }
 
+    ],
+    "cabañas": [{
+            "id": 1,
+            "title": "<h1 class='titleDark'>Cabanas a Adonay</h1>",
+            "estrofas": "<article class='cabanas'>Cabañas a Jehová celebrarás<br>A los quince días de este mes<br>En el mes séptimo se hará<br>Cabañas cabañas a Jehová<br><br>Precepto fue del Dios de Israel<br>En Deuteronomio dieciséis<br>Todo varón se debe presentar<br>Traeremos ofrenda a Jehová<br><br><h1 class='subtitleDark'>Coro</h1>// Y te alegrarás<br>delante de Adonáy te alegrarás<br>Tú, tu hijo y tu hija<br>tu siervo y el que contigo habita //<br><br>Fiesta a Jehová celebrarás<br>Y agradecido tú estarás<br>Por las bendiciones que te da<br>Alegre, alegre estarás<br></article>",
+            "bg-img": "assets/bg/himnos/prueba5-01.webp"
+        },
+        {
+            "id": 2,
+            "title": "<h1 class='titleDark'>Pon cabanas</h1>",
+            "estrofas": "<article class='cabanas'>// Pon Cabañas al Señor<br>da tus frutos con amor<br>Siete días son de honor<br>y el octavo convocación //<br><br><h1 class='subtitleDark'>Coro</h1>// Ramos y frutos cubrirán el Templo del SeñorY gozosos cantaremos alabanzas de loor //<br><br>// No olvides tu presente<br>dalos grandes para Él<br>El becerro de tus labios<br>tu le debes de traer //<br></article>",
+            "bg-img": "assets/bg/himnos/prueba5-01.webp"
+        },
+        {
+            "id": 3,
+            "title": "<h1 class='titleDark'>Una morada celestial</h1>",
+            "estrofas": "<article class='cabanas'>Cuando sacaste a tu pueblo<br>de egipto<br>en cabañas lo hiciste habitar<br>Angustia, hambre, sed y dolor<br>padecieron hasta desmayar<br>Pero tu los sostenías<br>en su peregrinar<br> como un padre a su hijo<br>librándolo de todo mal<br><br>Una morada temporal<br>como sombra de la celestial<br>Desde tiempos antiguos<br>anunciaste a los patriarcas<br>Que no por siempre vivirían<br>en esta tierra corrompida<br><br><h1 class='subtitleDark'>Coro</h1>// Vamos Israel regocíjate en el Rey<br>siete días habitareis<br>en tu morada temporal<br>recuerda las promesas<br>que tú Adon te dió<br> de una morada celestial //<br><br>Escucha oh Israel<br>a los quince días del séptimo mes<br>En cabañas habitarás<br>y por siete días te alegrarás<br>De todos tus frutos<br>a tu Elohim presentarás<br>este es el tiempo señalado<br>para celebrar<br>Siendo uno ante el Rey<br> gozando ante Él<br><br><h1 class='subtitleDark'>Coro</h1>// Vamos Israel regocíjate en el Rey<br>siete días habitareis<br>en tu morada temporal<br>recuerda las promesas<br>que tú Adon te dió<br> de una morada celestial //<br><br>Porque un dia recibiras<br>una morada eterna<br>Tu cuerpo transformado será<br> y por siempre ante tu Rey estarás<br>El día tan anhelado cerca está<br>cuando Yeshúa vuelva, vuelva ya<br><br><h1 class='subtitleDark'>Coro</h1>// Vamos Israel regocíjate en el Rey<br>siete días habitareis<br>en tu morada temporal<br>recuerda las promesas<br>que tú Adon te dió<br> de una morada celestial //<br></article>",
+            "bg-img": "assets/bg/himnos/prueba5-01.webp"
+        }
+
     ]
 
 }

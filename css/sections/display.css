@@ -67,7 +67,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
+    background-color: rgba(0, 0, 0, 0.4); /* A F E C T A  E L  O V E R L A Y  D I N A M I C O */
     z-index: 20; /* Mayor que el estático para que esté encima */
 }
 
@@ -122,35 +122,34 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     .overlaidTitle h2
         {
         margin: 0;/* Elimina márgenes por defecto */
-        color: var(--color-kipurim);/* Si el fondo es oscuro */
+        color: var(--color-white);/* Si el fondo es oscuro */
         
         }
 
     .overlaidTitle h1 { 
-        font-family: var(--font-lemonade); 
-        font-size: 4vw;
-        font-weight: var(--bold);
- 
+        font-family: var(--font-text-secondary); 
+        font-size: 3.7vw;
+        font-weight: var(--medium);
         letter-spacing: 0rem;
-        line-height: 110%;
+        line-height: 90%;
         /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Mejor contraste */
         padding-bottom: 1rem;
-        color: var(--color-sukkot);/* Si el fondo es oscuro */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+        color: var(--color-white);/* Si el fondo es oscuro */
+        /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+        width: 50rem;
 
     }
 
     .overlaidTitle h2 {
-        font-family: var(--font-lemonade); /* Usando la variable que cree el 3april25 */
-        font-weight: var(--medium);
+        font-family: var(--font-text-secondary); /* Usando la variable que cree el 3april25 */
+        font-weight: var(--bold);
         font-size: 3vw;
-
-
+        width: 30rem;
         letter-spacing: 0.1rem;
         line-height: 99%;
         padding-bottom: 1rem;
-        color: var(--color-black);/* Si el fondo es oscuro */
-                text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+        color: var(--color-white);/* Si el fondo es oscuro */
+        /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
 
     }
 
@@ -159,26 +158,31 @@ overflow-y: auto; /* Scroll interno para contenido largo */
 
      .overlaidInside h1 {
         display: flex;
+        font-size: 4rem;
         flex-direction: row;
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
         align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/
         /*opacity: 0.7;*/
         /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Mejor contraste */
-        color: var(--color-sukkot);
+        color: var(--color-black);
+        line-height: 90%;
+        padding-bottom: 0.1rem;
+        
         
         
     }
 
     .overlaidInside h2 {
         color: var(--color-black);
-        font-family:var(--font-text-primary);
+        font-family:var(--font-lemonade);
         /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Mejor contraste */
-        font-size: 3rem;
+        font-size: 4rem;
+        
 
     }
 
     .overlaidInside hr {
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
     }
 
     .overlaidInside > i.fas fa-bullhorn	 {/*Calendar icon*/
@@ -197,19 +201,19 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         padding-bottom: 2rem;
     }
 
-    .overlaidInsideVerse {
+    .overlaidInsideVerse { 
         display: flex;
         flex-direction: row;
         justify-content: flex-start; /*Aligning items to the left (main-axis alignment) in flex directions: row*/
         align-items: center; /*Aligning items vertically (cross-axis alignment) for flex directions row*/       
-        background-color: var(--color-black); 
+        /*background-color: var(--color-purple); */
         border-radius: 0.2rem; 
       
     }
  
     .overlaidInsideVerse > i.fas.fa-book {/*Bible icon*/
         font-size: 1vw;
-        color: var(--color-white);
+        color: var(--color-black);
         margin-bottom: 0rem;
         padding-bottom: 0rem;
         padding-left: 0.2rem; 
@@ -218,11 +222,17 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     .overlaidTitle h3 {
         font-family: var(--font-text-secondary) ;
         font-weight: var(--light);
-        color: var(--color-white);
+        color: var(--color-black);
         font-size: 1vw; 
         letter-spacing: 0.2rem;
         margin-bottom: 0rem;
        
+    }
+
+    .sukkot {
+        font-size: 6rem;
+        line-height: 90%;
+        font-family: var(--font-text-primary);
     }
 
     
