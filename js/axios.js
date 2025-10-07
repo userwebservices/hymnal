@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
     
     
-    // Create instances
+    // Create instances 
     const appState = new AppState();
     const songHandlers = new SongHandlers(displaySection, contentContainer, titleAimCover);
     const menuHandlers = new MenuHandlers(appState, songHandlers);
