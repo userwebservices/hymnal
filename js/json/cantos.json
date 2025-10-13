@@ -1866,6 +1866,12 @@
             "bg-img": "assets/bg/cover/sukkah_09.webp"
         },
         {
+            "id": 15,
+            "title": "<h1 class='titleDark'>En totalidad a ti</h1>",
+            "estrofas": "<article class='cabanas'>En totalidad a Ti<br>Rindo alma y corazón<br>No tengo nada más que dar<br>Tómalo mi buen Señor<br><br>Tómame en tus brazos Cristo<br>Toma mi vida en tus manos<br>Y haz de mi lo que Tú quieras<br>Tómame aquí estoy<br><br></article>",
+            "bg-img": "assets/bg/cover/sukkah_09.webp"
+        },
+        {
             "id": 5,
             "title": "<h1 class='titleDark'>Edificio eterno</h1>",
             "estrofas": "<article class='cabanas'><h1 class='subtitleDark'>1</h1>Esta Sukah espera<br>un edificio eterno<br>No hecha por mano del hombre<br>sino por el Creador<br>Porque sé que si esta<br>morada terrenal se deshiciere<br>Recibiré una morada celestial<br><br><h1 class='subtitleDark'>Coro</h1>Hale HaleluYah a mi Rey Yeshúa<br> Porque yo estaré donde Él esta<br>Él es el Camino, la Verdad y Vida<br> Y por medio de Él, al Padre iré<br><br><h1 class='subtitleDark'>2</h1>Escucha Israel<br>no se turbe tu corazón<br>En la casa del Padre<br>hay morada para ti<br>Si crees en el Padre<br>cree también en el Hijo<br>Quién pronto volverá, Volverá por ti<br><br><h1 class='subtitleDark'>Coro</h1>Hale HaleluYah a mi Rey Yeshúa<br>Porque en sus promesas<br>puedo confiar<br> Él me ha prometido<br>que pronto volverá<br>Yo le esperaré en santidad<br>Yo le esperaré en santidad<br></article>",
