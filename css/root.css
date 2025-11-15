@@ -16,13 +16,13 @@
   --color-kipurim: red; 
   --color-sukkot: #63b136; 
   --color-purple: #6F6B85;    
-  /* Font weights */
+  /* Font weights */ 
   --lighten:100;
   --light: 300;
-  --regular: 400; 
+  --regular: 400;  
   --medium: 500;
   --semi-bold: 600; 
-  --bold: 700;
+  --bold: 900;
 }
 
 /*
