@@ -543,6 +543,12 @@
             "bg-img": "assets/bg/cover/sukkot.webp"
         },
         {
+            "id": 125,
+            "title": "<h1 class='titleDark'>125 Alegres allá en el Cielo</h1>",
+            "estrofas": "<article class='contentDark'><h1 class='subtitleDark'>1</h1>Alegres allá en el Cielo<br>Los Ángeles ante Dios<br>Alaban su Santo Nombre<br>Millones en derredor<br>De noche y día sus arpas<br>Tañendo dulce canción<br>Arcángeles, Querubines<br>Y Serafines al son<br><br><h1 class ='subtitleDark'>Coro</h1>Todos juntos cantad a Dios<br>Al Supremo Dios<br>Por su gran Poder<br>Por su gran Amor<br>Todos juntos cantad al Rey<br>Al Supremo Rey<br>Por su gran Amor<br>Por su gran Poder<br><br><h1 class='subtitleDark'>2</h1>Alegres aquí en la tierra<br>Los hombres te dan loor<br>Aquellos que rescataste<br>Del mundo tan pecador<br>Sonora voz masculina<br>La fina voz femenil<br>También voces infantiles<br>Y voces de edad senil<br><br><h1 class ='subtitleDark'>Coro</h1>Todos juntos cantad a Dios<br>Al Supremo Dios<br>Por su gran Poder<br>Por su gran Amor<br>Todos juntos cantad al Rey<br>Al Supremo Rey<br>Por su gran Amor<br>Por su gran Poder<br><br><h1 class='subtitleDark'>3</h1>Alegres también las aves<br>Alaban a su Creador<br>Trinando con sus cantares<br>Elevan su dulce voz<br>Los campos con su perfume<br>Las flores con su color<br>El sol, la luna y estrellas<br>Con su radiante esplendor.<br><br><h1 class ='subtitleDark'>Coro</h1>Todos juntos cantad a Dios<br>Al Supremo Dios<br>Por su gran Poder<br>Por su gran Amor<br>Todos juntos cantad al Rey<br>Al Supremo Rey<br>Por su gran Amor<br>Por su gran Poder<br><br></article>",
+            "bg-img": "assets/bg/default/bg-default-01.webp"
+        },
+        {
             "id": 126,
             "title": "<h1 class='titleDark'>126 Me guía Él</h1>",
             "estrofas": "<article class='contentDark'><h1 class='subtitleDark'>1</h1>Me guía él, con cuánto amor<br>Me guía siempre mi Señor<br>Al ver mi esfuerzo en serle fiel<br>Con cuánto amor me guía él<h1 class='subtitleDark'>Coro</h1>Me guía él, me guía él<br>Con cuánto amor me guía él<br>No abrigo dudas ni temor<br>Pues me conduce el Buen Pastor<h1 class='subtitleDark'>2</h1>En el abismo del dolor<br>O en donde brille el sol mejor<br>En dulce paz o en lucha cruel<br>Con gran bondad me guía él<h1 class='subtitleDark'>Coro</h1>Me guía él, me guía él<br>Con cuánto amor me guía él<br>No abrigo dudas ni temor<br>Pues me conduce el Buen Pastor<h1 class='subtitleDark'>3</h1>Tu mano quiero yo tomar<br>Jesús, y nunca vacilar<br>Púes sólo a quien te sigue fiel<br>Se oyó decir: me guía él<h1 class='subtitleDark'>Coro</h1>Me guía él, me guía él<br>Con cuánto amor me guía él<br>No abrigo dudas ni temor<br>Pues me conduce el Buen Pastor<h1 class='subtitleDark'>4</h1>Y mi carrera al terminar<br>Y así mi triunfo al realizar<br>No habrá ni dudas, ni temor<br>Pues me guiará mi Buen Pastor.<h1 class='subtitleDark'>Coro</h1>Me guía él, me guía él<br>Con cuánto amor me guía él<br>No abrigo dudas ni temor<br>Pues me conduce el Buen Pastor</article>",
@@ -1816,6 +1822,12 @@
                 "id": 57,
                 "title": "<h1 class='titleDark'>Ki gadol Atah</h1>",
                 "estrofas": "<article class='contentDark'>//Kol goim asher asita<br><p class='spanish'>Todas las gentes que hiciste</p>yabou ve-ishtajavu<br><p class='spanish'>Vendrán y se postrarán</p>lefaneja Adonáy<br><p class='spanish'>Delante de Ti Señor</p>Vijabdu, vijabdu liShmeja//<br><p class='spanish'>Y honrarán Tu Nombre</p><br>/// Ki Gadol Atah ///<br><p class='spanish'>Porque Grandes eres Tú</p>veOseh niflaot<br><p class='spanish'>y hacedor de maravillas</p>///Atah Elohim///<br><p class='spanish'>Tu eres Dios</p>leBadeja<br><p class='spanish'>Tú sólo</p></article>",
+                "bg-img": "assets/bg/alabanza/bg-girl.webp"
+            },
+            {
+                "id": 58,
+                "title": "<h1 class='titleDark'>Hineh lo yanum</h1>",
+                "estrofas": "<article class='contentDark'>//Hineh lo yanum veLo yishan<br><p class='spanish'>He aquí no se adormecerá ni dormirá</p>Shomer Israel<br><p class='spanish'>El que guarda a Israel</p>Hineh lo yanum<br><p class='spanish'>He aquí no se adormecerá</p>veLo yishan, veLo yishan<br><p class='spanish'>ni dormirá</p>Shomer, shomer Israel//<br><p class='spanish'>El que guarda a Israel</p><br>//He aquí no se adormecerá<br>ni dormirá<br>Él que guarda a Israel<br>He aquí no dormirá, no dormirá<br>Él que guarda a Israel</article>",
                 "bg-img": "assets/bg/alabanza/bg-girl.webp"
             }
 

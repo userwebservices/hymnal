@@ -1,3 +1,5 @@
+//maneja imagen background en el cover principal
+
 // js/axios.js
 import { AppState } from './modules/stateManager.js';
 import { SongHandlers } from './modules/songHandlers.js';
@@ -15,9 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Immediately set welcome view on initial load
     displaySection.classList.add('welcome-view');
 
-    displaySection.style.backgroundImage = 'url("../../assets/bg/cover/IMG_0592.jpg")'; //Maneja la FOTO INICIAL
+    displaySection.style.backgroundImage = 'url("../../assets/bg/cover/birkat.webp")'; //Maneja la FOTO INICIAL
  
-    
+     
     
     // Create instances 
     const appState = new AppState();

@@ -53,7 +53,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.0); /* A F E C T A  E L  O V E R L A Y  P R I N C I P A L */
+    background-color: rgba(0, 0, 0, 0.5); /* A F E C T A  E L  O V E R L A Y  P R I N C I P A L */
     z-index: 10;
     transition: opacity 0.3s ease;
 }
@@ -149,10 +149,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         padding-bottom: 1rem;
         color: var(--color-primary);/* Si el fondo es oscuro */
         width: 70rem;
-
     } 
-
-    
 
     .overlaidTitle h2 {
         font-family: var(--font-text-secondary); /* Usando la variable que cree el 3april25 */
@@ -172,8 +169,6 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-family:var(--font-lemonade);
         /*text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Mejor contraste */
         font-size: 4rem;
-        
-
     }
 
     .overlaidInside hr {
@@ -184,16 +179,6 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-size: 1vw;
         padding-bottom: 2rem; 
         color: var(--color-menu);
-    }
-
-    .overlaidTitle h4 {
-        font-family: var(--font-text-primary) ;
-        font-size: 2.5vw;
-        color: var(--color-black);
-        font-weight: var(--medium);
-        letter-spacing: 0.7rem;
-        line-height: 90%;
-        padding-bottom: 2rem;
     }
 
     .overlaidInsideVerse { 
@@ -207,7 +192,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     }
  
     .overlaidInsideVerse img {/*Bible icon*/
-        font-size: 1vw;
+        font-size: 5vw;
         width: 3vw;
         color: var(--color-white);
         margin-bottom: 0rem;
@@ -222,9 +207,27 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-size: 3vw; 
         letter-spacing: 0.2rem;
         margin-bottom: 0rem; 
-                text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.7); 
- 
-        
+        text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.7); 
+    }
+
+    .overlaidTitle h4 {
+        font-family: var(--font-text-primary) ;
+        font-size: 2vw;
+        color: var(--color-white);
+        font-weight: var(--medium);
+        letter-spacing: 0.7rem;
+        line-height: 90%;
+        padding-bottom: 2rem;
+    }
+
+    .overlaidTitle h5 {
+        font-family: var(--font-text-secondary) ;
+        font-size: 1vw;
+        color: var(--color-white);
+        font-weight: var(--medium);
+        letter-spacing: 0.2rem;
+        line-height: 90%;
+        padding: 2rem;
     }
 
     .sukkot {

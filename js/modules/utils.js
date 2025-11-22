@@ -1,3 +1,5 @@
+//Maneja el título-texto de la página principal
+
 // js/modules/utils.js
 export function getOmerDay() {
     const today = new Date();
@@ -55,16 +57,16 @@ export function setupWelcomeMessage(titleAimCover) {
             </div> 
                  º
             <!--<i class='fas fa-bullhorn' ></i>-->
-            <!--<img src="../../assets/img/icons/torch.svg" alt="arrow" style="width: 200px; border: 1px solid black;" >-->
-            <h2>זה־היּום עשה יהוה נגילה ונשמחה בוֹ</h2>
-                        <h2>Zeh HaYom asa Yehová, nagila veNishmeja bo</h2>
-
-            <h1>Éste es el día que hizó Jehová<br>nos gozaremos y alegraremos en él</h1>
+            <!--<img src="../../assets/img/icons/torch.svg" alt="arrow" style="width: 200px; border: 1px solid white;" >-->
+            <h4>Y dijo Jeremías profeta:</h4>
+            <h1>אָמֵן כֵּן יַעֲשֶׂה יְהוָה</h1>
+            <h1>Amén, ken yaaseh Yehová</h1>
+            <h3>AMÉN, ASÍ LO HAGA JEHOVÁ</h3>
             
             <div class='overlaidInsideVerse'>
                 <!--<i class='fas fa-book'></i>-->
                 <img src="../../assets/img/icons/arrow.svg" alt="torch icon" style="width: 3vw; color: #fffff;">
-                <h3 class='ps-2'>Sal.118:24</h3>
+                <h5 class='ps-2'>Jer. 28:6</h5>
             </div> 
         </div>`; 
     }  
