@@ -1829,6 +1829,12 @@
                 "title": "<h1 class='titleDark'>Hineh lo yanum</h1>",
                 "estrofas": "<article class='contentDark'>//Hineh lo yanum veLo yishan<br><p class='spanish'>He aquí no se adormecerá ni dormirá</p>Shomer Israel<br><p class='spanish'>El que guarda a Israel</p>Hineh lo yanum<br><p class='spanish'>He aquí no se adormecerá</p>veLo yishan, veLo yishan<br><p class='spanish'>ni dormirá</p>Shomer, shomer Israel//<br><p class='spanish'>El que guarda a Israel</p><br>//He aquí no se adormecerá<br>ni dormirá<br>Él que guarda a Israel<br>He aquí no dormirá, no dormirá<br>Él que guarda a Israel</article>",
                 "bg-img": "assets/bg/alabanza/bg-girl.webp"
+            },
+            {
+                "id": 59,
+                "title": " <h1 class='titleDark'>Ashira na liDidi</h1>",
+                "estrofas": "<article class='contentDark'>// Ashira nah Lididi<br><p class='spanish'>Cantaré ahora para mi amado</p>shirat Dodi<br><p class='spanish'>el canto de mi Amado </p>Shirat shirat Dodi<br><p class='spanish'>El canto, el canto de mi Amado</p>leJarmo//<p class='spanish'>a su viña</p><br>//Kerem hayah li Didi<br><p class='spanish'>Una viña tenía mi Amado</p>beKeren ben-shamen<br><p class='spanish'>En un lugar fértil</p>beKeren ben-shamen//<br><p class='spanish'>En un lugar fértil</p></article>",
+                "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
             }
 
 

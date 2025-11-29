@@ -1,12 +1,17 @@
 @import url('https://fonts.cdnfonts.com/css/lemonade-stand');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Ranchers&display=swap');
 
 :root {
   /* Font texts */ 
   --font-text-primary: 'Poppins', sans-serif;
   --font-text-secondary: 'Open Sans', sans-serif;
   --font-text-accent: 'Playfair Display', serif;
-  --font-text-title: 'Bebas Neue', serif; 
+  --font-text-title: 'Bebas Neue', serif;  
   --font-lemonade: 'Lemonade Stand', cursive;
+  --font-Ranchers: 'Ranchers';
+  --font-Annie: 'Annie Use Your Telescope', cursive;
+
   /* Font colors */
   --color-primary: #4FB0E3;    /* Your main blue */
   --color-black: #2D3539;      /* Pure black */
@@ -15,7 +20,8 @@
   --color-white: #f7f7f7;  
   --color-kipurim: red; 
   --color-sukkot: #63b136; 
-  --color-purple: #6F6B85;    
+  --color-purple: #6F6B85;  
+  --color-kermes: #FF008B;  
   /* Font weights */ 
   --lighten:100;
   --light: 300;

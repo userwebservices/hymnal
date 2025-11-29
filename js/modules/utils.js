@@ -58,15 +58,14 @@ export function setupWelcomeMessage(titleAimCover) {
                  º
             <!--<i class='fas fa-bullhorn' ></i>-->
             <!--<img src="../../assets/img/icons/torch.svg" alt="arrow" style="width: 200px; border: 1px solid white;" >-->
-            <h4>Y dijo Jeremías profeta:</h4>
-            <h1>אָמֵן כֵּן יַעֲשֶׂה יְהוָה</h1>
-            <h1>Amén, ken yaaseh Yehová</h1>
-            <h3>AMÉN, ASÍ LO HAGA JEHOVÁ</h3>
+            <h4>DÍA SANTO ES A NUESTRO SEÑOR: </h4>
+            <h1>No se entristezcan</h1>
+            <h3>¡Porque el gozo de Jehová: es nuestra fortaleza!</h3>
             
             <div class='overlaidInsideVerse'>
-                <!--<i class='fas fa-book'></i>-->
-                <img src="../../assets/img/icons/arrow.svg" alt="torch icon" style="width: 3vw; color: #fffff;">
-                <h5 class='ps-2'>Jer. 28:6</h5>
+            <hr>
+                <i class='fas fa-book'></i>
+                <h5 class='ps-2'>Neh. 8:10</h5>
             </div> 
         </div>`; 
     }  
