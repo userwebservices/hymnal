@@ -58,14 +58,13 @@ export function setupWelcomeMessage(titleAimCover) {
                  º
             <!--<i class='fas fa-bullhorn' ></i>-->
             <!--<img src="../../assets/img/icons/torch.svg" alt="arrow" style="width: 200px; border: 1px solid white;" >-->
-            <h4>DÍA SANTO ES A NUESTRO SEÑOR: </h4>
-            <h1>No se entristezcan</h1>
-            <h3>¡Porque el gozo de Jehová: es nuestra fortaleza!</h3>
+            <h1>Yo los alimentaré con lo mejor del trigo</h1>
+            <h4>Y con miel de la Roca los saciaré</h4>
             
             <div class='overlaidInsideVerse'>
             <hr>
-                <i class='fas fa-book'></i>
-                <h5 class='ps-2'>Neh. 8:10</h5>
+                <i class='fas fa-book' style="color: #ffffff"></i>
+                <h5 class='ps-2'>Salmo 81:16</h5>
             </div> 
         </div>`; 
     }  

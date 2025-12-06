@@ -148,7 +148,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
         padding-bottom: 1rem;
         color: var(--color-kermes);/* Si el fondo es oscuro */
-        width: 70rem;
+        width: 45rem;
     } 
 
     .overlaidTitle h2 {
@@ -210,7 +210,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     .overlaidInside > i.fas fa-bullhorn	 {/*Calendar icon*/
         font-size: 1vw;
         padding-bottom: 2rem; 
-        color: var(--color-menu);
+        color: var(--color-white);
     }
 
     .overlaidInsideVerse { 
@@ -238,11 +238,12 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         
       font-family: var(--font-Ranchers) ;
         font-size: 2vw;
-        color: var(--color-kermes);
+        color: var(--color-white);
         font-weight: var(--medium);
         letter-spacing: 0.1rem;
         line-height: 90%;
         padding: 2rem;
+        text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.7); 
     }
 
    

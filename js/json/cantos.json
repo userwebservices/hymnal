@@ -1843,19 +1843,25 @@
             "id": 1,
             "title": "<h1 class='titleDark'>Ven Espíritu de Dios</h1>",
             "estrofas": "<article class='contentDark'><article class='contentDark'>//Donde está el Espíritu de Dios<br>hay libertad, hay libertad//<br><br>Libertad, libertad, libertad, libertad<br>Donde está el Espíritu de Dios<br>Ahí siempre hay libertad<br><br>//Ven, ven, ven, Espiritu divino<br>Ven,ven,ven, apoderate de mí//<br><br>//Apodérate, apodérate<br>Apodérate de todo mi ser//<br><br>//Aquí esta el Pueblo de Dios<br>sintiendo su poder//<br>//Y el poder está aquí//<br>//Que me llene, que me llene a mí <br>Que te llene, que te llene a ti//<br> </article>",
-            "bg-img": "assets/bg/coritos/bg-wheat.webp"
+            "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 2,
             "title": "<h1 class='titleDark'>Canción de shabat</h1>",
             "estrofas": "<article class='contentDark'><article class='contentDark'>Seís días podemos trabajar<br>más el séptimo día de reposo<br><br>//Lai, lara lai lara lai, lara lai la//<br><br>Porque en seís días hizo el Eterno<br>El día de reposo y lo santífico<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Por tanto bendijo el Eterno<br> El día de reposo y lo santificó<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br>Considera éste día de alegría<br> Como día santo y digno de loor<br><br>//Lai, lara lai,lara lai, lara lai la//<br><br></article>",
-            "bg-img": "assets/bg/coritos/bg-wheat.webp"
+            "bg-img": "assets/bg/textos/bg-blue.webp"
         },
         {
             "id": 3,
             "title": "<h1 class='titleDark'>Israel confia en el Señor</h1>",
             "estrofas": "<article class='contentDark'>//Israel, Israel betaj BaAshem<br><p class ='spanish'>Israel, Israel confía en el Señor</p>Ezram uMaginam Hu//<br><p class ='spanish'>Ayuda y escudo es Él</p><br>//Israel, Israel, Israel <br>betaj baAshem<br><p class ='spanish'>Confía en el Señor</p>Israel, Israel, Israel <br>ezram uMaginam Hu//<br><p class ='spanish'>Ayuda y escudo es Él</p><br>//Israel, Israel confía en el Señor<br>Él es tu escudo y tu ayudador//<br><br>//Israel, Israel, Israel <br>betaj baAshem<br><p class ='spanish'>Confía en el Señor</p>Israel, Israel, Israel <br>ezram uMaginam Hu//<br><p class ='spanish'>Ayuda y escudo es Él</p></article>",
-            "bg-img": "assets/bg/coritos/coritosCover_02.webp"
+            "bg-img": "assets/bg/textos/bg-blue.webp"
+        },
+        {
+            "id": 4,
+            "title": "<h1 class='titleDark'>Te alabarán todos los reyes</h1>",
+            "estrofas": "<article class='contentDark'><article class='contentDark'>// Con mis manos y mi vida<br>Te alabo Señor, te alabo Señor<br>Con mis manos y mi vida<br>Te alabo bendito Señor //<br><br>Porque Tú has sido<br>Precioso para mí<br>Precioso para mí, precioso para mí<br>Porque Tú has sido<br>Precioso para mí<br>Te alabo bendito Señor<br><br>// Te alabarán oh Jehová<br>todos los reyes<br>Todos los reyes de la tierra<br>Porque han oído<br>los dichos de tu boca<br>Y cantarán de los<br> caminos de Jehová//<br><br>// Porque la Gloria de<br>Jehová es grande<br>Porque Jehová es <br>excelso en sus caminos<br>Porque Jehová atiende al humilde<br>Más mira de lejos al altivo //<br><br></article>",
+            "bg-img": "assets/bg/textos/bg-blue.webp"
         }
 
     ],
