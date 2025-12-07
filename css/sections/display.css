@@ -141,14 +141,14 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     }
     .overlaidTitle h1 { 
         font-family: var(--font-Ranchers); 
-        font-size: 5vw;
+        font-size: 7vw;
         font-weight: var(--bold);
         letter-spacing: 0.2rem;
         line-height: 90%;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+        text-shadow: 2px 2px 5px rgba(140, 136, 136, 0.5); 
         padding-bottom: 1rem;
         color: var(--color-kermes);/* Si el fondo es oscuro */
-        width: 45rem;
+        width: 60rem;
     } 
 
     .overlaidTitle h2 {
@@ -177,13 +177,13 @@ overflow-y: auto; /* Scroll interno para contenido largo */
 
     .overlaidTitle h4 {
         font-family: var(--font-Ranchers) ;
-        font-size: 3vw;
-        color: var(--color-primary);
+        font-size: 6vw;
+        color: var(--color-white);
         font-weight: var(--medium);
         letter-spacing: 0.1rem;
         line-height: 90%;
         padding-bottom: 2rem;
-        text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.7); 
+        text-shadow: 2px 2px 5px rgba(124, 119, 119, 0.7); 
     }
 
     .overlaidTitle h5 {
@@ -237,8 +237,8 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     .overlaidInsideVerse h5 { 
         
       font-family: var(--font-Ranchers) ;
-        font-size: 2vw;
-        color: var(--color-white);
+        font-size: 4vw;
+        color: var(--color-primary);
         font-weight: var(--medium);
         letter-spacing: 0.1rem;
         line-height: 90%;
