@@ -18,7 +18,7 @@ min-height: 0; /* Asegura que la grid no se expanda */
 overflow-y: auto; /* Scroll interno para contenido largo */
 }
 
-
+ 
 
 /* El contenedor de contenido debe tener mayor z-index */ 
 #contentContainer {
@@ -141,14 +141,14 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     }
     .overlaidTitle h1 { 
         font-family: var(--font-Ranchers); 
-        font-size: 7vw;
+        font-size: 8vw;
         font-weight: var(--bold);
         letter-spacing: 0.2rem;
         line-height: 90%;
-        text-shadow: 2px 2px 5px rgba(140, 136, 136, 0.5); 
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
         padding-bottom: 1rem;
-        color: var(--color-kermes);/* Si el fondo es oscuro */
-        width: 60rem;
+        color: var(--color-yedid);/* Si el fondo es oscuro */
+        width: 99rem;
     } 
 
     .overlaidTitle h2 {
@@ -176,14 +176,14 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     }
 
     .overlaidTitle h4 {
-        font-family: var(--font-Ranchers) ;
-        font-size: 6vw;
-        color: var(--color-white);
-        font-weight: var(--medium);
+        font-family: var(--font-primary) ;
+        font-size: 3vw;
+        color: var(--color-yedid2);
+        font-weight: var(--light);
         letter-spacing: 0.1rem;
         line-height: 90%;
         padding-bottom: 2rem;
-        text-shadow: 2px 2px 5px rgba(124, 119, 119, 0.7); 
+        text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.1); 
     }
 
     .overlaidTitle h5 {
@@ -237,13 +237,13 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     .overlaidInsideVerse h5 { 
         
       font-family: var(--font-Ranchers) ;
-        font-size: 4vw;
-        color: var(--color-primary);
+        font-size: 2vw;
+        color: var(--color-yedid);
         font-weight: var(--medium);
         letter-spacing: 0.1rem;
         line-height: 90%;
         padding: 2rem;
-        text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.7); 
+        text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.1); 
     }
 
    
@@ -261,7 +261,48 @@ overflow-y: auto; /* Scroll interno para contenido largo */
     }
     
     
-    
+
+    /*.  código logo Yedid svg 11dic25*/
+            /* Estilos para el contenedor del logo */
+        .logo-container {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            width: 100%;
+        }
+
+                .logo-svg {
+            width: 700px; /* Reducido de 500px */
+            height: auto; /* Mantiene proporciones */
+            max-width: 80%; /* Limita el ancho máximo */
+            display: block;
+            margin: 0 auto 1.5rem auto; /* Centra y agrega margen inferior */
+        }
+
+        /* Si quieres animación o efectos */
+        .logo-svg:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        /* Para diferentes tamaños responsive */
+        @media (max-width: 768px) {
+            .logo-svg {
+                width: 250px;
+                max-width: 85%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-svg {
+                width: 200px;
+                max-width: 90%;
+            }
+        }
+            /*.  END código logo Yedid svg 11dic25*/
+
+            
    
 
     /* E N D Styles for icon*/

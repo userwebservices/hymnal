@@ -21,7 +21,9 @@
   --color-kipurim: red; 
   --color-sukkot: #63b136; 
   --color-purple: #6F6B85;  
-  --color-kermes: #FF008B;  
+  --color-kermes: #FF008B; 
+  --color-yedid: #F1841B;
+  --color-yedid2: #2B3F44; 
   /* Font weights */ 
   --lighten:100;
   --light: 300;
@@ -72,18 +74,20 @@ h1, h2, h3 {
 .titleDark {
   text-align: center;
   color: var(--color-white);
-  font-family: var(--font-lemonade);
+  font-family: var(--font-Annie);
   font-size: 5vw;
   text-transform: uppercase;
-  letter-spacing: 1rem;
+  letter-spacing: 0.5rem;
 
 }
 .subtitleDark{
   text-align: center;
   color: var(--color-white);
-  font-family: var(--font-lemonade);
-  font-weight: var(--medium);
+  font-family: var(--font-Annie);
+  font-weight: var(--light);
   font-size: 5vw;
+    letter-spacing: 0.5rem;
+
 } 
 .contentDark{
   font-family: var(--font-text-primary); /* Usando la variable que cree el 3april25 */

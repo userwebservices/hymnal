@@ -1932,6 +1932,22 @@
             "bg-img": "assets/bg/cover/sukkah_09.webp"
         }
 
+    ],
+    "yedid": [
+
+        {
+            "id": 6,
+            "title": "<h1 class='titleDark'>Vamos a cantar</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br>Amamos todo de ti<br>Cielo y tierra te adoran<br>Los reinos se rinden<br>Hijo de Dios eres por quien<br>Tú eres por quien, vivimos hoy<br><br><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br>Eres quien nos liberta<br>eres la Luz que guía<br>Como un fuego ardiente<br>Hijo de Dios, eres por quien<br>Eres por quien, vivimos hoy<br><br><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br></article>",
+            "bg-img": "assets/bg/cover/YedidBgb2.jpg"
+        },
+        {
+            "id": 7,
+            "title": "<h1 class='titleDark'>Te doy gloria</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>Cuan hermoso eres JESUS<br>Son tus palabras, es tu amor<br>Cuan glorioso eres JESUS<br>Es tu poder, fue tu cruz,<br>La que me salvó me rescato<br>Un momento ahí nos dió Libertad<br><br><h1 class='subtitleDark'>Coro</h1>// Te doy gloria gloria<br>Te doy gloria gloria<br>Te doy gloria gloria<br>A ti JESUS //<br><br>Con una corona de espinos<br>Te hiciste rey por siempre (7x)<br><br><h1 class='subtitleDark'>Coro</h1>// Te doy gloria gloria<br>Te doy gloria gloria<br>Te doy gloria gloria<br>A ti JESUS //<br></article>",
+            "bg-img": "assets/bg/cover/YedidBgb2.jpg"
+        }
+
     ]
 
 }
