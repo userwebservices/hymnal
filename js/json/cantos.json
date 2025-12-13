@@ -1938,15 +1938,58 @@
         {
             "id": 6,
             "title": "<h1 class='titleDark'>Vamos a cantar</h1>",
-            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br>Amamos todo de ti<br>Cielo y tierra te adoran<br>Los reinos se rinden<br>Hijo de Dios eres por quien<br>Tú eres por quien, vivimos hoy<br><br><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br>Eres quien nos liberta<br>eres la Luz que guía<br>Como un fuego ardiente<br>Hijo de Dios, eres por quien<br>Eres por quien, vivimos hoy<br><br><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br></article>",
-            "bg-img": "assets/bg/cover/YedidBgb2.jpg"
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br><h1 class='subtitleDark'>1</h1>Amamos todo de ti<br>Cielo y tierra te adoran<br>Los reinos se rinden<br>Hijo de Dios eres por quien<br>Tú eres por quien, vivimos hoy<br><br><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br><h1 class='subtitleDark'>2</h1>Eres quien nos liberta<br>eres la Luz que guía<br>Como un fuego ardiente<br>Hijo de Dios, eres por quien<br>Eres por quien, vivimos hoy<br><br><h1 class='subtitleDark'>Coro</h1>Vamos a cantar<br>con la música del cielo<br>Vamos a cantar<br>alegres porque escuchas<br>Cuando cantamos<br>para exaltar Tu Nombre<br><br></article>",
+            "bg-img": "assets/bg/adoracion/yedid.webp"
         },
         {
             "id": 7,
             "title": "<h1 class='titleDark'>Te doy gloria</h1>",
             "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>Cuan hermoso eres JESUS<br>Son tus palabras, es tu amor<br>Cuan glorioso eres JESUS<br>Es tu poder, fue tu cruz,<br>La que me salvó me rescato<br>Un momento ahí nos dió Libertad<br><br><h1 class='subtitleDark'>Coro</h1>// Te doy gloria gloria<br>Te doy gloria gloria<br>Te doy gloria gloria<br>A ti JESUS //<br><br>Con una corona de espinos<br>Te hiciste rey por siempre (7x)<br><br><h1 class='subtitleDark'>Coro</h1>// Te doy gloria gloria<br>Te doy gloria gloria<br>Te doy gloria gloria<br>A ti JESUS //<br></article>",
-            "bg-img": "assets/bg/cover/YedidBgb2.jpg"
+            "bg-img": "assets/bg/adoracion/yedid.webp"
+        },
+        {
+            "id": 8,
+            "title": "<h1 class='titleDark'>Su Poder</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>Nunca ha perdido una batalla<br>Su nombre tiene todo el poder<br>Sus palabras son espíritu y vida<br>Y dan aliento a mi ser<br><br>En el desierto Él es Dios<br>Y Su gloria hoy podemos ver<br><br><h1 class='subtitleDark'>Coro</h1>Hay poder en Su Nombre<br>Hay poder en Su presencia<br>Hay poder en Su resurrección<br>Hay poder en Su sangre<br>Hay poder en Su Palabra<br>Hay poder en el Nombre de Jesús<br><br><h1 class='subtitleDark'>2</h1>En la adversidad Él se levanta<br>Me sostiene su favor<br>Él me libra de todos mis temores<br>Y borra toda transgresión<br><br>En todo tiempo eres Dios<br>Mi adoración es para Él<br><br><h1 class='subtitleDark'>Coro</h1>Hay poder en Su Nombre<br>Hay poder en Su presencia<br>Hay poder en Su resurrección<br>Hay poder en Su sangre<br>Hay poder en Su Palabra<br>Hay poder en el Nombre de Jesús<br><br><h1 class='subtitleDark'>3</h1>// El mismo poder<br>que resucitó a Jesús<br>Me levantará, me levantará //<br><br><h1 class='subtitleDark'>Coro</h1>Hay poder en Su Nombre<br>Hay poder en Su presencia<br>Hay poder en Su resurrección<br>Hay poder en Su sangre<br>Hay poder en Su Palabra<br>Hay poder en el Nombre de Jesús</article>",
+            "bg-img": "assets/bg/adoracion/yedid.webp"
+        },
+        {
+            "id": 9,
+            "title": "<h1 class='titleDark'>Jesucristo basta</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>Nuestros corazones<br>insaciables son<br>hasta que conocen a su Salvador<br>// Tal y como somos nos amó<br>Hoy nos acercamos sin temor //<br><br><h1 class='subtitleDark'>Coro</h1>Él es el agua que al beber<br>Nunca más tendremos sed<br>Jesucristo Basta<br>Jesucristo Basta<br>// Mi castigo recibió<br>Y su herencia me entregó<br>Jesucristo Basta <br>Jesucristo Basta //<br><br><h1 class='subtitleDark'>2</h1>Fuimos alcanzados<br>por su grande amor<br>con brazos abiertos nos recibe hoy<br>// Tal y como somos nos amó<br>Hoy nos acercamos sin temor //<br><br><h1 class='subtitleDark'>Coro</h1>Él es el agua que al beber<br>Nunca más tendremos sed<br>Jesucristo Basta<br>Jesucristo Basta<br>// Mi castigo recibió<br>Y su herencia me entregó<br>Jesucristo Basta <br>Jesucristo Basta //<br><br><h1 class='subtitleDark'>3</h1>Ahora hay un futuro<br>y esperanza fiel<br>En su amor confiamos<br>hay descanso en Él<br></article>",
+            "bg-img": "assets/bg/adoracion/yedid.webp"
+        },
+        {
+            "id": 10,
+            "title": " <h1 class='titleDark'>Creo en ti</h1>",
+            "estrofas": "<article class='cabanasHymn'>Quiero levantar a ti mis manos<br>Maravilloso Jesús, milagroso Señor<br>llena este lugar de tu presencia<br>y has descender tu poder<br> a los que estamos aquí<br><br>//Creo en ti, Jesús<br>y en lo que harás en mí//<br>en mí, en mí...<br><br>//Recibe toda la gloria<br>recibe toda la honra<br>precioso Hijo de Dios//</article>",
+            "bg-img": "assets/bg/adoracion/yedid.webp"
+        },
+        {
+            "id": 11,
+            "title": " <h1 class='titleDark'>Way Maker</h1>",
+            "estrofas": "<article class='cabanasHymn'>// Aquí estas, te vemos mover<br>te adoraré,   te adoraré<br>aquí estás, obrando en mi<br>te adoraré, te adoraré //<br><br>// Milagroso, abres caminos<br>cumples promesas, Luz en tinieblas<br>mi Dios, así eres Tú //<br><br>// Aquí estás, sanando mi corazón<br>te adoraré, te adoraré<br>aquí estás, tocando mi corazón<br>te adoraré, te adoraré //<br><br>////// así eres Tú, así eres Tú<br> así eres Tú, así eres Tú/////<br><br>//// Aunque no pueda ver<br> estás obrando<br>aunque no pueda ver<br> estás obrando<br>siempre estás<br> siempre estás obrando<br>siempre estás<br> siempre estás obrando ////<br></article>",
+            "bg-img": "assets/bg/adoracion/yedid.webp"
+        },
+        {
+            "id": 12,
+            "title": " <h1 class='titleDark'>Santo es el Señor</h1>",
+            "estrofas": "<article class='cabanasHymn'>Santo es el Señor<br>no hay otro como Él<br>Refugio es el Señor<br>no hay otro como Él<br>Santo consolador<br>sea exaltado su poder<br>Santo libertador<br> con tu gracia ¡avívanos!<br><br>//Santo es el Señor<br>Santo y digno de alabar<br>Santo es el Señor<br>¡Glorioso en majestad!//<br><br></article>",
+            "bg-img": "assets/bg/adoracion/yedid.webp"
+        },
+        {
+            "id": 13,
+            "title": " <h1 class='titleDark'>Santo es el Señor</h1>",
+            "estrofas": " <article class= 'cabanasHymn'> //Cuando el Señor<br>hiciere volver la cautividad<br>Seremos como los que sueñan//<br><br>//Mi boca llenará de risa<br>Mis labios, de alabanza<br>Entonces dirán las naciones<br>Grandes cosas, ha hecho el Señor//<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre//<br><br>//Así como David cantaba<br>Así como David danzaba<br>Así como David fluía en Su presencia//<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre //<br><br>Yo cantaré, Yo danzaré<br>En tu presencia, me gozaré<br>Y solo en Ti me alegraré<br>Porque Tú eres mi Dios y mi Rey<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre //</article>",
+            "bg-img": "assets/bg/adoracion/yedid.webp"
         }
+
+
+
+
+
+
+
 
     ]
 
