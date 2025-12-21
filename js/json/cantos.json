@@ -147,7 +147,7 @@
             "id": 32,
             "title": "<h1 class='titleDark'>32 Cuán Grande es Él</h1>",
             "estrofas": "<article class='contentDark'><h1 class='subtitleDark'>1</h1>Señor mi Dios al contemplar los cielos<br>El firmamento y las estrellas mil<br>Al oír tu voz en los potentes truenos<br>Y ver brillar el sol en su cenit<h1 class='subtitleDark'>Coro</h1>Mi corazón entona está canción<br>Cuán Grande es Él, cuan Grande es Él<br>Mi corazón se llena de emoción<br>Cuán Grande es Él, cuan Grande es Él<h1 class='subtitleDark'>2</h1>Al recorrer los montes y los valles<br>Y ver las bellas flores al pasar<br>Al escuchar el canto de las aves<br>Y el murmurar del claro manantial<h1 class='subtitleDark'>Coro</h1>Mi corazón entona está canción<br>Cuán Grande es Él, cuan Grande es Él<br>Mi corazón se llena de emoción<br>Cuán Grande es Él, cuan Grande es Él<h1 class='subtitleDark'>3</h1>Cuando recuerdo del amor divino<br>Que desde el Cielo al Salvador envió<br>Al buen Jesús que por salvarme vino<br>Y en una cruz sufrió y por mí murió<h1 class='subtitleDark'>Coro</h1>Mi corazón entona está canción<br>Cuán Grande es Él, cuan Grande es Él<br>Mi corazón se llena de emoción<br>Cuán Grande es Él, cuan Grande es Él<h1 class='subtitleDark'>4</h1>Cuando el Señor me llame a su presencia<br>Al dulce hogar, al Reino de esplendor<br>Le adoraré cantando su grandeza<br>De su poder y su infinito amor<h1 class='subtitleDark'>Coro</h1>Mi corazón entona está canción<br>Cuán Grande es Él, cuan Grande es Él<br>Mi corazón se llena de emoción<br>Cuán Grande es Él, cuan Grande es Él</article>",
-            "bg-img": "assets/bg/cover/sukkot.webp"
+            "bg-img": "assets/bg/default/bg-default-01.webp"
         },
         {
             "id": 33,
@@ -1982,7 +1982,56 @@
             "title": " <h1 class='titleDark'>Santo es el Señor</h1>",
             "estrofas": " <article class= 'cabanasHymn'> //Cuando el Señor<br>hiciere volver la cautividad<br>Seremos como los que sueñan//<br><br>//Mi boca llenará de risa<br>Mis labios, de alabanza<br>Entonces dirán las naciones<br>Grandes cosas, ha hecho el Señor//<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre//<br><br>//Así como David cantaba<br>Así como David danzaba<br>Así como David fluía en Su presencia//<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre //<br><br>Yo cantaré, Yo danzaré<br>En tu presencia, me gozaré<br>Y solo en Ti me alegraré<br>Porque Tú eres mi Dios y mi Rey<br><br>//Me gozaré, me gozaré<br>Me gozaré, me gozaré en Jehová<br>Pues ha llevado todo mi dolor<br>Me ha hecho libre //</article>",
             "bg-img": "assets/bg/adoracion/yedid.webp"
+        },
+        {
+            "id": 14,
+            "title": " <h1 class='titleDark'>A tu lado Señor</h1>",
+            "estrofas": " <article class= 'cabanasHymn'>A tu lado Señor me siento bien<br>No podría explicar tu inmenso amor<br>Tu mirada es tan tierna<br>Tu sonrisa también<br>a tu lado Señor, me siento bien<br>Y con razón te quiero más y más<br>por tu grandeza<br>que cada día crece más y más<br>mi amor por ti,porque a tu lado señor<br>me siento bien <br>nunca digas que te vas<br>ya no podría vivir <br>sin ti<br>me haces tanta falta hoy,<br>porque a tu lado Señor<br>me siento bien <br><br>Y con razón te quiero más y más<br>por tu grandeza..<br>que cada día crece más y más<br>mi amor por ti,<br>// porque a tu lado Señor<br>me siento bien //<br><br></article>",
+            "bg-img": "assets/bg/adoracion/yedid.webp"
+        },
+        {
+            "id": 15,
+            "title": "<h1 class='titleDark'>El Poderoso de Israel</h1>",
+            "estrofas": "<article class='cabanasHymn'>Y de noche cantaremos<br> celebrando su poder<br>Con alegría de corazón<br>Como el que va con la flauta<br>al monte de Adonay<br>Celebraremos su poder<br><br>Porque El es El…<br> Poderoso de Israel<br>El poderoso de Israel<br>Su voz se oirá, nadie lo detendrá<br>Al poderoso de Israel<br><br>Y los ojos de los ciegos<br>se abrirán y ellos verán<br>Los oídos de los sordos oirán<br>El cojo saltará, con el arpa danzará<br>La lengua de los mudos ¡Cantará!<br><br>Hay muchas formas de alabar Tu nombre<br>Y de exaltarte, oh, Jehová<br>Hay muchas formas de magnificarte<br>Pero ahora lo haré así<br> <br>Remolineando, remolineando<br>Celebraré a Jehová<br>Remolineando, remolineando<br>Me haré más vil por causa de Jehová<br><br>Sacó mi vida del anonimato<br>Me dio corona y un vestido real<br>Así es Jehová, que exalta al pequeño<br>///Por causa de Él yo me haré más vil///<br></article>",
+            "bg-img": "assets/bg/alabanza/bg-girl.webp"
+        },
+        {
+            "id": 16,
+            "title": "<h1 class='titleDark'>Hallé un buen amigo</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>Hallé un buen amigo, mi amado Salvador<br>Contaré lo que Él ha hecho para mí<br>Hallándome perdido e indigno pecador<br>Me salvó y hoy me guarda para sí<br>Me salva del pecado me guarda de satán<br>Promete estar conmigo hasta el fin<br>Él consuela mi tristeza<br>Me quita todo afán<br>Grandes cosas Cristo ha hecho para mí<h1 class='subtitleDark'>2</h1>Jesús jamás me falta, jamás me dejará<br>Es mi fuerte y poderoso protector<br>Del mundo me separo y de la vanidad<br>Para consagrar mi vida al Señor<br>Si el mundo me persigue, si sufro tentación<br>Confiando en Cristo puedo resistir<br>La victoria me es segura, elevo mi canción<br>Grandes cosas Cristo ha hecho para mí<h1 class='subtitleDark'>3</h1>Yo sé que Jesucristo muy pronto volverá<br>Entre tanto en su servicio quiero estar<br>Confiado en su palabra haré su voluntad<br>Y anhelo serle fiel hasta el llegar<br>Anhelo en su Reino, estar en su fulgor<br>Y contemplar su esplendorosa faz<br>Y entonces con los santos unidos cantaré<br>Grandes cosas Cristo ha hecho para mí.</article>",
+            "bg-img": "assets/bg/alabanza/bg-girl.webp"
+        },
+        {
+            "id": 17,
+            "title": "<h1 class='titleDark'>Te alabaré mi buen Jesús</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>Eres tú la unica razón<br>de mi adoración oh Jesús<br>eres tú la esperanza que<br>anhelé tener oh Jesús<br><br>Confié en ti me has ayudado<br>tu salvación me has regalado<br>hoy hay gozo en mi corazón<br>con mi canto te alabaré<br><br>// Te alabaré, te glorificaré<br>te alabaré mi buen Jesús//<br><br>en todo tiempo te alabaré<br>en todo tiempo te adoraré<br><br>Bueno es alabar, oh Señor<br>tu Nombre<br>darte gloria, honra y honor<br>por siempre<br>Bueno es alabarte Jesús<br>y gozarme en tu poder<br><br>Porque grande eres tú<br>grandes son tus obras<br>por que grande eres tú<br>grande es tu amor<br>grande es tu gloria<br></article>",
+            "bg-img": "assets/bg/alabanza/bg-girl.webp"
+        },
+        {
+            "id": 18,
+            "title": "<h1 class='titleDark'>Los carros de Faraón</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>// Yo cantaré a Jehová por siempre<br>su diestra es todo poder //<br><br>// Echó a la mar, quien los perseguía<br>Jinete y caballo Echó a la mar //<br><br>Echó a la mar los carros de faraón…<br>La, la, la, la, la, la, la, la, la, la, la<br>La, la, la, la, la, la, la, la<br><br>// Mi padre es Dios y yo le exalto<br>Mi padre es Dios y le exaltaré //<br>Echó a la mar los carros de faraón<br>La, la, la, la, la, la, la, la, la, la, la<br>La, la, la, la, la, la, la, la<br><br></article>",
+            "bg-img": "assets/bg/alabanza/bg-girl.webp"
+        },
+        {
+            "id": 19,
+            "title": "<h1 class='titleDark'>Los carros de Faraón</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>Santo es el Señor<br>no hay otro como Él<br>Refugio es el Señor<br>no hay otro como Él<br>Santo consolador<br>sea exaltado su poder<br>Santo libertador<br>con tu gracia ¡avívanos!<br><br><h1 class='subtitleDark'>Coro</h1>//Santo es el Señor<br>Santo y digno de alabar<br>Santo es el Señor<br>¡Glorioso en majestad!//<br><br></article>",
+            "bg-img": "assets/bg/alabanza/bg-girl.webp"
+        },
+        {
+            "id": 20,
+            "title": "<h1 class='titleDark'>Los carros de Faraón</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>Nuestro Amparo y Fortaleza<br>Pronto auxilio en tribulación<br>No temeré si la tierra tiembla<br>Aunque los montes traspasen la mar<br><br><h1 class='subtitleDark'>2</h1>Claman las aguas<br>tiemblan los montes<br>Por su grandeza y majestad<br>No temeré si la tierra tiembla<br>Aunque los montes traspasen la mar<br><br><h1 class='subtitleDark'>Coro</h1>//Es Dios mi fortaleza<br>pronto auxilio en tribulación<br>Es Dios quién llena mi vida<br> de luz con su Espíritu protector//<br><br></article>",
+            "bg-img": "assets/bg/alabanza/bg-girl.webp"
+        },
+        {
+            "id": 21,
+            "title": "<h1 class='titleDark'>Grande y fuerte</h1>",
+            "estrofas": "<article class='cabanasHymn'><h1 class='subtitleDark'>1</h1>//// Grande y fuerte es nuestro Dios ////<br><br>Vestido en Majestad<br>Coronado con poder<br>Digno de toda la adoración<br>Vestido en Majestad<br>Coronado con poder<br>Toda gloria y honra<br>sean para Ti<br></article>",
+            "bg-img": "assets/bg/alabanza/bg-girl.webp"
         }
+
 
 
 
