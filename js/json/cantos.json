@@ -1478,6 +1478,12 @@
                 "title": " <h1 class='titleDark'>Poderoso Dios</h1>",
                 "estrofas": "<article class='contentDark'>Al que está sentado en el trono<br>Y al cordero, sea el honor<br>Sea la gloria, sea la honra<br>Sea el dominio por los siglos<br>de los siglos<br><br>///Poderoso Dios///<br>Mi alma clama por ti</article>",
                 "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
+            },
+            {
+                "id": 84,
+                "title": " <h1 class='titleDark'>El Señor es mi Pastor</h1>",
+                "estrofas": "<article class='contentDark'>El Señor es mi pastor<br>Nada me faltará<br>El Señor es mi pastor<br>En pastos delicados<br>Él me hará descansar<br><br>Junto a aguas de reposo<br>Me pastoreará<br>Confortará mi alma<br>Me guiará por sendas de justicia<br>Por amor de su nombre<br><br>El Señor es mi pastor<br>/// Nada me faltará ///<br></article>",
+                "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
             }
         ],
     "alabanza":
@@ -1491,7 +1497,7 @@
             {
                 "id": 6,
                 "title": "<h1 class='titleDark'>A la presencia de Jehová</h1>",
-                "estrofas": "<article class='contentDark'>//A la presencia de Jehová tiembla la tierra<br>A la presencia del Dios de Jacob//<br><br>//¿Qué tuviste, oh mar que huíste?<br>Tú, oh Jordán que te volviste atrás?<br><br>    //A la presencia de Jehová tiembla la tierra<br>A la presencia del Dios de Jacob //<br><br>//Él convirtió la Peña<br>en estanque de agua<br>De agua, de agua viva//</article>",
+                "estrofas": "<article class='contentDark'>// A la presencia de Jehová<br>tiembla la tierra<br>A la presencia del Dios de Jacob //<br><br>// ¿Qué tuviste, oh mar que huíste?<br>Tú, oh Jordán que te volviste atrás? //<br><br>// A la presencia de Jehová<br>tiembla la tierra<br>A la presencia del Dios de Jacob //<br><br>// Él convirtió la Peña<br>en estanque de agua,<br>De agua viva //<br></article>",
                 "bg-img": "assets/bg/alabanza/bg-girl.webp"
             },
             {
@@ -1611,7 +1617,7 @@
             {
                 "id": 22,
                 "title": "<h1 class='titleDark'>Grande es el Señor</h1>",
-                "estrofas": "<article class='contentDark'>Grande es el Señor<br>Creador del universo<br>Canta y danza<br>al Rey que viene pronto<br>De felicidad, el corazón lo llena<br>Grande es El Señor<br><br>// Oh oh oh Hosanna al Altísimo<br>Oh oh oh Hosanna al Altísimo<br>Oh oh oh Hosanna al Altísimo<br>Grande es El Señor//</article>",
+                "estrofas": "<article class='contentDark'>Grande es el Señor<br>Creador del universo<br>Canta y danza<br>al Rey que viene pronto<br>De felicidad, el corazón lo llena<br>Grande es El Señor<br><br>// Oh oh oh Hosanna al Altísimo<br>Oh oh oh Hosanna al Altísimo<br>Oh oh oh Hosanna al Altísimo<br>Grande es El Señor//<br><br>// Quién, quién, quién como Jehová<br>Que con su poder el mar abrió //<br><br>Oirán las naciones lo que hizo<br>Cantaran cuando vean sus prodigios<br>Su pueblo alabara<br> con pandero danzara<br>//Y dirán quién, quién como Jehová//<br><br>// Cantare al Señor por siempre<br>su diestra es todo poder //<br><br>// Echo a la mar quien los perseguía<br>Jinete y caballo echo a la mar //<br>Echó a la mar los carros del Faraón <br><br> LaraLalalala Laralalalala<br> Lara Lala Lara Lala // <br><br></article>",
                 "bg-img": "assets/bg/alabanza/bg-girl.webp"
             },
             {
@@ -1835,7 +1841,14 @@
                 "title": " <h1 class='titleDark'>Ashira na liDidi</h1>",
                 "estrofas": "<article class='contentDark'>// Ashira nah Lididi<br><p class='spanish'>Cantaré ahora para mi amado</p>shirat Dodi<br><p class='spanish'>el canto de mi Amado </p>Shirat shirat Dodi<br><p class='spanish'>El canto, el canto de mi Amado</p>leJarmo//<p class='spanish'>a su viña</p><br>//Kerem hayah li Didi<br><p class='spanish'>Una viña tenía mi Amado</p>beKeren ben-shamen<br><p class='spanish'>En un lugar fértil</p>beKeren ben-shamen//<br><p class='spanish'>En un lugar fértil</p></article>",
                 "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
+            },
+            {
+                "id": 60,
+                "title": " <h1 class='titleDark'>Jehová es mi Guerrero</h1>",
+                "estrofas": "<article class='contentDark'>Jehová es mi guerrero<br>Oh oh oh oh oh<br>Jehová es mi guerrero<br>Oh oh oh oh oh<br><br>Con mi alabanza pelearé<br>Pues no es mi guerra sino la de Dios<br>Danza y pandero yo daré<br>Pues no es mi guerra sino la de Dios<br>Címbalo y trompeta sonaré<br>Pues no es mi guerra sino la de Dios<br>Con fuerte y alta voz yo gritaré<br></article>",
+                "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
             }
+
 
 
         ],
