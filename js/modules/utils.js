@@ -49,25 +49,14 @@ export function setupWelcomeMessage(titleAimCover) {
         </div>`;
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
-
-            <div class='overlaidInside'>
-                        <!--<h1 class='ps-2'> חג הסכת<br>Fiesta de las Cabañas<h1>-->
-                        <!--<h2 class='ps-2'>CABANAS</h2>-->      
-            </div> 
                  
-            <!--<i class='fas fa-bullhorn' ></i>-->
-            <!--<img src="../../assets/img/icons/torch.svg" alt="arrow" style="width: 200px; border: 1px solid white;" >-->
-                <!-- Logotipo SVG externo -->
-                <div class="logo-container">
-                    <img src="/assets/img/svg/logoYedid.svg" alt="Logo" class="logo-svg">
-                </div>
-            <h1>Éste es mi hijo AMADO</h1>
-            <h4>En el cual tengo mi alegría, obedezcanlo a Él<h4>
+            <h1>El fruto del Espíritu es:</h1>
+            <h4>Caridad, gozo, paz, tolerancia, benignidad, bondad, fe, mansedumbre, templanza.<h4>
             
             <div class='overlaidInsideVerse'>
             <hr>
                 <i class='fas fa-book' style="color: #07b4dfff"></i>
-                <h5 class='ps-2'>Mateo 17:5</h5>
+                <h5 class='ps-2'>Gal.5:22</h5>
             </div> 
         </div>`; 
     }  

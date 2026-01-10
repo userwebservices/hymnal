@@ -182,7 +182,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-weight: var(--light);
         letter-spacing: 0.1rem;
         line-height: 90%;
-        padding-bottom: 2rem;
+        padding-bottom: 0.5rem;
         text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.1); 
     }
 
@@ -242,7 +242,7 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         font-weight: var(--medium);
         letter-spacing: 0.1rem;
         line-height: 90%;
-        padding: 2rem;
+        padding: 0rem;
         text-shadow: 2px 2px 5px rgba(25, 24, 24, 0.1); 
     }
 
@@ -273,11 +273,11 @@ overflow-y: auto; /* Scroll interno para contenido largo */
         }
 
                 .logo-svg {
-            width: 700px; /* Reducido de 500px */
+            width: 500px; /* Reducido de 500px */
             height: auto; /* Mantiene proporciones */
             max-width: 80%; /* Limita el ancho máximo */
             display: block;
-            margin: 0 auto 1.5rem auto; /* Centra y agrega margen inferior */
+            margin: 0 auto 0rem auto; /* Centra y agrega margen inferior */
         }
 
         /* Si quieres animación o efectos */
