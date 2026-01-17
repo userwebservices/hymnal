@@ -1484,6 +1484,24 @@
                 "title": " <h1 class='titleDark'>El Señor es mi Pastor</h1>",
                 "estrofas": "<article class='contentDark'>El Señor es mi pastor<br>Nada me faltará<br>El Señor es mi pastor<br>En pastos delicados<br>Él me hará descansar<br><br>Junto a aguas de reposo<br>Me pastoreará<br>Confortará mi alma<br>Me guiará por sendas de justicia<br>Por amor de su nombre<br><br>El Señor es mi pastor<br>/// Nada me faltará ///<br></article>",
                 "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
+            },
+            {
+                "id": 85,
+                "title": " <h1 class='titleDark'>Cada mañana al despertar</h1>",
+                "estrofas": "<article class='contentDark'>Cada mañana al despertar<br>Y por la noche al descansar<br>Agradezco tus bondades a mi vida<br>Por todo lo que me permites disfrutar<br><br>//Ale-lu-u-ya, alelu-u-ya, alelu-u-ya<br>Agradecido estoy por tu bondad//<br><br><br>/// Agradecido estpy por tu bondad ///<br></article>",
+                "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
+            },
+            {
+                "id": 87,
+                "title": " <h1 class='titleDark'>Hossana</h1>",
+                "estrofas": "<article class='contentDark'>La alabanza aumenta porque<br>mis ojos vuelven a ti, Vuelven a ti<br>Crece la esperanza y Mi corazón<br> anhela por ti, Anhela por ti<br>Porque al verte tengo<br>la fuerza para pelear<br>Y en tu presencia nuestros temores<br> se limpiarán, se limpiarán<br><br>Hossana, hossana Eres señor<br> quien salva, digno de alabanza<br>Hosanna hosanna Entre nosotros<br> reyna, quédate aquí por siempre<br><br>Se oye el sonido de los corazones<br> que vuelven a Ti, vuelven a ti<br>En tu reino sanan nuestras heridas<br> regreso a ti<br>Porque al verte<br> tengo la fuerza para pelear<br>Y en tu presencia nuestros<br> temores se limpiarán, se limpiarán.<br></article>",
+                "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
+            },
+            {
+                "id": 88,
+                "title": " <h1 class='titleDark'>Haz llover 2</h1>",
+                "estrofas": "<article class='contentDark'>El cielo hoy, esta cargado<br>Los vientos hoy van a cambiar<br>Bajo mis pies, la tierra espera<br>Lluvia del cielo, descenderá<br>Va a llover, otra vez<br>Porque agua viva deseamos hoy<br>Que inunde con fuego el corazón<br><br>Haz llover<br>por todo el mundo le cantamos<br>Haz llover<br> puedes oír la tierra cantar<br>Haz llover<br> mi corazón sediento canta<br>Haz llover<br> haz llover en mí<br><br>Mi corazón, ha concebido<br>Es tiempo otra vez, para soñar<br>Oigo tu voz y listo estoy<br>Para danzar sobre el desierto<br>Lleno de fe<br>Porque agua viva deseamos hoy<br>Que inunde con fuego el corazón<br><br><br></article>",
+                "bg-img": "assets/bg/adoracion/bg-adoracion-01.webp"
             }
         ],
     "alabanza":

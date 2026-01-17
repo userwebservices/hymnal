@@ -50,13 +50,13 @@ export function setupWelcomeMessage(titleAimCover) {
     } else {
         titleAimCover.innerHTML = `<div class='overlaidTitle'>
                  
-            <h1>El fruto del Espíritu es:</h1>
-            <h4>Caridad, gozo, paz, tolerancia, benignidad, bondad, fe, mansedumbre, templanza.<h4>
+            <h4>Y tuvo miedo, y dijo: ­Cuán terrible es este lugar! </h4>
+            <h1>No es otra cosa que:<br>Casa de Dios<br>y Puerta del Cielo.<h1>
             
             <div class='overlaidInsideVerse'>
             <hr>
                 <i class='fas fa-book' style="color: #07b4dfff"></i>
-                <h5 class='ps-2'>Gal.5:22</h5>
+                <h5 class='ps-2'>Gen.28:17</h5>
             </div> 
         </div>`; 
     }  
